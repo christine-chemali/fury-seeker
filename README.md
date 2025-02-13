@@ -32,25 +32,25 @@ Welcome to **FURY SEEKER**, a thrilling turn-based combat game where you battle 
 ### 3. Monster Families
 
 Monsters in Furry Seeker belong to one of the following families, each with its own strenghts and weaknesses:
- 
- - **Vampires**: Strong against **Humanoids** and **Ghosts**, weak to **Sunlight** and **holy** attacks.
- - **Ghouls**: Strong against **Flesh Creatures** and **Undead**, weak to **Fire** and **Light**.
- - **Elementals**: Strong against **Natural Beings** and **Mundane Monsters**, weak to **Metal** and **Darkness**.
- - **Beasts**: Strong against **Mechanical Monsters** and **Gnomes**, weak to **Magic** and **Traps**.
- - **Humanoids**: Strong against **Ghouls** and **Monsters**, weak to **Beasts** and **Vampires**.
- - **Ghosts**: Strong against **Vampires** and **Humanoids**, weak to **Light** and **Steel**.
- - **Mechanical Monsters**: Strong against **Elementals** and **Gnomes**, weak to **Electric** and **Magic**.
- - **Dragons**: Strong against **Elementals** and **Ghouls**, weak to **Fairy** and **Ice**.
- - **Fairies**: Strong against **Dragons** and **Monsters**, week to **Steel** and **Poison**.
- - **Undead**: Strong against **Humanoids** and **Flesh Creatures**, weak to **Holy** and **Fire**.
- - **Beasts of the Forest**: Strong against **Mechanical Monsters** and **Gnomes**, weak to **Fire** and **Magic**.
- - **Demons**: Strong against **Angels** and **Holy Creatures**, weak to **Darkness** and **Fire**.
- - **Mythical Creatures**: Strong against **Beasts** and **Monsters**, weak to **Darkness** and **Poison**.
- - **Elemental Spirits**: Strong against **Fire Spirits** and **Water Spirits**, weak to **Water** and **Ice**.
- - **Aliens**: Strong against **Humans** and **Beasts**, weak to **Conventional Weapons** and **Magic**.
- - **Spiritual Entities**: Strong against **Demons** and **Undead**, weak to **Darkness** and **Evil Magic**.
- - **Cyborgs**: Strong against **Humans** and **Beasts**, weak to **EMP** and **Magic**.
- - **Fairies**: Strong against **Humanoids** and **Flesh Creatures**, weak to **Holy** and **Fire**.
+
+- **Vampires**: Strong against **Humanoids** and **Ghouls**, weak to **Angels** and **Spiritual Entities** attacks.
+- **Ghouls**: Strong against **Undead** and **Beasts**, weak to **Elemental Spirits** and **Mechanical Monsters** attacks.
+- **Elementals**: Strong against **Beasts of the Forest** and **Demons**, weak to **Dragons** and **Cyborgs** attacks.
+- **Beasts**: Strong against **Ghosts** and **Fairies**, weak to **Vampires** and **Elementals** attacks.
+- **Humanoids**: Strong against **Mechanical Monsters** and **Spiritual Entities**, weak to **Dragons** and **Ghouls** attacks.
+- **Ghosts**: Strong against **Undead** and **Angels**, weak to **Demons** and **Elemental Spirits** attacks.
+- **Mechanical Monsters**: Strong against **Cyborgs** and **Beasts**, weak to **Fairies** and **Vampires** attacks.
+- **Dragons**: Strong against **Elementals** and **Demons**, weak to **Angels** and **Ghouls** attacks.
+- **Fairies**: Strong against **Spiritual Entities** and **Beasts of the Forest**, weak to **Mechanical Monsters** and **Vampires** attacks.
+- **Undead**: Strong against **Humanoids** and **Ghouls**, weak to **Angels** and **Elemental Spirits** attacks.
+- **Beasts of the Forest**: Strong against **Elemental Spirits** and **Ghosts**, weak to **Demons** and **Dragons** attacks.
+- **Demons**: Strong against **Angels** and **Cyborgs**, weak to **Fairies** and **Mechanical Monsters** attacks.
+- **Angels**: Strong against **Undead** and **Vampires**, weak to **Elementals** and **Beasts** attacks.
+- **Mythical Creatures**: Strong against **Dragons** and **Elementals**, weak to **Aliens** and **Ghosts** attacks.
+- **Elemental Spirits**: Strong against **Humanoids** and **Ghouls**, weak to **Cyborgs** and **Dragons** attacks.
+- **Aliens**: Strong against **Mechanical Monsters** and **Ghosts**, weak to **Angels** and **Undead** attacks.
+- **Spiritual Entities**: Strong against **Vampires** and **Demons**, weak to **Cyborgs** and **Elementals** attacks.
+- **Cyborgs**: Strong against **Mechanical Monsters** and **Beasts**, weak to **Dragons** and **Angels** attacks. 
 
  ### 4. Evolution System
 
