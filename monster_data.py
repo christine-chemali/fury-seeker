@@ -1970,3 +1970,145 @@ monsters = [
         "rarity": {"en": "rare", "fr": "rare"},
         "defense": 27, "speed": 21, "intelligence": 29
     }),
+
+    # Elemental spirits
+    Monster({
+        "name": {"en": "Fire Spirit", "fr": "Esprit de Feu"},
+        "species": {"en": "Elemental Spirit", "fr": "Esprit Élémentaire"},
+        "health": 200, "level": 4,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Fireball", "fr": "Boulet de Feu"},
+                {"en": "Heat Wave", "fr": "Vague de Chaleur"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Flame Shield", "fr": "Bouclier de Flammes"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Humanoids", "Ghouls"], "fr": ["Humanoïdes", "Ghoules"]},
+        "resistances": {"en": ["Cyborgs", "Dragons"], "fr": ["Cyborgs", "Dragons"]},
+        "description": {"en": "A fiery spirit, capable of launching devastating fireballs and creating flame barriers to protect itself.", 
+                        "fr": "Un esprit de feu, capable de lancer des boulets de feu dévastateurs et de créer des barrières de flammes pour se protéger."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 15, "speed": 18, "intelligence": 20
+    }),
+    Monster({
+        "name": {"en": "Water Spirit", "fr": "Esprit d'Eau"},
+        "species": {"en": "Elemental Spirit", "fr": "Esprit Élémentaire"},
+        "health": 210, "level": 5,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Water Blast", "fr": "Explosion d'Eau"},
+                {"en": "Flood", "fr": "Inondation"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Drench", "fr": "Tremper"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Humanoids", "Ghouls"], "fr": ["Humanoïdes", "Ghoules"]},
+        "resistances": {"en": ["Cyborgs", "Dragons"], "fr": ["Cyborgs", "Dragons"]},
+        "description": {"en": "A fluid water spirit, capable of projecting powerful jets of water and causing floods to overwhelm its enemies.", 
+                        "fr": "Un esprit d'eau fluide, capable de projeter des jets d'eau puissants et de provoquer des inondations pour submerger ses ennemis."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 16, "speed": 19, "intelligence": 22
+    }),
+    Monster({
+        "name": {"en": "Earth Spirit", "fr": "Esprit de Terre"},
+        "species": {"en": "Elemental Spirit", "fr": "Esprit Élémentaire"},
+        "health": 220, "level": 6,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Rock Throw", "fr": "Lancer de Roche"},
+                {"en": "Earthquake", "fr": "Tremblement de Terre"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Mudslide", "fr": "Glissement de Boue"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Humanoids", "Ghouls"], "fr": ["Humanoïdes", "Ghoules"]},
+        "resistances": {"en": ["Cyborgs", "Dragons"], "fr": ["Cyborgs", "Dragons"]},
+        "description": {"en": "A solid earth spirit, capable of throwing rocks and causing devastating earthquakes.", 
+                        "fr": "Un esprit de terre solide, capable de lancer des roches et de provoquer des tremblements de terre dévastateurs."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 20, "speed": 15, "intelligence": 18
+    }),
+    Monster({
+        "name": {"en": "Air Spirit", "fr": "Esprit de l'Air"},
+        "species": {"en": "Elemental Spirit", "fr": "Esprit Élémentaire"},
+        "health": 190, "level": 4,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Wind Gust", "fr": "Rafale de Vent"},
+                {"en": "Cyclone", "fr": "Cyclone"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Tornado", "fr": "Tornade"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Humanoids", "Ghouls"], "fr": ["Humanoïdes", "Ghoules"]},
+        "resistances": {"en": ["Cyborgs", "Dragons"], "fr": ["Cyborgs", "Dragons"]},
+        "description": {"en": "A fast and agile air spirit, capable of creating wind gusts and tornadoes to disorient its opponents.", 
+                        "fr": "Un esprit de l'air rapide et agile, capable de créer des rafales de vent et des tornades pour désorienter ses adversaires."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 14, "speed": 22, "intelligence": 21
+    }),
+    Monster({
+        "name": {"en": "Lightning Spirit", "fr": "Esprit de Foudre"},
+        "species": {"en": "Elemental Spirit", "fr": "Esprit Élémentaire"},
+        "health": 230, "level": 6,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Thunderbolt", "fr": "Foudre"},
+                {"en": "Storm Surge", "fr": "Vague de Tempête"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Static Shock", "fr": "Choc Statique"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Humanoids", "Ghouls"], "fr": ["Humanoïdes", "Ghoules"]},
+        "resistances": {"en": ["Cyborgs", "Dragons"], "fr": ["Cyborgs", "Dragons"]},
+        "description": {"en": "A brilliant lightning spirit, capable of launching bolts of lightning and causing storms to electrify its enemies.", 
+                        "fr": "Un esprit de foudre brillant, capable de lancer des éclairs et de provoquer des tempêtes pour électrifier ses ennemis."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 17, "speed": 25, "intelligence": 23
+    }),
+    Monster({
+        "name": {"en": "Ice Spirit", "fr": "Esprit de Glace"},
+        "species": {"en": "Elemental Spirit", "fr": "Esprit Élémentaire"},
+        "health": 200, "level": 5,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Frost Breath", "fr": "Souffle de Gel"},
+                {"en": "Blizzard", "fr": "Blizzard"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Ice Shield", "fr": "Bouclier de Glace"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Humanoids", "Ghouls"], "fr": ["Humanoïdes", "Ghoules"]},
+        "resistances": {"en": ["Cyborgs", "Dragons"], "fr": ["Cyborgs", "Dragons"]},
+        "description": {"en": "A chilling ice spirit, capable of blowing icy air and creating snowstorms to slow its foes down.", 
+                        "fr": "Un esprit de glace glaciale, capable de souffler de l'air glacial et de créer des tempêtes de neige pour ralentir ses ennemis."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 15, "speed": 18, "intelligence": 22
+    }),
+    Monster({
+        "name": {"en": "Nature Spirit", "fr": "Esprit de la Nature"},
+        "species": {"en": "Elemental Spirit", "fr": "Esprit Élémentaire"},
+        "health": 240, "level": 7,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Vine Whip", "fr": "Fouet de Vigne"},
+                {"en": "Nature's Wrath", "fr": "Colère de la Nature"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Thorn Barrage", "fr": "Barrage d'Épines"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Humanoids", "Ghouls"], "fr": ["Humanoïdes", "Ghoules"]},
+        "resistances": {"en": ["Cyborgs", "Dragons"], "fr": ["Cyborgs", "Dragons"]},
+        "description": {"en": "A powerful nature spirit, capable of controlling plants to attack and defend, inflicting the wrath of the earth upon its enemies.", 
+                        "fr": "Un puissant esprit de la nature, capable de contrôler les plantes pour attaquer et défendre, infligeant la colère de la terre à ses ennemis."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 21, "speed": 16, "intelligence": 24
+    }),
