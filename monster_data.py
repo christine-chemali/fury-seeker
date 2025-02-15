@@ -286,4 +286,147 @@ monsters = [
         "rarity": {"en": "common", "fr": "commun"},
         "defense": 15, "speed": 14, "intelligence": 9
     }),
-   
+
+    # Elementals
+    Monster({
+        "name": {"en": "Earth Spirit", "fr": "Esprit de la Terre"},
+        "species": {"en": "Elemental", "fr": "Élémentaire"},
+        "health": 180, "level": 4,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Rock Armor", "fr": "Armure de Pierre"},
+                {"en": "Quake", "fr": "Tremblement"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Mudslide", "fr": "Glissement de Boue"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Beasts of the Forest", "Demons"], "fr": ["Bêtes de la Forêt", "Démons"]},
+        "resistances": {"en": ["Dragons", "Cyborgs"], "fr": ["Dragons", "Cyborgs"]},
+        "description": {"en": "A powerful spirit of the earth, capable of causing tremors and creating stone walls. Protector of forests.", 
+                        "fr": "Un puissant esprit de la terre, capable de provoquer des tremblements et de créer des murs de pierre. Protecteur des forêts."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 30, "speed": 10, "intelligence": 20
+    }),
+    Monster({
+        "name": {"en": "Water Wisp", "fr": "Lueur d'Eau"},
+        "species": {"en": "Elemental", "fr": "Élémentaire"},
+        "health": 160, "level": 3,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Drench", "fr": "Tremper"},
+                {"en": "Water Shield", "fr": "Bouclier d'Eau"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Splash", "fr": "Éclaboussure"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Beasts of the Forest", "Demons"], "fr": ["Bêtes de la Forêt", "Démons"]},
+        "resistances": {"en": ["Dragons", "Cyborgs"], "fr": ["Dragons", "Cyborgs"]},
+        "description": {"en": "A light and elusive aquatic entity, capable of manipulating water for defense or attack.", 
+                        "fr": "Une entité aquatique légère et insaisissable, capable de manipuler l'eau pour se défendre ou attaquer."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 12, "speed": 18, "intelligence": 14
+    }),
+    Monster({
+        "name": {"en": "Fire Elemental", "fr": "Élémentaire de Feu"},
+        "species": {"en": "Elemental", "fr": "Élémentaire"},
+        "health": 190, "level": 4,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Flame Burst", "fr": "Éclatement de Flammes"},
+                {"en": "Fire Whip", "fr": "Fouet de Feu"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Fire Shield", "fr": "Bouclier de Feu"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Beasts of the Forest", "Demons"], "fr": ["Bêtes de la Forêt", "Démons"]},
+        "resistances": {"en": ["Dragons", "Cyborgs"], "fr": ["Dragons", "Cyborgs"]},
+        "description": {"en": "A pure incarnation of fire, fast and destructive, leaving ashes and burns in its wake.", 
+                        "fr": "Une incarnation pure du feu, rapide et destructive, laissant des cendres et des brûlures dans son sillage."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 20, "speed": 25, "intelligence": 15
+    }),
+    Monster({
+        "name": {"en": "Air Spirit", "fr": "Esprit de l'Air"},
+        "species": {"en": "Elemental", "fr": "Élémentaire"},
+        "health": 170, "level": 3,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Gust", "fr": "Rafale"},
+                {"en": "Whirlwind", "fr": "Tourbillon"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Tornado", "fr": "Tornade"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Beasts of the Forest", "Demons"], "fr": ["Bêtes de la Forêt", "Démons"]},
+        "resistances": {"en": ["Dragons", "Cyborgs"], "fr": ["Dragons", "Cyborgs"]},
+        "description": {"en": "An ethereal wind spirit, moving with the speed of breath, capable of creating storms.", 
+                        "fr": "Un esprit éthéré du vent, se déplaçant à la vitesse du souffle, capable de créer des tempêtes."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 13, "speed": 22, "intelligence": 16
+    }),
+    Monster({
+        "name": {"en": "Stone Guardian", "fr": "Gardien de Pierre"},
+        "species": {"en": "Elemental", "fr": "Élémentaire"},
+        "health": 200, "level": 5,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Rock Throw", "fr": "Lancer de Pierre"},
+                {"en": "Earthquake", "fr": "Tremblement de Terre"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Stone Skin", "fr": "Peau de Pierre"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Beasts of the Forest", "Demons"], "fr": ["Bêtes de la Forêt", "Démons"]},
+        "resistances": {"en": ["Dragons", "Cyborgs"], "fr": ["Dragons", "Cyborgs"]},
+        "description": {"en": "A stone colossus, an impassable protector of nature, capable of withstanding all attacks.", 
+                        "fr": "Un colosse de pierre, un protecteur impassable de la nature, capable de résister à toutes les attaques."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 35, "speed": 8, "intelligence": 18
+    }),
+    Monster({
+        "name": {"en": "Lightning Wisp", "fr": "Lueur d'Éclair"},
+        "species": {"en": "Elemental", "fr": "Élémentaire"},
+        "health": 175, "level": 4,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Thunderbolt", "fr": "Foudre"},
+                {"en": "Static Shock", "fr": "Choc Statique"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Electric Surge", "fr": "Vague Électrique"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Beasts of the Forest", "Demons"], "fr": ["Bêtes de la Forêt", "Démons"]},
+        "resistances": {"en": ["Dragons", "Cyborgs"], "fr": ["Dragons", "Cyborgs"]},
+        "description": {"en": "An electrical entity, fast and unpredictable, capable of releasing blazing discharges.", 
+                        "fr": "Une entité électrique, rapide et imprévisible, capable de libérer des décharges brûlantes."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 15, "speed": 20, "intelligence": 15
+    }),
+    Monster({
+        "name": {"en": "Wood Sprite", "fr": "Sprite de Bois"},
+        "species": {"en": "Elemental", "fr": "Élémentaire"},
+        "health": 165, "level": 3,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Vine Whip", "fr": "Fouet de Vigne"},
+                {"en": "Nature's Grasp", "fr": "Saisie de la Nature"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Root Bind", "fr": "Liaison de Racine"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Beasts of the Forest", "Demons"], "fr": ["Bêtes de la Forêt", "Démons"]},
+        "resistances": {"en": ["Dragons", "Cyborgs"], "fr": ["Dragons", "Cyborgs"]},
+        "description": {"en": "A forest spirit that uses plants to capture its enemies and protect its territory.", 
+                        "fr": "Un esprit de la forêt qui utilise les plantes pour capturer ses ennemis et protéger son territoire."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 14, "speed": 16, "intelligence": 12
+    }),
+
+  
