@@ -210,3 +210,108 @@
             "speed": 14,
             "intelligence": 9
         },
+        {
+            "name": "Esprit de la Terre",
+            "species": "Élémentaire",
+            "description": "Un puissant esprit de la terre, capable de provoquer des tremblements et de créer des murs de pierre. Protecteur des forêts.",
+            "attack_types": {
+                "physical": ["Armure de Pierre", "Tremblement"],
+                "spiritual": ["Glissement de Boue"]
+            },
+            "weaknesses": ["Bêtes de la Forêt", "Démons"],
+            "resistances": ["Dragons", "Cyborgs"],
+            "rarity": "rare",
+            "defense": 30,
+            "speed": 10,
+            "intelligence": 20
+        },
+        {
+            "name": "Lueur d'Eau",
+            "species": "Élémentaire",
+            "description": "Une entité aquatique légère et insaisissable, capable de manipuler l'eau pour se défendre ou attaquer.",
+            "attack_types": {
+                "magic": ["Tremper", "Bouclier d'Eau"],
+                "spiritual": ["Éclaboussure"]
+            },
+            "weaknesses": ["Bêtes de la Forêt", "Démons"],
+            "resistances": ["Dragons", "Cyborgs"],
+            "rarity": "commun",
+            "defense": 12,
+            "speed": 18,
+            "intelligence": 14
+        },
+        {
+            "name": "Élémentaire de Feu",
+            "species": "Élémentaire",
+            "description": "Une incarnation pure du feu, rapide et destructive, laissant des cendres et des brûlures dans son sillage.",
+            "attack_types": {
+                "magic": ["Éclatement de Flammes", "Fouet de Feu"],
+                "spiritual": ["Bouclier de Feu"]
+            },
+            "weaknesses": ["Bêtes de la Forêt", "Démons"],
+            "resistances": ["Dragons", "Cyborgs"],
+            "rarity": "rare",
+            "defense": 20,
+            "speed": 25,
+            "intelligence": 15
+        },
+        {
+            "name": "Esprit de l'Air",
+            "species": "Élémentaire",
+            "description": "Un esprit éthéré du vent, se déplaçant à la vitesse du souffle, capable de créer des tempêtes.",
+            "attack_types": {
+                "magic": ["Rafale", "Tourbillon"],
+                "spiritual": ["Tornade"]
+            },
+            "weaknesses": ["Bêtes de la Forêt", "Démons"],
+            "resistances": ["Dragons", "Cyborgs"],
+            "rarity": "commun",
+            "defense": 13,
+            "speed": 22,
+            "intelligence": 16
+        },
+        {
+            "name": "Gardien de Pierre",
+            "species": "Élémentaire",
+            "description": "Un colosse de pierre, un protecteur impassable de la nature, capable de résister à toutes les attaques.",
+            "attack_types": {
+                "physical": ["Lancer de Pierre", "Tremblement de Terre"],
+                "spiritual": ["Peau de Pierre"]
+            },
+            "weaknesses": ["Bêtes de la Forêt", "Démons"],
+            "resistances": ["Dragons", "Cyborgs"],
+            "rarity": "rare",
+            "defense": 35,
+            "speed": 8,
+            "intelligence": 18
+        },
+        {
+            "name": "Lueur d'Éclair",
+            "species": "Élémentaire",
+            "description": "Une entité électrique, rapide et imprévisible, capable de libérer des décharges brûlantes.",
+            "attack_types": {
+                "magic": ["Foudre", "Choc Statique"],
+                "spiritual": ["Vague Électrique"]
+            },
+            "weaknesses": ["Bêtes de la Forêt", "Démons"],
+            "resistances": ["Dragons", "Cyborgs"],
+            "rarity": "commun",
+            "defense": 15,
+            "speed": 20,
+            "intelligence": 15
+        },
+        {
+            "name": "Sprite de Bois",
+            "species": "Élémentaire",
+            "description": "Un esprit de la forêt qui utilise les plantes pour capturer ses ennemis et protéger son territoire.",
+            "attack_types": {
+                "magic": ["Fouet de Vigne", "Saisie de la Nature"],
+                "spiritual": ["Liaison de Racine"]
+            },
+            "weaknesses": ["Bêtes de la Forêt", "Démons"],
+            "resistances": ["Dragons", "Cyborgs"],
+            "rarity": "commun",
+            "defense": 14,
+            "speed": 16,
+            "intelligence": 12
+        },
