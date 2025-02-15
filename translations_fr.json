@@ -1350,3 +1350,108 @@
             "speed": 20,
             "intelligence": 31
         },
+        {
+            "name": "Licorne",
+            "species": "Créature Mythique",
+            "description": "Une licorne légendaire, symbole de pureté, capable de guérir les blessures et d'apporter des bénédictions célestes aux dignes.",
+            "attack_types": {
+                "magic": ["Toucher Guérisseur", "Bénédiction Céleste"],
+                "spiritual": ["Charge de Corne"]
+            },
+            "weaknesses": ["Dragons", "Éléments"],
+            "resistances": ["Aliens", "Fantômes"],
+            "rarity": "légendaire",
+            "defense": 25,
+            "speed": 22,
+            "intelligence": 25
+        },
+        {
+            "name": "Griffon",
+            "species": "Créature Mythique",
+            "description": "Un griffon majestueux, mélange de lion et d'aigle, capable de voler avec agilité et d'attaquer avec des griffes puissantes.",
+            "attack_types": {
+                "physical": ["Attaque de Griffe", "Coup de Serre"],
+                "spiritual": ["Vol"]
+            },
+            "weaknesses": ["Dragons", "Éléments"],
+            "resistances": ["Aliens", "Fantômes"],
+            "rarity": "rare",
+            "defense": 30,
+            "speed": 25,
+            "intelligence": 22
+        },
+        {
+            "name": "Phoenix",
+            "species": "Créature Mythique",
+            "description": "Un phoenix flamboyant, capable de renaître de ses cendres, utilisant le feu pour infliger des dégâts et élever son esprit dans les cieux.",
+            "attack_types": {
+                "magic": ["Renaissance de Feu", "Explosion de Braises"],
+                "spiritual": ["Ailes de Flammes"]
+            },
+            "weaknesses": ["Dragons", "Éléments"],
+            "resistances": ["Aliens", "Fantômes"],
+            "rarity": "légendaire",
+            "defense": 28,
+            "speed": 24,
+            "intelligence": 27
+        },
+        {
+            "name": "Chimère",
+            "species": "Créature Mythique",
+            "description": "Une chimère terrifiante, mélange de plusieurs bêtes, capable de cracher du feu et d'attaquer avec une force bestiale.",
+            "attack_types": {
+                "physical": ["Souffle de Feu", "Rugissement Bestial"],
+                "spiritual": ["Coup de Queue"]
+            },
+            "weaknesses": ["Dragons", "Éléments"],
+            "resistances": ["Aliens", "Fantômes"],
+            "rarity": "légendaire",
+            "defense": 32,
+            "speed": 20,
+            "intelligence": 24
+        },
+        {
+            "name": "Hydre",
+            "species": "Créature Mythique",
+            "description": "Une hydre à plusieurs têtes, capable de régénérer ses blessures et d'infliger une fureur dévastatrice à quiconque s'approche.",
+            "attack_types": {
+                "physical": ["Régénérer", "Fureur de l'Hydre"],
+                "spiritual": ["Têtes Multiples"]
+            },
+            "weaknesses": ["Dragons", "Éléments"],
+            "resistances": ["Aliens", "Fantômes"],
+            "rarity": "légendaire",
+            "defense": 34,
+            "speed": 19,
+            "intelligence": 23
+        },
+        {
+            "name": "Minotaure",
+            "species": "Créature Mythique",
+            "description": "Un minotaure puissant, gardien des labyrinthes, capable de charger avec force et de maîtriser son environnement avec ruse.",
+            "attack_types": {
+                "physical": ["Charge", "Charge de Taureau"],
+                "spiritual": ["Maîtrise du Labyrinthe"]
+            },
+            "weaknesses": ["Dragons", "Éléments"],
+            "resistances": ["Aliens", "Fantômes"],
+            "rarity": "rare",
+            "defense": 29,
+            "speed": 18,
+            "intelligence": 20
+        },
+        {
+            "name": "Sphinx",
+            "species": "Créature Mythique",
+            "description": "Un sphinx énigmatique, gardien des secrets, capable de poser des devinettes et d'attaquer avec ses griffes acérées.",
+            "attack_types": {
+                "magic": ["Devinette", "Défi du Gardien"],
+                "spiritual": ["Attaque de Griffe"]
+            },
+            "weaknesses": ["Dragons", "Éléments"],
+            "resistances": ["Aliens", "Fantômes"],
+            "rarity": "rare",
+            "defense": 27,
+            "speed": 21,
+            "intelligence": 29
+        },
