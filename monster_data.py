@@ -2254,3 +2254,145 @@ monsters = [
         "rarity": {"en": "common", "fr": "commun"},
         "defense": 18, "speed": 24, "intelligence": 22
     }),
+
+    # Spiritual entities
+    Monster({
+        "name": {"en": "Guardian Spirit", "fr": "Esprit Gardien"},
+        "species": {"en": "Spiritual Entity", "fr": "Entité Spirituelle"},
+        "health": 280, "level": 6,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Spirit Shield", "fr": "Bouclier Spirituel"},
+                {"en": "Celestial Intervention", "fr": "Intervention Céleste"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Blessing", "fr": "Bénédiction"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Vampires", "Demons"], "fr": ["Vampires", "Démons"]},
+        "resistances": {"en": ["Cyborgs", "Elementals"], "fr": ["Cyborgs", "Éléments"]},
+        "description": {"en": "A guardian spirit, protector of souls, capable of creating spiritual shields and bestowing blessings on those in need.", 
+                        "fr": "Un esprit gardien, protecteur des âmes, capable de créer des boucliers spirituels et d'accorder des bénédictions à ceux qui en ont besoin."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 22, "speed": 18, "intelligence": 26
+    }),
+    Monster({
+        "name": {"en": "Wandering Soul", "fr": "Âme Errante"},
+        "species": {"en": "Spiritual Entity", "fr": "Entité Spirituelle"},
+        "health": 260, "level": 5,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Possession", "fr": "Possession"},
+                {"en": "Soul Drain", "fr": "Drain d'Âme"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Ethereal Escape", "fr": "Évasion Éthérée"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Vampires", "Demons"], "fr": ["Vampires", "Démons"]},
+        "resistances": {"en": ["Cyborgs", "Elementals"], "fr": ["Cyborgs", "Éléments"]},
+        "description": {"en": "A wandering soul, capable of possessing its enemies, draining their life energy and escaping into the ether.", 
+                        "fr": "Une âme errante, capable de posséder ses ennemis, drainant leur énergie vitale et s'échappant dans l'éther."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 20, "speed": 19, "intelligence": 24
+    }),
+    Monster({
+        "name": {"en": "Ancestral Spirit", "fr": "Esprit Ancestral"},
+        "species": {"en": "Spiritual Entity", "fr": "Entité Spirituelle"},
+        "health": 290, "level": 7,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Guidance", "fr": "Guidage"},
+                {"en": "Spirit Call", "fr": "Appel de l'Esprit"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Protective Aura", "fr": "Aura de Protection"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Vampires", "Demons"], "fr": ["Vampires", "Démons"]},
+        "resistances": {"en": ["Cyborgs", "Elementals"], "fr": ["Cyborgs", "Éléments"]},
+        "description": {"en": "An ancestral spirit, bearer of wisdom, capable of guiding the living and creating a protective aura around them.", 
+                        "fr": "Un esprit ancestral, porteur de sagesse, capable de guider les vivants et de créer une aura protectrice autour d'eux."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 25, "speed": 17, "intelligence": 28
+    }),
+    Monster({
+        "name": {"en": "Nature Spirit", "fr": "Esprit de la Nature"},
+        "species": {"en": "Spiritual Entity", "fr": "Entité Spirituelle"},
+        "health": 250, "level": 5,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Nature's Wrath", "fr": "Colère de la Nature"},
+                {"en": "Healing Touch", "fr": "Toucher de Guérison"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Forest Guardian", "fr": "Gardien de la Forêt"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Vampires", "Demons"], "fr": ["Vampires", "Démons"]},
+        "resistances": {"en": ["Cyborgs", "Elementals"], "fr": ["Cyborgs", "Éléments"]},
+        "description": {"en": "A nature spirit, capable of unleashing the earth's wrath and healing the wounds of living beings.", 
+                        "fr": "Un esprit de la nature, capable de libérer la colère de la terre et de guérir les blessures des êtres vivants."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 18, "speed": 16, "intelligence": 21
+    }),
+    Monster({
+        "name": {"en": "Revenant", "fr": "Revenant"},
+        "species": {"en": "Spiritual Entity", "fr": "Entité Spirituelle"},
+        "health": 300, "level": 8,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Vengeful Strike", "fr": "Frappe Vengeresse"},
+                {"en": "Haunting Presence", "fr": "Présence Hantée"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Curse", "fr": "Malédiction"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Vampires", "Demons"], "fr": ["Vampires", "Démons"]},
+        "resistances": {"en": ["Cyborgs", "Elementals"], "fr": ["Cyborgs", "Éléments"]},
+        "description": {"en": "A vengeful revenant, capable of striking with rage, cursing its enemies, and haunting those who dare oppose it.", 
+                        "fr": "Un revenant vengeur, capable de frapper avec rage, maudissant ses ennemis et hantant ceux qui osent s'opposer à lui."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 30, "speed": 19, "intelligence": 27
+    }),
+    Monster({
+        "name": {"en": "Celestial Guardian", "fr": "Gardien Céleste"},
+        "species": {"en": "Spiritual Entity", "fr": "Entité Spirituelle"},
+        "health": 310, "level": 7,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Heavenly Light", "fr": "Lumière Céleste"},
+                {"en": "Guardian's Blessing", "fr": "Bénédiction du Gardien"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Divine Protection", "fr": "Protection Divine"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Vampires", "Demons"], "fr": ["Vampires", "Démons"]},
+        "resistances": {"en": ["Cyborgs", "Elementals"], "fr": ["Cyborgs", "Éléments"]},
+        "description": {"en": "A celestial guardian, bringing divine light and protecting souls from darkness with its blessings.", 
+                        "fr": "Un gardien céleste, apportant la lumière divine et protégeant les âmes des ténèbres grâce à ses bénédictions."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 32, "speed": 20, "intelligence": 29
+    }),
+    Monster({
+        "name": {"en": "Spectral Warden", "fr": "Gardien Spectral"},
+        "species": {"en": "Spiritual Entity", "fr": "Entité Spirituelle"},
+        "health": 270, "level": 5,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Warding Spell", "fr": "Sort de Protection"},
+                {"en": "Ghostly Barrier", "fr": "Barrière Fantomatique"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Frighten", "fr": "Effrayer"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Vampires", "Demons"], "fr": ["Vampires", "Démons"]},
+        "resistances": {"en": ["Cyborgs", "Elementals"], "fr": ["Cyborgs", "Éléments"]},
+        "description": {"en": "A spectral warden, capable of casting protective spells, frightening its enemies, and creating ghostly barriers.", 
+                        "fr": "Un gardien spectral, capable de lancer des sorts de protection, d'effrayer ses ennemis et de créer des barrières fantomatiques."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 21, "speed": 16, "intelligence": 23
+    }),
