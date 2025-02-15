@@ -1666,3 +1666,108 @@
             "speed": 24,
             "intelligence": 22
         },
+        {
+            "name": "Guardian Spirit",
+            "species": "Spiritual Entity",
+            "description": "A guardian spirit, protector of souls, capable of creating spiritual shields and bestowing blessings on those in need.",
+            "attack_types": {
+                "magic": ["Spirit Shield", "Celestial Intervention"],
+                "spiritual": ["Blessing"]
+            },
+            "weaknesses": ["Vampires", "Demons"],
+            "resistances": ["Cyborgs", "Elementals"],
+            "rarity": "rare",
+            "defense": 22,
+            "speed": 18,
+            "intelligence": 26
+        },
+        {
+            "name": "Wandering Soul",
+            "species": "Spiritual Entity",
+            "description": "A wandering soul, capable of possessing its enemies, draining their life energy and escaping into the ether.",
+            "attack_types": {
+                "magic": ["Possession", "Soul Drain"],
+                "spiritual": ["Ethereal Escape"]
+            },
+            "weaknesses": ["Vampires", "Demons"],
+            "resistances": ["Cyborgs", "Elementals"],
+            "rarity": "common",
+            "defense": 20,
+            "speed": 19,
+            "intelligence": 24
+        },
+        {
+            "name": "Ancestral Spirit",
+            "species": "Spiritual Entity",
+            "description": "An ancestral spirit, bearer of wisdom, capable of guiding the living and creating a protective aura around them.",
+            "attack_types": {
+                "magic": ["Guidance", "Spirit Call"],
+                "spiritual": ["Protective Aura"]
+            },
+            "weaknesses": ["Vampires", "Demons"],
+            "resistances": ["Cyborgs", "Elementals"],
+            "rarity": "rare",
+            "defense": 25,
+            "speed": 17,
+            "intelligence": 28
+        },
+        {
+            "name": "Nature Spirit",
+            "species": "Spiritual Entity",
+            "description": "A nature spirit, capable of unleashing the earth's wrath and healing the wounds of living beings.",
+            "attack_types": {
+                "magic": ["Nature's Wrath", "Healing Touch"],
+                "spiritual": ["Forest Guardian"]
+            },
+            "weaknesses": ["Vampires", "Demons"],
+            "resistances": ["Cyborgs", "Elementals"],
+            "rarity": "common",
+            "defense": 18,
+            "speed": 16,
+            "intelligence": 21
+        },
+        {
+            "name": "Revenant",
+            "species": "Spiritual Entity",
+            "description": "A vengeful revenant, capable of striking with rage, cursing its enemies, and haunting those who dare oppose it.",
+            "attack_types": {
+                "magic": ["Vengeful Strike", "Haunting Presence"],
+                "spiritual": ["Curse"]
+            },
+            "weaknesses": ["Vampires", "Demons"],
+            "resistances": ["Cyborgs", "Elementals"],
+            "rarity": "legendary",
+            "defense": 30,
+            "speed": 19,
+            "intelligence": 27
+        },
+        {
+            "name": "Celestial Guardian",
+            "species": "Spiritual Entity",
+            "description": "A celestial guardian, bringing divine light and protecting souls from darkness with its blessings.",
+            "attack_types": {
+                "magic": ["Heavenly Light", "Guardian's Blessing"],
+                "spiritual": ["Divine Protection"]
+            },
+            "weaknesses": ["Vampires", "Demons"],
+            "resistances": ["Cyborgs", "Elementals"],
+            "rarity": "legendary",
+            "defense": 32,
+            "speed": 20,
+            "intelligence": 29
+        },
+        {
+            "name": "Spectral Warden",
+            "species": "Spiritual Entity",
+            "description": "A spectral warden, capable of casting protective spells, frightening its enemies, and creating ghostly barriers.",
+            "attack_types": {
+                "magic": ["Warding Spell", "Ghostly Barrier"],
+                "spiritual": ["Frighten"]
+            },
+            "weaknesses": ["Vampires", "Demons"],
+            "resistances": ["Cyborgs", "Elementals"],
+            "rarity": "common",
+            "defense": 21,
+            "speed": 16,
+            "intelligence": 23
+        },
