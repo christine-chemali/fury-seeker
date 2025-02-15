@@ -1771,3 +1771,114 @@
             "speed": 16,
             "intelligence": 23
         },
+        {
+            "name": "Cyborg Assassin",
+            "species": "Cyborg",
+            "description": "A cyborg assassin, master of infiltration and stealth strikes, capable of eliminating targets with surgical precision.",
+            "attack_types": {
+                "physical": ["Stealth Strike", "Critical Targeting"],
+                "spiritual": ["Laser Shot"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Beasts"],
+            "resistances": ["Dragons", "Angels"],
+            "rarity": "rare",
+            "defense": 22,
+            "speed": 25,
+            "intelligence": 28
+        },
+        {
+            "name": "Battle Cyborg",
+            "species": "Cyborg",
+            "description": "A battle cyborg, armed with missiles and brute strength, capable of launching devastating tactical attacks on the battlefield.",
+            "attack_types": {
+                "physical": ["Missile Barrage", "Shield Bash"],
+                "spiritual": ["Tactical Maneuver"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Beasts"],
+            "resistances": ["Dragons", "Angels"],
+            "rarity": "legendary",
+            "defense": 30,
+            "speed": 24,
+            "intelligence": 26
+        },
+        {
+            "name": "Cybernetic Overlord",
+            "species": "Cyborg",
+            "description": "A cybernetic overlord, capable of hacking the minds of its enemies and repairing itself with advanced technology.",
+            "attack_types": {
+                "physical": ["Brain Hack", "Mechanical Overdrive"],
+                "spiritual": ["Nano Heal"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Beasts"],
+            "resistances": ["Dragons", "Angels"],
+            "rarity": "legendary",
+            "defense": 35,
+            "speed": 20,
+            "intelligence": 34
+        },
+        {
+            "name": "Robo-Guardian",
+            "species": "Cyborg",
+            "description": "A robotic guardian, capable of creating laser defenses and protecting allies with advanced protocols.",
+            "attack_types": {
+                "physical": ["Laser Defense", "Guardian Protocol"],
+                "spiritual": ["Plasma Shield"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Beasts"],
+            "resistances": ["Dragons", "Angels"],
+            "rarity": "rare",
+            "defense": 32,
+            "speed": 21,
+            "intelligence": 27
+        },
+        {
+            "name": "Android Spy",
+            "species": "Cyborg",
+            "description": "An agile android spy, capable of infiltrating enemy lines and extracting sensitive data with its energy blade.",
+            "attack_types": {
+                "physical": ["Infiltration", "Energy Blade"],
+                "spiritual": ["Data Extraction"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Beasts"],
+            "resistances": ["Dragons", "Angels"],
+            "rarity": "common",
+            "defense": 20,
+            "speed": 26,
+            "intelligence": 29
+        },
+        {
+            "name": "Cyborg Soldier",
+            "species": "Cyborg",
+            "description": "A cyborg soldier trained for tactical combat, capable of adapting to different situations and defending itself with a riot shield.",
+            "attack_types": {
+                "physical": ["Riot Shield", "Tactical Shot"],
+                "spiritual": ["Combat Adaptation"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Beasts"],
+            "resistances": ["Dragons", "Angels"],
+            "rarity": "rare",
+            "defense": 28,
+            "speed": 23,
+            "intelligence": 25
+        },
+        {
+            "name": "Mechanical Enforcer",
+            "species": "Cyborg",
+            "description": "A mechanical enforcer, capable of delivering crushing blows and launching heavy assaults against its enemies.",
+            "attack_types": {
+                "physical": ["Crushing Blow", "Heavy Assault"],
+                "spiritual": ["Iron Fist"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Beasts"],
+            "resistances": ["Dragons", "Angels"],
+            "rarity": "legendary",
+            "defense": 34,
+            "speed": 19,
+            "intelligence": 28
+        }
+]
+
+
+
+
+}        
