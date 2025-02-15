@@ -31,7 +31,7 @@ Welcome to **FURY SEEKER**, a thrilling turn-based combat game where you battle 
 
 ### 3. Monster Families
 
-Monsters in Furry Seeker belong to one of the following families, each with its own strenghts and weaknesses:
+Monsters in Fury Seeker belong to one of the following families, each with its own strenghts and weaknesses:
 
 - **Vampires**: Strong against **Humanoids** and **Ghouls**, weak to **Angels** and **Spiritual Entities** attacks.
 - **Ghouls**: Strong against **Undead** and **Beasts**, weak to **Elemental Spirits** and **Mechanical Monsters** attacks.
