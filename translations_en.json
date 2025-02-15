@@ -105,3 +105,108 @@
             "speed": 20,
             "intelligence": 18
         },
+        {
+            "name": "Flesh Eater",
+            "species": "Ghoul",
+            "description": "A hungry creature that devours everything in its path, leaving only bones behind. Its voracity is legendary.",
+            "attack_types": {
+                "physical": ["Devour", "Claw"],
+                "spiritual": ["Flesh Rend"]
+            },
+            "weaknesses": ["Undead", "Beasts"],
+            "resistances": ["Elemental Spirits", "Mechanical Monsters"],
+            "rarity": "rare",
+            "defense": 15,
+            "speed": 12,
+            "intelligence": 10
+        },
+        {
+            "name": "Gravewalker",
+            "species": "Ghoul",
+            "description": "A ghoul that wanders between graves, feeding on the hearts of the living while spreading terror with every step.",
+            "attack_types": {
+                "magic": ["Terrorize", "Feast"],
+                "spiritual": ["Grave Grasp"]
+            },
+            "weaknesses": ["Undead", "Beasts"],
+            "resistances": ["Elemental Spirits", "Mechanical Monsters"],
+            "rarity": "common",
+            "defense": 17,
+            "speed": 14,
+            "intelligence": 12
+        },
+        {
+            "name": "Rotting Corpse",
+            "species": "Ghoul",
+            "description": "A decomposing corpse, animated by a dark force. Its touch causes disease and fear.",
+            "attack_types": {
+                "physical": ["Flesh Gnaw", "Decay Touch"],
+                "spiritual": ["Scream"]
+            },
+            "weaknesses": ["Undead", "Beasts"],
+            "resistances": ["Elemental Spirits", "Mechanical Monsters"],
+            "rarity": "common",
+            "defense": 14,
+            "speed": 11,
+            "intelligence": 8
+        },
+        {
+            "name": "Cannibal",
+            "species": "Ghoul",
+            "description": "A man-eating ghoul, mercilessly devouring its kin. Its thirst for human flesh is insatiable.",
+            "attack_types": {
+                "physical": ["Savage Bite", "Flesh Feast"],
+                "spiritual": ["Ravage"]
+            },
+            "weaknesses": ["Undead", "Beasts"],
+            "resistances": ["Elemental Spirits", "Mechanical Monsters"],
+            "rarity": "rare",
+            "defense": 18,
+            "speed": 15,
+            "intelligence": 11
+        },
+        {
+            "name": "Shambling Horror",
+            "species": "Ghoul",
+            "description": "A mass of decomposing flesh and bones, moving slowly but with terrifying strength.",
+            "attack_types": {
+                "physical": ["Grasp", "Lunge"],
+                "spiritual": ["Horrific Moan"]
+            },
+            "weaknesses": ["Undead", "Beasts"],
+            "resistances": ["Elemental Spirits", "Mechanical Monsters"],
+            "rarity": "rare",
+            "defense": 20,
+            "speed": 13,
+            "intelligence": 13
+        },
+        {
+            "name": "Crypt Dweller",
+            "species": "Ghoul",
+            "description": "A ghoul that haunts the crypts, emerging from the shadows to attack and frighten its prey.",
+            "attack_types": {
+                "magic": ["Gnaw", "Shadow Lurk"],
+                "spiritual": ["Creeping Fear"]
+            },
+            "weaknesses": ["Undead", "Beasts"],
+            "resistances": ["Elemental Spirits", "Mechanical Monsters"],
+            "rarity": "common",
+            "defense": 16,
+            "speed": 16,
+            "intelligence": 10
+        },
+        {
+            "name": "Lurking Ghoul",
+            "species": "Ghoul",
+            "description": "A slimy, slippery ghoul that springs from the darkness to surprise and tear apart its victims.",
+            "attack_types": {
+                "physical": ["Slime Attack", "Ghoul Rush"],
+                "spiritual": ["Maim"]
+            },
+            "weaknesses": ["Undead", "Beasts"],
+            "resistances": ["Elemental Spirits", "Mechanical Monsters"],
+            "rarity": "common",
+            "defense": 15,
+            "speed": 14,
+            "intelligence": 9
+        },
