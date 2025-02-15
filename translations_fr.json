@@ -720,3 +720,108 @@
             "speed": 22,
             "intelligence": 17
         },
+        {
+            "name": "Dragon de Feu",
+            "species": "Dragon",
+            "description": "Un majestueux dragon de feu, capable de cracher des flammes dévastatrices et de plonger ses ennemis dans le chaos.",
+            "attack_types": {
+                "magic": ["Souffle de Feu", "Rugissement d'Inferno"],
+                "spiritual": ["Coup de Queue"]
+            },
+            "weaknesses": ["Éléments", "Démons"],
+            "resistances": ["Anges", "Ghoules"],
+            "rarity": "légendaire",
+            "defense": 35,
+            "speed": 20,
+            "intelligence": 25
+        },
+        {
+            "name": "Dragon de Glace",
+            "species": "Dragon",
+            "description": "Un redoutable dragon de glace, capable de geler ses ennemis avec un souffle glacial et de les écraser avec ses ailes.",
+            "attack_types": {
+                "magic": ["Souffle de Froid", "Pique de Glaçon"],
+                "spiritual": ["Attaque de Aile"]
+            },
+            "weaknesses": ["Éléments", "Démons"],
+            "resistances": ["Anges", "Ghoules"],
+            "rarity": "légendaire",
+            "defense": 34,
+            "speed": 22,
+            "intelligence": 24
+        },
+        {
+            "name": "Dragon de Foudre",
+            "species": "Dragon",
+            "description": "Un dragon de foudre rapide et puissant, capable de libérer des tempêtes électriques sur ses ennemis.",
+            "attack_types": {
+                "magic": ["Tempête de Foudre", "Charge Statique"],
+                "spiritual": ["Souffle Électrique"]
+            },
+            "weaknesses": ["Éléments", "Démons"],
+            "resistances": ["Anges", "Ghoules"],
+            "rarity": "légendaire",
+            "defense": 36,
+            "speed": 25,
+            "intelligence": 26
+        },
+        {
+            "name": "Dragon de Terre",
+            "species": "Dragon",
+            "description": "Un dragon de terre robuste, capable de provoquer des tremblements de terre et de se battre avec la force de la nature.",
+            "attack_types": {
+                "magic": ["Souffle de Pierre", "Glissement de Roche"],
+                "spiritual": ["Tremblement"]
+            },
+            "weaknesses": ["Éléments", "Démons"],
+            "resistances": ["Anges", "Ghoules"],
+            "rarity": "rare",
+            "defense": 38,
+            "speed": 18,
+            "intelligence": 22
+        },
+        {
+            "name": "Dragon des Ombres",
+            "species": "Dragon",
+            "description": "Un dragon des ombres, mystérieux et terrifiant, capable d'absorber la lumière et de plonger ses ennemis dans l'obscurité.",
+            "attack_types": {
+                "magic": ["Flamme Noire", "Souffle de Cauchemar"],
+                "spiritual": ["Frappe des Ombres"]
+            },
+            "weaknesses": ["Éléments", "Démons"],
+            "resistances": ["Anges", "Ghoules"],
+            "rarity": "légendaire",
+            "defense": 40,
+            "speed": 19,
+            "intelligence": 27
+        },
+        {
+            "name": "Dragon d'Or",
+            "species": "Dragon",
+            "description": "Un dragon doré, symbole de richesse et de sagesse, capable de protéger ses alliés avec un bouclier doré et de respirer des flammes éclatantes.",
+            "attack_types": {
+                "magic": ["Souffle Éblouissant", "Trésor Accumulé"],
+                "spiritual": ["Bouclier Doré"]
+            },
+            "weaknesses": ["Éléments", "Démons"],
+            "resistances": ["Anges", "Ghoules"],
+            "rarity": "légendaire",
+            "defense": 42,
+            "speed": 21,
+            "intelligence": 30
+        },
+        {
+            "name": "Dragon d'Argent",
+            "species": "Dragon",
+            "description": "Un dragon d'argent, connu pour sa bonté et son courage, capable de lancer des attaques éblouissantes et de protéger les innocents.",
+            "attack_types": {
+                "magic": ["Souffle d'Argent", "Frappe Scintillante"],
+                "spiritual": ["Bouclier Scintillant"]
+            },
+            "weaknesses": ["Éléments", "Démons"],
+            "resistances": ["Anges", "Ghoules"],
+            "rarity": "rare",
+            "defense": 41,
+            "speed": 20,
+            "intelligence": 28
+        },
