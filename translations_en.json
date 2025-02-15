@@ -631,3 +631,93 @@
             "speed": 15,
             "intelligence": 23
         },
+        {
+            "name": "Iron Golem",
+            "species": "Mechanical Monster",
+            "description": "A massive iron golem, relentless and resilient, capable of crushing its enemies with unmatched brute force.",
+            "attack_types": {
+                "physical": ["Crush", "Iron Grip"],
+                "spiritual": ["Guard"]
+            },
+            "weaknesses": ["Cyborgs", "Beasts"],
+            "resistances": ["Fairies", "Vampires"],
+            "rarity": "legendary",
+            "defense": 40,
+            "speed": 10,
+            "intelligence": 15
+        },
+        {
+            "name": "Clockwork Knight",
+            "species": "Mechanical Monster",
+            "description": "A spring-loaded knight, fast and agile, wielding a sharp sword with precision while protecting its master.",
+            "attack_types": {
+                "physical": ["Blade Whirl", "Precision Strike"],
+                "spiritual": ["Shield Bash"]
+            },
+            "weaknesses": ["Cyborgs", "Beasts"],
+            "resistances": ["Fairies", "Vampires"],
+            "rarity": "rare",
+            "defense": 30,
+            "speed": 20,
+            "intelligence": 18
+        },
+        {
+            "name": "Steel Behemoth",
+            "species": "Mechanical Monster",
+            "description": "A colossal steel behemoth, capable of shaking the ground beneath its weight and destroying everything in its path.",
+            "attack_types": {
+                "physical": ["Smash", "Titan's Wrath"],
+                "spiritual": ["Iron Fist"]
+            },
+            "weaknesses": ["Cyborgs", "Beasts"],
+            "resistances": ["Fairies", "Vampires"],
+            "rarity": "legendary",
+            "defense": 45,
+            "speed": 8,
+            "intelligence": 12
+        },
+        {
+            "name": "Automaton",
+            "species": "Mechanical Monster",
+            "description": "A sophisticated automaton, capable of firing lasers and self-repairing, making every battle more challenging.",
+            "attack_types": {
+                "physical": ["Laser Beam", "Self-Repair"],
+                "spiritual": ["Mechanized Strike"]
+            },
+            "weaknesses": ["Cyborgs", "Beasts"],
+            "resistances": ["Fairies", "Vampires"],
+            "rarity": "rare",
+            "defense": 25,
+            "speed": 15,
+            "intelligence": 20
+        },
+        {
+            "name": "Robo-Warrior",
+            "species": "Mechanical Monster",
+            "description": "A robotic warrior, wielding advanced weapons and utilizing combat techniques to annihilate its foes.",
+            "attack_types": {
+                "physical": ["Rocket Punch", "Plasma Cutter"],
+                "spiritual": ["Combat Maneuver"]
+            },
+            "weaknesses": ["Cyborgs", "Beasts"],
+            "resistances": ["Fairies", "Vampires"],
+            "rarity": "rare",
+            "defense": 28,
+            "speed": 18,
+            "intelligence": 19
+        },
+        {
+            "name": "Battle Drone",
+            "species": "Mechanical Monster",
+            "description": "A combat drone, capable of launching missiles with great precision, causing massive destruction.",
+            "attack_types": {
+                "physical": ["Missile Barrage", "Overload"],
+                "spiritual": ["Target Lock"]
+            },
+            "weaknesses": ["Cyborgs", "Beasts"],
+            "resistances": ["Fairies", "Vampires"],
+            "rarity": "common",
+            "defense": 22,
+            "speed": 22,
+            "intelligence": 17
+        },
