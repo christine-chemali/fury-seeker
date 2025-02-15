@@ -931,3 +931,108 @@
             "speed": 19,
             "intelligence": 21
         },
+        {
+            "name": "Skeleton",
+            "species": "Undead",
+            "description": "An animated skeleton, wandering in the night, using its bones to attack and frighten its enemies with unsettling sounds.",
+            "attack_types": {
+                "physical": ["Bone Slash", "Cursed Strike"],
+                "spiritual": ["Rattle"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Angels", "Elemental Spirits"],
+            "rarity": "common",
+            "defense": 12,
+            "speed": 18,
+            "intelligence": 10
+        },
+        {
+            "name": "Zombie",
+            "species": "Undead",
+            "description": "A slow yet relentless zombie, drawn to fresh flesh, capable of striking with brutal force.",
+            "attack_types": {
+                "physical": ["Bite", "Claw"],
+                "spiritual": ["Undead Fury"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Angels", "Elemental Spirits"],
+            "rarity": "common",
+            "defense": 14,
+            "speed": 15,
+            "intelligence": 8
+        },
+        {
+            "name": "Lich",
+            "species": "Undead",
+            "description": "A terrifying lich, master of necromancy, capable of draining the life from its enemies and controlling the undead.",
+            "attack_types": {
+                "magic": ["Necromancy", "Life Drain"],
+                "spiritual": ["Dark Magic"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Angels", "Elemental Spirits"],
+            "rarity": "legendary",
+            "defense": 20,
+            "speed": 16,
+            "intelligence": 30
+        },
+        {
+            "name": "Mummy",
+            "species": "Undead",
+            "description": "A cursed mummy, wrapped in bandages, capable of inflicting curses and plunging its enemies into despair.",
+            "attack_types": {
+                "physical": ["Wrap", "Despair"],
+                "spiritual": ["Curse"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Angels", "Elemental Spirits"],
+            "rarity": "rare",
+            "defense": 18,
+            "speed": 14,
+            "intelligence": 15
+        },
+        {
+            "name": "Ghast",
+            "species": "Undead",
+            "description": "A putrid ghast, capable of spreading fear and weakening its enemies with its decayed touch.",
+            "attack_types": {
+                "physical": ["Rotting Touch", "Chilling Grip"],
+                "spiritual": ["Fear"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Angels", "Elemental Spirits"],
+            "rarity": "rare",
+            "defense": 16,
+            "speed": 17,
+            "intelligence": 12
+        },
+        {
+            "name": "Vampiric Skeleton",
+            "species": "Undead",
+            "description": "A vampiric skeleton, capable of siphoning life from its foes while attacking with its sharp bones.",
+            "attack_types": {
+                "physical": ["Draining Strike", "Bone Throw"],
+                "spiritual": ["Life Siphon"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Angels", "Elemental Spirits"],
+            "rarity": "rare",
+            "defense": 19,
+            "speed": 18,
+            "intelligence": 17
+        },
+        {
+            "name": "Death Knight",
+            "species": "Undead",
+            "description": "A feared death knight, wielding a dark sword and capable of harvesting the souls of its enemies with necrotic attacks.",
+            "attack_types": {
+                "physical": ["Dark Blade", "Necrotic Blast"],
+                "spiritual": ["Soul Harvest"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Angels", "Elemental Spirits"],
+            "rarity": "legendary",
+            "defense": 22,
+            "speed": 15,
+            "intelligence": 24
+        },
