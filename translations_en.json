@@ -1561,3 +1561,108 @@
             "speed": 16,
             "intelligence": 24
         },
+        {
+            "name": "Martian Warrior",
+            "species": "Alien",
+            "description": "A formidable Martian warrior, equipped with powerful laser weapons and capable of teleporting to surprise its foes.",
+            "attack_types": {
+                "magic": ["Laser Blast", "Mind Probe"],
+                "spiritual": ["Teleport"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Ghosts"],
+            "resistances": ["Angels", "Undead"],
+            "rarity": "rare",
+            "defense": 22,
+            "speed": 20,
+            "intelligence": 24
+        },
+        {
+            "name": "Galactic Overlord",
+            "species": "Alien",
+            "description": "A ruthless galactic overlord, capable of controlling minds and creating energy shields for defense.",
+            "attack_types": {
+                "magic": ["Mind Control", "Galactic Domination"],
+                "spiritual": ["Energy Shield"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Ghosts"],
+            "resistances": ["Angels", "Undead"],
+            "rarity": "legendary",
+            "defense": 28,
+            "speed": 19,
+            "intelligence": 32
+        },
+        {
+            "name": "Space Pirate",
+            "species": "Alien",
+            "description": "A bold space pirate armed with a plasma cannon, attacking enemy ships to plunder their treasures.",
+            "attack_types": {
+                "physical": ["Plasma Cannon", "Loot and Pillage"],
+                "spiritual": ["Boarding Action"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Ghosts"],
+            "resistances": ["Angels", "Undead"],
+            "rarity": "common",
+            "defense": 20,
+            "speed": 21,
+            "intelligence": 18
+        },
+        {
+            "name": "UFO Invader",
+            "species": "Alien",
+            "description": "A UFO invader, capable of projecting abduction beams and using alien technology to destroy its enemies.",
+            "attack_types": {
+                "magic": ["Abduction Beam", "Disruptor Ray"],
+                "spiritual": ["Alien Technology"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Ghosts"],
+            "resistances": ["Angels", "Undead"],
+            "rarity": "rare",
+            "defense": 23,
+            "speed": 22,
+            "intelligence": 25
+        },
+        {
+            "name": "Cosmic Explorer",
+            "species": "Alien",
+            "description": "A cosmic explorer, capable of manipulating gravity and creating black holes to trap its opponents.",
+            "attack_types": {
+                "magic": ["Gravity Well", "Black Hole"],
+                "spiritual": ["Cosmic Shift"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Ghosts"],
+            "resistances": ["Angels", "Undead"],
+            "rarity": "rare",
+            "defense": 19,
+            "speed": 18,
+            "intelligence": 27
+        },
+        {
+            "name": "Bio-Engineered Soldier",
+            "species": "Alien",
+            "description": "A bio-engineered soldier, enhanced with genetic mutations that boost its combat abilities and reflexes.",
+            "attack_types": {
+                "physical": ["Genetic Mutation", "Enhanced Reflexes"],
+                "spiritual": ["Adaptive Combat"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Ghosts"],
+            "resistances": ["Angels", "Undead"],
+            "rarity": "legendary",
+            "defense": 26,
+            "speed": 23,
+            "intelligence": 29
+        },
+        {
+            "name": "Intergalactic Scout",
+            "species": "Alien",
+            "description": "An agile intergalactic scout, capable of camouflaging and striking quickly with its laser dagger.",
+            "attack_types": {
+                "physical": ["Stealth Mode", "Laser Dagger"],
+                "spiritual": ["Quick Strike"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Ghosts"],
+            "resistances": ["Angels", "Undead"],
+            "rarity": "common",
+            "defense": 18,
+            "speed": 24,
+            "intelligence": 22
+        },
