@@ -976,4 +976,146 @@ monsters = [
         "rarity": {"en": "common", "fr": "commun"},
         "defense": 22, "speed": 22, "intelligence": 17
     }),
+
+    # Dragons
+    Monster({
+        "name": {"en": "Fire Dragon", "fr": "Dragon de Feu"},
+        "species": {"en": "Dragon", "fr": "Dragon"},
+        "health": 350, "level": 7,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Fire Breath", "fr": "Souffle de Feu"},
+                {"en": "Inferno Roar", "fr": "Rugissement d'Inferno"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Tail Swipe", "fr": "Coup de Queue"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Elementals", "Demons"], "fr": ["Éléments", "Démons"]},
+        "resistances": {"en": ["Angels", "Ghouls"], "fr": ["Anges", "Ghoules"]},
+        "description": {"en": "A majestic fire dragon, capable of breathing devastating flames and plunging its enemies into chaos.", 
+                        "fr": "Un majestueux dragon de feu, capable de cracher des flammes dévastatrices et de plonger ses ennemis dans le chaos."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 35, "speed": 20, "intelligence": 25
+    }),
+    Monster({
+        "name": {"en": "Ice Dragon", "fr": "Dragon de Glace"},
+        "species": {"en": "Dragon", "fr": "Dragon"},
+        "health": 340, "level": 6,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Frost Breath", "fr": "Souffle de Froid"},
+                {"en": "Icicle Spear", "fr": "Pique de Glaçon"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Wing Attack", "fr": "Attaque de Aile"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Elementals", "Demons"], "fr": ["Éléments", "Démons"]},
+        "resistances": {"en": ["Angels", "Ghouls"], "fr": ["Anges", "Ghoules"]},
+        "description": {"en": "A formidable ice dragon, capable of freezing its enemies with a chilling breath and crushing them with its wings.", 
+                        "fr": "Un redoutable dragon de glace, capable de geler ses ennemis avec un souffle glacial et de les écraser avec ses ailes."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 34, "speed": 22, "intelligence": 24
+    }),
+    Monster({
+        "name": {"en": "Lightning Dragon", "fr": "Dragon de Foudre"},
+        "species": {"en": "Dragon", "fr": "Dragon"},
+        "health": 360, "level": 7,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Thunderstorm", "fr": "Tempête de Foudre"},
+                {"en": "Static Charge", "fr": "Charge Statique"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Electric Breath", "fr": "Souffle Électrique"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Elementals", "Demons"], "fr": ["Éléments", "Démons"]},
+        "resistances": {"en": ["Angels", "Ghouls"], "fr": ["Anges", "Ghoules"]},
+        "description": {"en": "A fast and powerful lightning dragon, capable of unleashing electric storms upon its foes.", 
+                        "fr": "Un dragon de foudre rapide et puissant, capable de libérer des tempêtes électriques sur ses ennemis."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 36, "speed": 25, "intelligence": 26
+    }),
+    Monster({
+        "name": {"en": "Earth Dragon", "fr": "Dragon de Terre"},
+        "species": {"en": "Dragon", "fr": "Dragon"},
+        "health": 330, "level": 6,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Stone Breath", "fr": "Souffle de Pierre"},
+                {"en": "Rock Slide", "fr": "Glissement de Roche"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Quake", "fr": "Tremblement"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Elementals", "Demons"], "fr": ["Éléments", "Démons"]},
+        "resistances": {"en": ["Angels", "Ghouls"], "fr": ["Anges", "Ghoules"]},
+        "description": {"en": "A sturdy earth dragon, capable of causing earthquakes and fighting with the strength of nature.", 
+                        "fr": "Un dragon de terre robuste, capable de provoquer des tremblements de terre et de se battre avec la force de la nature."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 38, "speed": 18, "intelligence": 22
+    }),
+    Monster({
+        "name": {"en": "Shadow Dragon", "fr": "Dragon des Ombres"},
+        "species": {"en": "Dragon", "fr": "Dragon"},
+        "health": 370, "level": 8,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Dark Flame", "fr": "Flamme Noire"},
+                {"en": "Nightmare Breath", "fr": "Souffle de Cauchemar"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Shadow Strike", "fr": "Frappe des Ombres"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Elementals", "Demons"], "fr": ["Éléments", "Démons"]},
+        "resistances": {"en": ["Angels", "Ghouls"], "fr": ["Anges", "Ghoules"]},
+        "description": {"en": "A shadow dragon, mysterious and terrifying, capable of absorbing light and plunging its enemies into darkness.", 
+                        "fr": "Un dragon des ombres, mystérieux et terrifiant, capable d'absorber la lumière et de plonger ses ennemis dans l'obscurité."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 40, "speed": 19, "intelligence": 27
+    }),
+    Monster({
+        "name": {"en": "Gold Dragon", "fr": "Dragon d'Or"},
+        "species": {"en": "Dragon", "fr": "Dragon"},
+        "health": 380, "level": 9,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Radiant Breath", "fr": "Souffle Éblouissant"},
+                {"en": "Treasure Hoard", "fr": "Trésor Accumulé"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Golden Shield", "fr": "Bouclier Doré"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Elementals", "Demons"], "fr": ["Éléments", "Démons"]},
+        "resistances": {"en": ["Angels", "Ghouls"], "fr": ["Anges", "Ghoules"]},
+        "description": {"en": "A golden dragon, symbol of wealth and wisdom, capable of protecting its allies with a golden shield and breathing radiant flames.", 
+                        "fr": "Un dragon doré, symbole de richesse et de sagesse, capable de protéger ses alliés avec un bouclier doré et de respirer des flammes éclatantes."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 42, "speed": 21, "intelligence": 30
+    }),
+    Monster({
+        "name": {"en": "Silver Dragon", "fr": "Dragon d'Argent"},
+        "species": {"en": "Dragon", "fr": "Dragon"},
+        "health": 375, "level": 8,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Silver Breath", "fr": "Souffle d'Argent"},
+                {"en": "Shimmering Strike", "fr": "Frappe Scintillante"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Glittering Shield", "fr": "Bouclier Scintillant"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Elementals", "Demons"], "fr": ["Éléments", "Démons"]},
+        "resistances": {"en": ["Angels", "Ghouls"], "fr": ["Anges", "Ghoules"]},
+        "description": {"en": "A silver dragon, known for its kindness and bravery, capable of launching dazzling attacks and protecting the innocent.", 
+                        "fr": "Un dragon d'argent, connu pour sa bonté et son courage, capable de lancer des attaques éblouissantes et de protéger les innocents."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 41, "speed": 20, "intelligence": 28
+    }),
  
