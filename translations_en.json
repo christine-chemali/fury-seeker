@@ -1036,3 +1036,108 @@
             "speed": 15,
             "intelligence": 24
         },
+        {
+            "name": "Forest Guardian",
+            "species": "Beast of the Forest",
+            "description": "A forest guardian, protector of the woods, capable of camouflaging itself in its environment and unleashing nature's fury upon its enemies.",
+            "attack_types": {
+                "magic": ["Camouflage", "Forest's Fury"],
+                "spiritual": ["Nature's Wrath"]
+            },
+            "weaknesses": ["Elemental Spirits", "Ghosts"],
+            "resistances": ["Demons", "Dragons"],
+            "rarity": "legendary",
+            "defense": 24,
+            "speed": 16,
+            "intelligence": 20
+        },
+        {
+            "name": "Howling Lynx",
+            "species": "Beast of the Forest",
+            "description": "A howling lynx, agile and stealthy, capable of moving silently through the woods and pouncing on its prey.",
+            "attack_types": {
+                "physical": ["Howl", "Pounce"],
+                "spiritual": ["Silent Stalk"]
+            },
+            "weaknesses": ["Elemental Spirits", "Ghosts"],
+            "resistances": ["Demons", "Dragons"],
+            "rarity": "common",
+            "defense": 18,
+            "speed": 22,
+            "intelligence": 15
+        },
+        {
+            "name": "Giant Elk",
+            "species": "Beast of the Forest",
+            "description": "A massive elk, powerful and majestic, capable of charging at its enemies with crushing force.",
+            "attack_types": {
+                "physical": ["Charge", "Stampede"],
+                "spiritual": ["Nature's Call"]
+            },
+            "weaknesses": ["Elemental Spirits", "Ghosts"],
+            "resistances": ["Demons", "Dragons"],
+            "rarity": "rare",
+            "defense": 26,
+            "speed": 14,
+            "intelligence": 12
+        },
+        {
+            "name": "Shadow Panther",
+            "species": "Beast of the Forest",
+            "description": "A shadow panther, quick and silent, capable of striking its enemies by surprise and disappearing into the night.",
+            "attack_types": {
+                "physical": ["Stealth Attack", "Claw"],
+                "spiritual": ["Shadow Leap"]
+            },
+            "weaknesses": ["Elemental Spirits", "Ghosts"],
+            "resistances": ["Demons", "Dragons"],
+            "rarity": "rare",
+            "defense": 20,
+            "speed": 23,
+            "intelligence": 18
+        },
+        {
+            "name": "Elder Tree",
+            "species": "Beast of the Forest",
+            "description": "An ancient tree, alive and powerful, capable of immobilizing its enemies with its roots and protecting the forest.",
+            "attack_types": {
+                "magic": ["Root Bind", "Wooden Grasp"],
+                "spiritual": ["Nature's Shield"]
+            },
+            "weaknesses": ["Elemental Spirits", "Ghosts"],
+            "resistances": ["Demons", "Dragons"],
+            "rarity": "legendary",
+            "defense": 35,
+            "speed": 8,
+            "intelligence": 16
+        },
+        {
+            "name": "Fae Fox",
+            "species": "Beast of the Forest",
+            "description": "A fey fox, cunning and agile, using illusions to deceive its enemies and strike quickly.",
+            "attack_types": {
+                "magic": ["Illusion", "Fey Trick"],
+                "spiritual": ["Quick Strike"]
+            },
+            "weaknesses": ["Elemental Spirits", "Ghosts"],
+            "resistances": ["Demons", "Dragons"],
+            "rarity": "common",
+            "defense": 10,
+            "speed": 25,
+            "intelligence": 21
+        },
+        {
+            "name": "Vine Beast",
+            "species": "Beast of the Forest",
+            "description": "A vine beast, capable of attacking with vines and ensnaring its enemies with thorny strikes.",
+            "attack_types": {
+                "physical": ["Vine Whip", "Thorny Barrage"],
+                "spiritual": ["Entangle"]
+            },
+            "weaknesses": ["Elemental Spirits", "Ghosts"],
+            "resistances": ["Demons", "Dragons"],
+            "rarity": "rare",
+            "defense": 22,
+            "speed": 15,
+            "intelligence": 17
+        },
