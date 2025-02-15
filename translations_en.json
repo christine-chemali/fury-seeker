@@ -1246,3 +1246,108 @@
             "speed": 17,
             "intelligence": 22
         },
+        {
+            "name": "Seraphim",
+            "species": "Angel",
+            "description": "A majestic seraphim, bearer of divine light, capable of inflicting sacred blows and protecting the innocent with its celestial shield.",
+            "attack_types": {
+                "magic": ["Divine Light", "Celestial Shield"],
+                "spiritual": ["Holy Smite"]
+            },
+            "weaknesses": ["Demons", "Undead"],
+            "resistances": ["Elementals", "Beasts"],
+            "rarity": "legendary",
+            "defense": 38,
+            "speed": 22,
+            "intelligence": 30
+        },
+        {
+            "name": "Cherub",
+            "species": "Angel",
+            "description": "A playful cherub, capable of creating ethereal shields and spreading healing light to those in need.",
+            "attack_types": {
+                "magic": ["Ethereal Shield", "Divine Protection"],
+                "spiritual": ["Healing Light"]
+            },
+            "weaknesses": ["Demons", "Undead"],
+            "resistances": ["Elementals", "Beasts"],
+            "rarity": "rare",
+            "defense": 30,
+            "speed": 24,
+            "intelligence": 26
+        },
+        {
+            "name": "Archangel",
+            "species": "Angel",
+            "description": "A powerful archangel, capable of unleashing divine wrath and intervening in battles to bring justice.",
+            "attack_types": {
+                "magic": ["Holy Wrath", "Light of Justice"],
+                "spiritual": ["Divine Intervention"]
+            },
+            "weaknesses": ["Demons", "Undead"],
+            "resistances": ["Elementals", "Beasts"],
+            "rarity": "legendary",
+            "defense": 36,
+            "speed": 20,
+            "intelligence": 32
+        },
+        {
+            "name": "Guardian Angel",
+            "species": "Angel",
+            "description": "A guardian angel, protector of souls, capable of creating a protective aura and rescuing those in danger.",
+            "attack_types": {
+                "magic": ["Protective Aura", "Light Beam"],
+                "spiritual": ["Rescue"]
+            },
+            "weaknesses": ["Demons", "Undead"],
+            "resistances": ["Elementals", "Beasts"],
+            "rarity": "rare",
+            "defense": 34,
+            "speed": 18,
+            "intelligence": 28
+        },
+        {
+            "name": "Celestial Being",
+            "species": "Angel",
+            "description": "A celestial being, radiating light, capable of striking with the power of the heavens and protecting with a radiant shield.",
+            "attack_types": {
+                "magic": ["Light Burst", "Radiant Shield"],
+                "spiritual": ["Heavenly Strike"]
+            },
+            "weaknesses": ["Demons", "Undead"],
+            "resistances": ["Elementals", "Beasts"],
+            "rarity": "common",
+            "defense": 28,
+            "speed": 19,
+            "intelligence": 25
+        },
+        {
+            "name": "Angel of Justice",
+            "species": "Angel",
+            "description": "An angel of justice, wielding the power of judgment, capable of striking its foes with divine attacks.",
+            "attack_types": {
+                "magic": ["Judgment", "Divine Shield"],
+                "spiritual": ["Smite"]
+            },
+            "weaknesses": ["Demons", "Undead"],
+            "resistances": ["Elementals", "Beasts"],
+            "rarity": "legendary",
+            "defense": 37,
+            "speed": 21,
+            "intelligence": 29
+        },
+        {
+            "name": "Lightbringer",
+            "species": "Angel",
+            "description": "A bringer of light, capable of purifying darkness with sacred flames and inspiring hope in the oppressed.",
+            "attack_types": {
+                "magic": ["Radiant Shield", "Light of Hope"],
+                "spiritual": ["Purifying Flame"]
+            },
+            "weaknesses": ["Demons", "Undead"],
+            "resistances": ["Elementals", "Beasts"],
+            "rarity": "legendary",
+            "defense": 39,
+            "speed": 20,
+            "intelligence": 31
+        },
