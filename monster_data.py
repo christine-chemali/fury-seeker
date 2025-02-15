@@ -854,4 +854,126 @@ monsters = [
         "rarity": {"en": "legendary", "fr": "légendaire"},
         "defense": 21, "speed": 15, "intelligence": 23
     }),
-  
+
+    # Mechanical Monsters
+    Monster({
+        "name": {"en": "Iron Golem", "fr": "Golem de Fer"},
+        "species": {"en": "Mechanical Monster", "fr": "Monstre Mécanique"},
+        "health": 300, "level": 6,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Crush", "fr": "Écraser"},
+                {"en": "Iron Grip", "fr": "Prise de Fer"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Guard", "fr": "Garde"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Cyborgs", "Beasts"], "fr": ["Cyborgs", "Bêtes"]},
+        "resistances": {"en": ["Fairies", "Vampires"], "fr": ["Fées", "Vampires"]},
+        "description": {"en": "A massive iron golem, relentless and resilient, capable of crushing its enemies with unmatched brute force.", 
+                        "fr": "Un énorme golem de fer, implacable et résistant, capable d'écraser ses ennemis avec une force brute inégalée."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 40, "speed": 10, "intelligence": 15
+    }),
+    Monster({
+        "name": {"en": "Clockwork Knight", "fr": "Chevalier à Remontage"},
+        "species": {"en": "Mechanical Monster", "fr": "Monstre Mécanique"},
+        "health": 280, "level": 5,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Blade Whirl", "fr": "Tourbillon de Lame"},
+                {"en": "Precision Strike", "fr": "Frappe Précise"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Shield Bash", "fr": "Coup de Bouclier"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Cyborgs", "Beasts"], "fr": ["Cyborgs", "Bêtes"]},
+        "resistances": {"en": ["Fairies", "Vampires"], "fr": ["Fées", "Vampires"]},
+        "description": {"en": "A spring-loaded knight, fast and agile, wielding a sharp sword with precision while protecting its master.", 
+                        "fr": "Un chevalier à ressort, rapide et agile, maniant une épée tranchante avec précision tout en protégeant son maître."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 30, "speed": 20, "intelligence": 18
+    }),
+    Monster({
+        "name": {"en": "Steel Behemoth", "fr": "Béhémoth d'Acier"},
+        "species": {"en": "Mechanical Monster", "fr": "Monstre Mécanique"},
+        "health": 320, "level": 7,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Smash", "fr": "Écraser"},
+                {"en": "Titan's Wrath", "fr": "Colère du Titan"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Iron Fist", "fr": "Poing de Fer"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Cyborgs", "Beasts"], "fr": ["Cyborgs", "Bêtes"]},
+        "resistances": {"en": ["Fairies", "Vampires"], "fr": ["Fées", "Vampires"]},
+        "description": {"en": "A colossal steel behemoth, capable of shaking the ground beneath its weight and destroying everything in its path.", 
+                        "fr": "Un colossal béhémoth d'acier, capable de faire trembler le sol sous son poids et de détruire tout sur son passage."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 45, "speed": 8, "intelligence": 12
+    }),
+    Monster({
+        "name": {"en": "Automaton", "fr": "Automate"},
+        "species": {"en": "Mechanical Monster", "fr": "Monstre Mécanique"},
+        "health": 250, "level": 4,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Laser Beam", "fr": "Faisceau Laser"},
+                {"en": "Self-Repair", "fr": "Auto-Réparation"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Mechanized Strike", "fr": "Frappe Mécanisée"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Cyborgs", "Beasts"], "fr": ["Cyborgs", "Bêtes"]},
+        "resistances": {"en": ["Fairies", "Vampires"], "fr": ["Fées", "Vampires"]},
+        "description": {"en": "A sophisticated automaton, capable of firing lasers and self-repairing, making every battle more challenging.", 
+                        "fr": "Un automate sophistiqué, capable de tirer des lasers et de s'auto-réparer, rendant chaque bataille plus difficile."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 25, "speed": 15, "intelligence": 20
+    }),
+    Monster({
+        "name": {"en": "Robo-Warrior", "fr": "Guerrier Robot"},
+        "species": {"en": "Mechanical Monster", "fr": "Monstre Mécanique"},
+        "health": 270, "level": 5,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Rocket Punch", "fr": "Coup de Poing Fusée"},
+                {"en": "Plasma Cutter", "fr": "Coupe Plasma"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Combat Maneuver", "fr": "Manœuvre de Combat"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Cyborgs", "Beasts"], "fr": ["Cyborgs", "Bêtes"]},
+        "resistances": {"en": ["Fairies", "Vampires"], "fr": ["Fées", "Vampires"]},
+        "description": {"en": "A robotic warrior, wielding advanced weapons and utilizing combat techniques to annihilate its foes.", 
+                        "fr": "Un guerrier robot, maniant des armes avancées et utilisant des techniques de combat pour anéantir ses ennemis."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 28, "speed": 18, "intelligence": 19
+    }),
+    Monster({
+        "name": {"en": "Battle Drone", "fr": "Drone de Combat"},
+        "species": {"en": "Mechanical Monster", "fr": "Monstre Mécanique"},
+        "health": 240, "level": 4,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Missile Barrage", "fr": "Barrages de Missiles"},
+                {"en": "Overload", "fr": "Surcharge"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Target Lock", "fr": "Verrouillage de Cible"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Cyborgs", "Beasts"], "fr": ["Cyborgs", "Bêtes"]},
+        "resistances": {"en": ["Fairies", "Vampires"], "fr": ["Fées", "Vampires"]},
+        "description": {"en": "A combat drone, capable of launching missiles with great precision, causing massive destruction.", 
+                        "fr": "Un drone de combat, capable de lancer des missiles avec une grande précision, causant une destruction massive."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 22, "speed": 22, "intelligence": 17
+    }),
+ 
