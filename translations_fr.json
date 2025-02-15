@@ -1665,3 +1665,109 @@
             "speed": 24,
             "intelligence": 22
         },
+        {
+            "name": "Esprit Gardien",
+            "species": "Entité Spirituelle",
+            "description": "Un esprit gardien, protecteur des âmes, capable de créer des boucliers spirituels et d'accorder des bénédictions à ceux qui en ont besoin.",
+            "attack_types": {
+                "magic": ["Bouclier Spirituel", "Intervention Céleste"],
+                "spiritual": ["Bénédiction"]
+            },
+            "weaknesses": ["Vampires", "Démons"],
+            "resistances": ["Cyborgs", "Éléments"],
+            "rarity": "rare",
+            "defense": 22,
+            "speed": 18,
+            "intelligence": 26
+        },
+        {
+            "name": "Âme Errante",
+            "species": "Entité Spirituelle",
+            "description": "Une âme errante, capable de posséder ses ennemis, drainant leur énergie vitale et s'échappant dans l'éther.",
+            "attack_types": {
+                "magic": ["Possession", "Drain d'Âme"],
+                "spiritual": ["Évasion Éthérée"]
+            },
+            "weaknesses": ["Vampires", "Démons"],
+            "resistances": ["Cyborgs", "Éléments"],
+            "rarity": "commun",
+            "defense": 20,
+            "speed": 19,
+            "intelligence": 24
+        },
+        {
+            "name": "Esprit Ancestral",
+            "species": "Entité Spirituelle",
+            "description": "Un esprit ancestral, porteur de sagesse, capable de guider les vivants et de créer une aura protectrice autour d'eux.",
+            "attack_types": {
+                "magic": ["Guidage", "Appel de l'Esprit"],
+                "spiritual": ["Aura de Protection"]
+            },
+            "weaknesses": ["Vampires", "Démons"],
+            "resistances": ["Cyborgs", "Éléments"],
+            "rarity": "rare",
+            "defense": 25,
+            "speed": 17,
+            "intelligence": 28
+        },
+        {
+            "name": "Esprit de la Nature",
+            "species": "Entité Spirituelle",
+            "description": "Un esprit de la nature, capable de libérer la colère de la terre et de guérir les blessures des êtres vivants.",
+            "attack_types": {
+                "magic": ["Colère de la Nature", "Toucher de Guérison"],
+                "spiritual": ["Gardien de la Forêt"]
+            },
+            "weaknesses": ["Vampires", "Démons"],
+            "resistances": ["Cyborgs", "Éléments"],
+            "rarity": "commun",
+            "defense": 18,
+            "speed": 16,
+            "intelligence": 21
+        },
+        {
+            "name": "Revenant",
+            "species": "Entité Spirituelle",
+            "description": "Un revenant vengeur, capable de frapper avec rage, maudissant ses ennemis et hantant ceux qui osent s'opposer à lui.",
+            "attack_types": {
+                "magic": ["Frappe Vengeresse", "Présence Hantée"],
+                "spiritual": ["Malédiction"]
+            },
+            "weaknesses": ["Vampires", "Démons"],
+            "resistances": ["Cyborgs", "Éléments"],
+            "rarity": "légendaire",
+            "defense": 30,
+            "speed": 19,
+            "intelligence": 27
+        },
+        {
+            "name": "Gardien Céleste",
+            "species": "Entité Spirituelle",
+            "description": "Un gardien céleste, apportant la lumière divine et protégeant les âmes des ténèbres grâce à ses bénédictions.",
+            "attack_types": {
+                "magic": ["Lumière Céleste", "Bénédiction du Gardien"],
+                "spiritual": ["Protection Divine"]
+            },
+            "weaknesses": ["Vampires", "Démons"],
+            "resistances": ["Cyborgs", "Éléments"],
+            "rarity": "légendaire",
+            "defense": 32,
+            "speed": 20,
+            "intelligence": 29
+        },
+        {
+            "name": "Gardien Spectral",
+            "species": "Entité Spirituelle",
+            "description": "Un gardien spectral, capable de lancer des sorts de protection, d'effrayer ses ennemis et de créer des barrières fantomatiques.",
+            "attack_types": {
+                "magic": ["Sort de Protection", "Barrière Fantomatique"],
+                "spiritual": ["Effrayer"]
+            },
+            "weaknesses": ["Vampires", "Démons"],
+            "resistances": ["Cyborgs", "Éléments"],
+            "rarity": "commun",
+            "defense": 21,
+            "speed": 16,
+            "intelligence": 23
+        },
+    
