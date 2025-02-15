@@ -1456,3 +1456,108 @@
             "speed": 21,
             "intelligence": 29
         },
+        {
+            "name": "Fire Spirit",
+            "species": "Elemental Spirit",
+            "description": "A fiery spirit, capable of launching devastating fireballs and creating flame barriers to protect itself.",
+            "attack_types": {
+                "magic": ["Fireball", "Heat Wave"],
+                "spiritual": ["Flame Shield"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Cyborgs", "Dragons"],
+            "rarity": "common",
+            "defense": 15,
+            "speed": 18,
+            "intelligence": 20
+        },
+        {
+            "name": "Water Spirit",
+            "species": "Elemental Spirit",
+            "description": "A fluid water spirit, capable of projecting powerful jets of water and causing floods to overwhelm its enemies.",
+            "attack_types": {
+                "magic": ["Water Blast", "Flood"],
+                "spiritual": ["Drench"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Cyborgs", "Dragons"],
+            "rarity": "common",
+            "defense": 16,
+            "speed": 19,
+            "intelligence": 22
+        },
+        {
+            "name": "Earth Spirit",
+            "species": "Elemental Spirit",
+            "description": "A solid earth spirit, capable of throwing rocks and causing devastating earthquakes.",
+            "attack_types": {
+                "magic": ["Rock Throw", "Earthquake"],
+                "spiritual": ["Mudslide"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Cyborgs", "Dragons"],
+            "rarity": "rare",
+            "defense": 20,
+            "speed": 15,
+            "intelligence": 18
+        },
+        {
+            "name": "Air Spirit",
+            "species": "Elemental Spirit",
+            "description": "A fast and agile air spirit, capable of creating wind gusts and tornadoes to disorient its opponents.",
+            "attack_types": {
+                "magic": ["Wind Gust", "Cyclone"],
+                "spiritual": ["Tornado"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Cyborgs", "Dragons"],
+            "rarity": "common",
+            "defense": 14,
+            "speed": 22,
+            "intelligence": 21
+        },
+        {
+            "name": "Lightning Spirit",
+            "species": "Elemental Spirit",
+            "description": "A brilliant lightning spirit, capable of launching bolts of lightning and causing storms to electrify its enemies.",
+            "attack_types": {
+                "magic": ["Thunderbolt", "Storm Surge"],
+                "spiritual": ["Static Shock"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Cyborgs", "Dragons"],
+            "rarity": "rare",
+            "defense": 17,
+            "speed": 25,
+            "intelligence": 23
+        },
+        {
+            "name": "Ice Spirit",
+            "species": "Elemental Spirit",
+            "description": "A chilling ice spirit, capable of blowing icy air and creating snowstorms to slow its foes down.",
+            "attack_types": {
+                "magic": ["Frost Breath", "Blizzard"],
+                "spiritual": ["Ice Shield"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Cyborgs", "Dragons"],
+            "rarity": "common",
+            "defense": 15,
+            "speed": 18,
+            "intelligence": 22
+        },
+        {
+            "name": "Nature Spirit",
+            "species": "Elemental Spirit",
+            "description": "A powerful nature spirit, capable of controlling plants to attack and defend, inflicting the wrath of the earth upon its enemies.",
+            "attack_types": {
+                "magic": ["Vine Whip", "Nature's Wrath"],
+                "spiritual": ["Thorn Barrage"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Cyborgs", "Dragons"],
+            "rarity": "legendary",
+            "defense": 21,
+            "speed": 16,
+            "intelligence": 24
+        },
