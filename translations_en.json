@@ -210,3 +210,108 @@
             "speed": 14,
             "intelligence": 9
         },
+        {
+            "name": "Earth Spirit",
+            "species": "Elemental",
+            "description": "A powerful spirit of the earth, capable of causing tremors and creating stone walls. Protector of forests.",
+            "attack_types": {
+                "physical": ["Rock Armor", "Quake"],
+                "spiritual": ["Mudslide"]
+            },
+            "weaknesses": ["Beasts of the Forest", "Demons"],
+            "resistances": ["Dragons", "Cyborgs"],
+            "rarity": "rare",
+            "defense": 30,
+            "speed": 10,
+            "intelligence": 20
+        },
+        {
+            "name": "Water Wisp",
+            "species": "Elemental",
+            "description": "A light and elusive aquatic entity, capable of manipulating water for defense or attack.",
+            "attack_types": {
+                "magic": ["Drench", "Water Shield"],
+                "spiritual": ["Splash"]
+            },
+            "weaknesses": ["Beasts of the Forest", "Demons"],
+            "resistances": ["Dragons", "Cyborgs"],
+            "rarity": "common",
+            "defense": 12,
+            "speed": 18,
+            "intelligence": 14
+        },
+        {
+            "name": "Fire Elemental",
+            "species": "Elemental",
+            "description": "A pure incarnation of fire, fast and destructive, leaving ashes and burns in its wake.",
+            "attack_types": {
+                "magic": ["Flame Burst", "Fire Whip"],
+                "spiritual": ["Fire Shield"]
+            },
+            "weaknesses": ["Beasts of the Forest", "Demons"],
+            "resistances": ["Dragons", "Cyborgs"],
+            "rarity": "rare",
+            "defense": 20,
+            "speed": 25,
+            "intelligence": 15
+        },
+        {
+            "name": "Air Spirit",
+            "species": "Elemental",
+            "description": "An ethereal wind spirit, moving with the speed of breath, capable of creating storms.",
+            "attack_types": {
+                "magic": ["Gust", "Whirlwind"],
+                "spiritual": ["Tornado"]
+            },
+            "weaknesses": ["Beasts of the Forest", "Demons"],
+            "resistances": ["Dragons", "Cyborgs"],
+            "rarity": "common",
+            "defense": 13,
+            "speed": 22,
+            "intelligence": 16
+        },
+        {
+            "name": "Stone Guardian",
+            "species": "Elemental",
+            "description": "A stone colossus, an impassable protector of nature, capable of withstanding all attacks.",
+            "attack_types": {
+                "physical": ["Rock Throw", "Earthquake"],
+                "spiritual": ["Stone Skin"]
+            },
+            "weaknesses": ["Beasts of the Forest", "Demons"],
+            "resistances": ["Dragons", "Cyborgs"],
+            "rarity": "rare",
+            "defense": 35,
+            "speed": 8,
+            "intelligence": 18
+        },
+        {
+            "name": "Lightning Wisp",
+            "species": "Elemental",
+            "description": "An electrical entity, fast and unpredictable, capable of releasing blazing discharges.",
+            "attack_types": {
+                "magic": ["Thunderbolt", "Static Shock"],
+                "spiritual": ["Electric Surge"]
+            },
+            "weaknesses": ["Beasts of the Forest", "Demons"],
+            "resistances": ["Dragons", "Cyborgs"],
+            "rarity": "common",
+            "defense": 15,
+            "speed": 20,
+            "intelligence": 15
+        },
+        {
+            "name": "Wood Sprite",
+            "species": "Elemental",
+            "description": "A forest spirit that uses plants to capture its enemies and protect its territory.",
+            "attack_types": {
+                "magic": ["Vine Whip", "Nature's Grasp"],
+                "spiritual": ["Root Bind"]
+            },
+            "weaknesses": ["Beasts of the Forest", "Demons"],
+            "resistances": ["Dragons", "Cyborgs"],
+            "rarity": "common",
+            "defense": 14,
+            "speed": 16,
+            "intelligence": 12
+        },
