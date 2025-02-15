@@ -1560,3 +1560,108 @@
             "speed": 16,
             "intelligence": 24
         },
+        {
+            "name": "Guerrier Martien",
+            "species": "Alien",
+            "description": "Un formidable guerrier martien, équipé d'armes laser puissantes et capable de se téléporter pour surprendre ses ennemis.",
+            "attack_types": {
+                "magic": ["Explosion Laser", "Profondeur Mentale"],
+                "spiritual": ["Téléportation"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Fantômes"],
+            "resistances": ["Anges", "Morts-vivants"],
+            "rarity": "rare",
+            "defense": 22,
+            "speed": 20,
+            "intelligence": 24
+        },
+        {
+            "name": "Seigneur Galactique",
+            "species": "Alien",
+            "description": "Un seigneur galactique impitoyable, capable de contrôler les esprits et de créer des boucliers énergétiques pour se défendre.",
+            "attack_types": {
+                "magic": ["Contrôle Mental", "Domination Galactique"],
+                "spiritual": ["Bouclier Énergétique"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Fantômes"],
+            "resistances": ["Anges", "Morts-vivants"],
+            "rarity": "légendaire",
+            "defense": 28,
+            "speed": 19,
+            "intelligence": 32
+        },
+        {
+            "name": "Pirate de l'Espace",
+            "species": "Alien",
+            "description": "Un pirate de l'espace audacieux armé d'un canon plasma, attaquant les vaisseaux ennemis pour piller leurs trésors.",
+            "attack_types": {
+                "physical": ["Canon Plasma", "Piller et Ravager"],
+                "spiritual": ["Action d'Boarding"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Fantômes"],
+            "resistances": ["Anges", "Morts-vivants"],
+            "rarity": "commun",
+            "defense": 20,
+            "speed": 21,
+            "intelligence": 18
+        },
+        {
+            "name": "Envahisseur OVNI",
+            "species": "Alien",
+            "description": "Un envahisseur OVNI, capable de projeter des rayons d'abduction et d'utiliser la technologie extra-terrestre pour détruire ses ennemis.",
+            "attack_types": {
+                "magic": ["Rayon d'Abduction", "Rayon Perturbateur"],
+                "spiritual": ["Technologie Extra-Terrestre"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Fantômes"],
+            "resistances": ["Anges", "Morts-vivants"],
+            "rarity": "rare",
+            "defense": 23,
+            "speed": 22,
+            "intelligence": 25
+        },
+        {
+            "name": "Explorateur Cosmique",
+            "species": "Alien",
+            "description": "Un explorateur cosmique, capable de manipuler la gravité et de créer des trous noirs pour piéger ses adversaires.",
+            "attack_types": {
+                "magic": ["Puits de Gravité", "Trou Noir"],
+                "spiritual": ["Changement Cosmique"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Fantômes"],
+            "resistances": ["Anges", "Morts-vivants"],
+            "rarity": "rare",
+            "defense": 19,
+            "speed": 18,
+            "intelligence": 27
+        },
+        {
+            "name": "Soldat Bio-Engineering",
+            "species": "Alien",
+            "description": "Un soldat bio-ingenierie, amélioré par des mutations génétiques qui augmentent ses capacités de combat et ses réflexes.",
+            "attack_types": {
+                "physical": ["Mutation Génétique", "Réflexes Améliorés"],
+                "spiritual": ["Combat Adaptatif"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Fantômes"],
+            "resistances": ["Anges", "Morts-vivants"],
+            "rarity": "légendaire",
+            "defense": 26,
+            "speed": 23,
+            "intelligence": 29
+        },
+        {
+            "name": "Scout Intergalactique",
+            "species": "Alien",
+            "description": "Un scout intergalactique agile, capable de se camoufler et de frapper rapidement avec sa dague laser.",
+            "attack_types": {
+                "physical": ["Mode Furtif", "Dague Laser"],
+                "spiritual": ["Frappe Rapide"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Fantômes"],
+            "resistances": ["Anges", "Morts-vivants"],
+            "rarity": "commun",
+            "defense": 18,
+            "speed": 24,
+            "intelligence": 22
+        },
