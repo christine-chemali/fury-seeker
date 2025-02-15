@@ -421,3 +421,108 @@
             "speed": 29,
             "intelligence": 10
         },
+        {
+            "name": "Knight",
+            "species": "Humanoid",
+            "description": "A brave knight, protector of his kingdom, wielding his sword with honor and determination. Always ready to defend the innocent.",
+            "attack_types": {
+                "physical": ["Sword Slash", "Charge Forward"],
+                "spiritual": ["Shield Block"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Spiritual Entities"],
+            "resistances": ["Dragons", "Ghouls"],
+            "rarity": "common",
+            "defense": 22,
+            "speed": 16,
+            "intelligence": 14
+        },
+        {
+            "name": "Rogue",
+            "species": "Humanoid",
+            "description": "An agile and stealthy thief, moving in the shadows to strike his enemies by surprise and escape unseen.",
+            "attack_types": {
+                "physical": ["Dagger Thrust", "Sneak Attack"],
+                "spiritual": ["Smoke Bomb"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Spiritual Entities"],
+            "resistances": ["Dragons", "Ghouls"],
+            "rarity": "common",
+            "defense": 15,
+            "speed": 20,
+            "intelligence": 15
+        },
+        {
+            "name": "Paladin",
+            "species": "Humanoid",
+            "description": "A sacred paladin, defender of faith and justice, capable of channeling divine power to protect his allies.",
+            "attack_types": {
+                "magic": ["Holy Strike", "Smite"],
+                "spiritual": ["Divine Shield"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Spiritual Entities"],
+            "resistances": ["Dragons", "Ghouls"],
+            "rarity": "rare",
+            "defense": 24,
+            "speed": 17,
+            "intelligence": 18
+        },
+        {
+            "name": "Archer",
+            "species": "Humanoid",
+            "description": "An expert archer, capable of firing arrows with great precision, striking his targets from a distance.",
+            "attack_types": {
+                "physical": ["Arrow Shot", "Multi-Shot"],
+                "spiritual": ["Eagle Eye"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Spiritual Entities"],
+            "resistances": ["Dragons", "Ghouls"],
+            "rarity": "common",
+            "defense": 16,
+            "speed": 22,
+            "intelligence": 14
+        },
+        {
+            "name": "Bard",
+            "species": "Humanoid",
+            "description": "A talented bard, using music to inspire his allies and soothe their fears during battle.",
+            "attack_types": {
+                "support": ["Inspire", "Song of Courage"],
+                "spiritual": ["Soothing Melody"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Spiritual Entities"],
+            "resistances": ["Dragons", "Ghouls"],
+            "rarity": "common",
+            "defense": 12,
+            "speed": 18,
+            "intelligence": 18
+        },
+        {
+            "name": "Mage",
+            "species": "Humanoid",
+            "description": "A powerful mage, wielding the arcane arts with skill, capable of casting devastating spells on his enemies.",
+            "attack_types": {
+                "magic": ["Fireball", "Arcane Blast"],
+                "spiritual": ["Frost Nova"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Spiritual Entities"],
+            "resistances": ["Dragons", "Ghouls"],
+            "rarity": "rare",
+            "defense": 14,
+            "speed": 19,
+            "intelligence": 22
+        },
+        {
+            "name": "Warrior",
+            "species": "Humanoid",
+            "description": "A hardened warrior, formidable in close combat, using his brute strength to crush his opponents.",
+            "attack_types": {
+                "physical": ["Heavy Slam", "Battle Cry"],
+                "spiritual": ["Warrior's Might"]
+            },
+            "weaknesses": ["Mechanical Monsters", "Spiritual Entities"],
+            "resistances": ["Dragons", "Ghouls"],
+            "rarity": "rare",
+            "defense": 25,
+            "speed": 18,
+            "intelligence": 13
+        },
