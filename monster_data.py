@@ -3,7 +3,7 @@ from monster import Monster
 
 monsters = [
 
-#Vampire
+    #Vampire
     Monster({
         "name": {"en": "Count Dracula", "fr": "Comte Dracula"},
         "species": {"en": "Vampire", "fr": "Vampire"},
@@ -145,3 +145,145 @@ monsters = [
         "rarity": {"en": "rare", "fr": "rare"},
         "defense": 17, "speed": 20, "intelligence": 18}),
     
+    #Ghoul
+    Monster({
+        "name": {"en": "Flesh Eater", "fr": "Mangeur de Chair"},
+        "species": {"en": "Ghoul", "fr": "Ghoule"},
+        "health": 200, "level": 3,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Devour", "fr": "Dévorer"},
+                {"en": "Claw", "fr": "Griffe"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Flesh Rend", "fr": "Déchirement de Chair"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Undead", "Beasts"], "fr": ["Morts-vivants", "Bêtes"]},
+        "resistances": {"en": ["Elemental Spirits", "Mechanical Monsters"], "fr": ["Esprits Élémentaires", "Monstres Mécaniques"]},
+        "description": {"en": "A hungry creature that devours everything in its path, leaving only bones behind. Its voracity is legendary.", 
+                        "fr": "Une créature affamée qui dévore tout sur son passage, ne laissant que des os derrière elle. Sa voracité est légendaire."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 15, "speed": 12, "intelligence": 10
+    }),
+    Monster({
+        "name": {"en": "Gravewalker", "fr": "Marcheur de Tombe"},
+        "species": {"en": "Ghoul", "fr": "Ghoule"},
+        "health": 220, "level": 4,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Terrorize", "fr": "Terroriser"},
+                {"en": "Feast", "fr": "Festin"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Grave Grasp", "fr": "Saisie de Tombe"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Undead", "Beasts"], "fr": ["Morts-vivants", "Bêtes"]},
+        "resistances": {"en": ["Elemental Spirits", "Mechanical Monsters"], "fr": ["Esprits Élémentaires", "Monstres Mécaniques"]},
+        "description": {"en": "A ghoul that wanders between graves, feeding on the hearts of the living while spreading terror with every step.", 
+                        "fr": "Une ghoule qui erre entre les tombes, se nourrissant des cœurs des vivants tout en répandant la terreur à chaque pas."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 17, "speed": 14, "intelligence": 12
+    }),
+    Monster({
+        "name": {"en": "Rotting Corpse", "fr": "Cadavre en Décomposition"},
+        "species": {"en": "Ghoul", "fr": "Ghoule"},
+        "health": 210, "level": 3,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Flesh Gnaw", "fr": "Ronger Chair"},
+                {"en": "Decay Touch", "fr": "Toucher de Décomposition"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Scream", "fr": "Cri"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Undead", "Beasts"], "fr": ["Morts-vivants", "Bêtes"]},
+        "resistances": {"en": ["Elemental Spirits", "Mechanical Monsters"], "fr": ["Esprits Élémentaires", "Monstres Mécaniques"]},
+        "description": {"en": "A decomposing corpse, animated by a dark force. Its touch causes disease and fear.", 
+                        "fr": "Un cadavre en décomposition, animé par une force sombre. Son toucher cause maladie et peur."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 14, "speed": 11, "intelligence": 8
+    }),
+    Monster({
+        "name": {"en": "Cannibal", "fr": "Cannibale"},
+        "species": {"en": "Ghoul", "fr": "Ghoule"},
+        "health": 230, "level": 4,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Savage Bite", "fr": "Morsure Sauvage"},
+                {"en": "Flesh Feast", "fr": "Festin de Chair"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Ravage", "fr": "Ravage"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Undead", "Beasts"], "fr": ["Morts-vivants", "Bêtes"]},
+        "resistances": {"en": ["Elemental Spirits", "Mechanical Monsters"], "fr": ["Esprits Élémentaires", "Monstres Mécaniques"]},
+        "description": {"en": "A man-eating ghoul, mercilessly devouring its kin. Its thirst for human flesh is insatiable.", 
+                        "fr": "Une ghoule anthropophage, dévorant sans pitié ses semblables. Sa soif de chair humaine est insatiable."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 18, "speed": 15, "intelligence": 11
+    }),
+    Monster({
+        "name": {"en": "Shambling Horror", "fr": "Horreur Déambulante"},
+        "species": {"en": "Ghoul", "fr": "Ghoule"},
+        "health": 240, "level": 5,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Grasp", "fr": "Saisie"},
+                {"en": "Lunge", "fr": "Fente"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Horrific Moan", "fr": "Gémissement Horrifique"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Undead", "Beasts"], "fr": ["Morts-vivants", "Bêtes"]},
+        "resistances": {"en": ["Elemental Spirits", "Mechanical Monsters"], "fr": ["Esprits Élémentaires", "Monstres Mécaniques"]},
+        "description": {"en": "A mass of decomposing flesh and bones, moving slowly but with terrifying strength.", 
+                        "fr": "Une masse de chair et d'os en décomposition, se déplaçant lentement mais avec une force terrifiante."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 20, "speed": 13, "intelligence": 13
+    }),
+    Monster({
+        "name": {"en": "Crypt Dweller", "fr": "Habitant de la Crypte"},
+        "species": {"en": "Ghoul", "fr": "Ghoule"},
+        "health": 215, "level": 4,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Gnaw", "fr": "Ronger"},
+                {"en": "Shadow Lurk", "fr": "Guetter dans l'Ombre"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Creeping Fear", "fr": "Peur Rampante"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Undead", "Beasts"], "fr": ["Morts-vivants", "Bêtes"]},
+        "resistances": {"en": ["Elemental Spirits", "Mechanical Monsters"], "fr": ["Esprits Élémentaires", "Monstres Mécaniques"]},
+        "description": {"en": "A ghoul that haunts the crypts, emerging from the shadows to attack and frighten its prey.", 
+                        "fr": "Une ghoule qui hante les cryptes, émergeant des ombres pour attaquer et effrayer sa proie."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 16, "speed": 16, "intelligence": 10
+    }),
+    Monster({
+        "name": {"en": "Lurking Ghoul", "fr": "Ghoule Tapie"},
+        "species": {"en": "Ghoul", "fr": "Ghoule"},
+        "health": 205, "level": 3,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Slime Attack", "fr": "Attaque de Slime"},
+                {"en": "Ghoul Rush", "fr": "Charge de Ghoule"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Maim", "fr": "Mutiler"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Undead", "Beasts"], "fr": ["Morts-vivants", "Bêtes"]},
+        "resistances": {"en": ["Elemental Spirits", "Mechanical Monsters"], "fr": ["Esprits Élémentaires", "Monstres Mécaniques"]},
+        "description": {"en": "A slimy, slippery ghoul that springs from the darkness to surprise and tear apart its victims.", 
+                        "fr": "Une ghoule visqueuse et glissante qui surgit des ténèbres pour surprendre et déchirer ses victimes."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 15, "speed": 14, "intelligence": 9
+    }),
+   
