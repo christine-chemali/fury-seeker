@@ -570,4 +570,146 @@ monsters = [
         "rarity": {"en": "rare", "fr": "rare"},
         "defense": 19, "speed": 29, "intelligence": 10
     }),
+
+    # Humanoids    
+    Monster({
+        "name": {"en": "Knight", "fr": "Chevalier"},
+        "species": {"en": "Humanoid", "fr": "Humanoïde"},
+        "health": 210, "level": 4,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Sword Slash", "fr": "Coup d'Épée"},
+                {"en": "Charge Forward", "fr": "Charge en Avant"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Shield Block", "fr": "Blocage de Bouclier"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Spiritual Entities"], "fr": ["Monstres Mécaniques", "Entités Spirituelles"]},
+        "resistances": {"en": ["Dragons", "Ghouls"], "fr": ["Dragons", "Ghoules"]},
+        "description": {"en": "A brave knight, protector of his kingdom, wielding his sword with honor and determination. Always ready to defend the innocent.", 
+                        "fr": "Un chevalier brave, protecteur de son royaume, maniant son épée avec honneur et détermination. Toujours prêt à défendre les innocents."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 22, "speed": 16, "intelligence": 14
+    }),
+    Monster({
+        "name": {"en": "Rogue", "fr": "Voleur"},
+        "species": {"en": "Humanoid", "fr": "Humanoïde"},
+        "health": 190, "level": 3,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Dagger Thrust", "fr": "Poussée de Dague"},
+                {"en": "Sneak Attack", "fr": "Attaque Sournoise"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Smoke Bomb", "fr": "Bombe Fumigène"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Spiritual Entities"], "fr": ["Monstres Mécaniques", "Entités Spirituelles"]},
+        "resistances": {"en": ["Dragons", "Ghouls"], "fr": ["Dragons", "Ghoules"]},
+        "description": {"en": "An agile and stealthy thief, moving in the shadows to strike his enemies by surprise and escape unseen.", 
+                        "fr": "Un voleur agile et furtif, se déplaçant dans l'ombre pour frapper ses ennemis par surprise et s'échapper sans être vu."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 15, "speed": 20, "intelligence": 15
+    }),
+    Monster({
+        "name": {"en": "Paladin", "fr": "Paladin"},
+        "species": {"en": "Humanoid", "fr": "Humanoïde"},
+        "health": 220, "level": 5,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Holy Strike", "fr": "Frappe Sacrée"},
+                {"en": "Smite", "fr": "Frappe Divine"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Divine Shield", "fr": "Bouclier Divin"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Spiritual Entities"], "fr": ["Monstres Mécaniques", "Entités Spirituelles"]},
+        "resistances": {"en": ["Dragons", "Ghouls"], "fr": ["Dragons", "Ghoules"]},
+        "description": {"en": "A sacred paladin, defender of faith and justice, capable of channeling divine power to protect his allies.", 
+                        "fr": "Un paladin sacré, défenseur de la foi et de la justice, capable de canaliser une puissance divine pour protéger ses alliés."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 24, "speed": 17, "intelligence": 18
+    }),
+    Monster({
+        "name": {"en": "Archer", "fr": "Archer"},
+        "species": {"en": "Humanoid", "fr": "Humanoïde"},
+        "health": 200, "level": 4,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Arrow Shot", "fr": "Tir de Flèche"},
+                {"en": "Multi-Shot", "fr": "Tir Multiple"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Eagle Eye", "fr": "Oeil d'Aigle"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Spiritual Entities"], "fr": ["Monstres Mécaniques", "Entités Spirituelles"]},
+        "resistances": {"en": ["Dragons", "Ghouls"], "fr": ["Dragons", "Ghoules"]},
+        "description": {"en": "An expert archer, capable of firing arrows with great precision, striking his targets from a distance.", 
+                        "fr": "Un archer expert, capable de tirer des flèches avec une grande précision, frappant ses cibles à distance."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 16, "speed": 22, "intelligence": 14
+    }),
+    Monster({
+        "name": {"en": "Bard", "fr": "Barde"},
+        "species": {"en": "Humanoid", "fr": "Humanoïde"},
+        "health": 180, "level": 3,
+        "attack_types": [
+            {"type": {"en": "support", "fr": "soutien"}, "moves": [
+                {"en": "Inspire", "fr": "Inspirer"},
+                {"en": "Song of Courage", "fr": "Chanson de Courage"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Soothing Melody", "fr": "Mélodie Apaisante"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Spiritual Entities"], "fr": ["Monstres Mécaniques", "Entités Spirituelles"]},
+        "resistances": {"en": ["Dragons", "Ghouls"], "fr": ["Dragons", "Ghoules"]},
+        "description": {"en": "A talented bard, using music to inspire his allies and soothe their fears during battle.", 
+                        "fr": "Un barde talentueux, utilisant la musique pour inspirer ses alliés et apaiser leurs peurs pendant le combat."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 12, "speed": 18, "intelligence": 18
+    }),
+    Monster({
+        "name": {"en": "Mage", "fr": "Mage"},
+        "species": {"en": "Humanoid", "fr": "Humanoïde"},
+        "health": 170, "level": 3,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Fireball", "fr": "Boulet de Feu"},
+                {"en": "Arcane Blast", "fr": "Explosion Arcanique"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Frost Nova", "fr": "Nova de Gel"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Spiritual Entities"], "fr": ["Monstres Mécaniques", "Entités Spirituelles"]},
+        "resistances": {"en": ["Dragons", "Ghouls"], "fr": ["Dragons", "Ghoules"]},
+        "description": {"en": "A powerful mage, wielding the arcane arts with skill, capable of casting devastating spells on his enemies.", 
+                        "fr": "Un mage puissant, maniant les arts arcanes avec habileté, capable de lancer des sorts dévastateurs sur ses ennemis."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 14, "speed": 19, "intelligence": 22
+    }),
+    Monster({
+        "name": {"en": "Warrior", "fr": "Guerrier"},
+        "species": {"en": "Humanoid", "fr": "Humanoïde"},
+        "health": 240, "level": 6,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Heavy Slam", "fr": "Écrasement Puissant"},
+                {"en": "Battle Cry", "fr": "Cri de Guerre"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Warrior's Might", "fr": "Force du Guerrier"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Spiritual Entities"], "fr": ["Monstres Mécaniques", "Entités Spirituelles"]},
+        "resistances": {"en": ["Dragons", "Ghouls"], "fr": ["Dragons", "Ghoules"]},
+        "description": {"en": "A hardened warrior, formidable in close combat, using his brute strength to crush his opponents.", 
+                        "fr": "Un guerrier aguerri, redoutable au combat rapproché, utilisant sa force brute pour écraser ses adversaires."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 25, "speed": 18, "intelligence": 13
+    }),
   
