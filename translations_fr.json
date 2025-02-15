@@ -105,3 +105,108 @@
             "speed": 20,
             "intelligence": 18
         },
+        {
+            "name": "Mangeur de Chair",
+            "species": "Ghoule",
+            "description": "Une créature affamée qui dévore tout sur son passage, ne laissant que des os derrière elle. Sa voracité est légendaire.",
+            "attack_types": {
+                "physical": ["Dévorer", "Griffe"],
+                "spiritual": ["Déchirement de Chair"]
+            },
+            "weaknesses": ["Morts-vivants", "Bêtes"],
+            "resistances": ["Esprits Élémentaires", "Monstres Mécaniques"],
+            "rarity": "rare",
+            "defense": 15,
+            "speed": 12,
+            "intelligence": 10
+        },
+        {
+            "name": "Marcheur de Tombe",
+            "species": "Ghoule",
+            "description": "Une ghoule qui erre entre les tombes, se nourrissant des cœurs des vivants tout en répandant la terreur à chaque pas.",
+            "attack_types": {
+                "magic": ["Terroriser", "Festin"],
+                "spiritual": ["Saisie de Tombe"]
+            },
+            "weaknesses": ["Morts-vivants", "Bêtes"],
+            "resistances": ["Esprits Élémentaires", "Monstres Mécaniques"],
+            "rarity": "commun",
+            "defense": 17,
+            "speed": 14,
+            "intelligence": 12
+        },
+        {
+            "name": "Cadavre en Décomposition",
+            "species": "Ghoule",
+            "description": "Un cadavre en décomposition, animé par une force sombre. Son toucher cause maladie et peur.",
+            "attack_types": {
+                "physical": ["Ronger Chair", "Toucher de Décomposition"],
+                "spiritual": ["Cri"]
+            },
+            "weaknesses": ["Morts-vivants", "Bêtes"],
+            "resistances": ["Esprits Élémentaires", "Monstres Mécaniques"],
+            "rarity": "commun",
+            "defense": 14,
+            "speed": 11,
+            "intelligence": 8
+        },
+        {
+            "name": "Cannibale",
+            "species": "Ghoule",
+            "description": "Une ghoule anthropophage, dévorant sans pitié ses semblables. Sa soif de chair humaine est insatiable.",
+            "attack_types": {
+                "physical": ["Morsure Sauvage", "Festin de Chair"],
+                "spiritual": ["Ravage"]
+            },
+            "weaknesses": ["Morts-vivants", "Bêtes"],
+            "resistances": ["Esprits Élémentaires", "Monstres Mécaniques"],
+            "rarity": "rare",
+            "defense": 18,
+            "speed": 15,
+            "intelligence": 11
+        },
+        {
+            "name": "Horreur Déambulante",
+            "species": "Ghoule",
+            "description": "Une masse de chair et d'os en décomposition, se déplaçant lentement mais avec une force terrifiante.",
+            "attack_types": {
+                "physical": ["Saisie", "Fente"],
+                "spiritual": ["Gémissement Horrifique"]
+            },
+            "weaknesses": ["Morts-vivants", "Bêtes"],
+            "resistances": ["Esprits Élémentaires", "Monstres Mécaniques"],
+            "rarity": "rare",
+            "defense": 20,
+            "speed": 13,
+            "intelligence": 13
+        },
+        {
+            "name": "Habitant de la Crypte",
+            "species": "Ghoule",
+            "description": "Une ghoule qui hante les cryptes, émergeant des ombres pour attaquer et effrayer sa proie.",
+            "attack_types": {
+                "magic": ["Ronger", "Guetter dans l'Ombre"],
+                "spiritual": ["Peur Rampante"]
+            },
+            "weaknesses": ["Morts-vivants", "Bêtes"],
+            "resistances": ["Esprits Élémentaires", "Monstres Mécaniques"],
+            "rarity": "commun",
+            "defense": 16,
+            "speed": 16,
+            "intelligence": 10
+        },
+        {
+            "name": "Ghoule Tapie",
+            "species": "Ghoule",
+            "description": "Une ghoule visqueuse et glissante qui surgit des ténèbres pour surprendre et déchirer ses victimes.",
+            "attack_types": {
+                "physical": ["Attaque de Slime", "Charge de Ghoule"],
+                "spiritual": ["Mutiler"]
+            },
+            "weaknesses": ["Morts-vivants", "Bêtes"],
+            "resistances": ["Esprits Élémentaires", "Monstres Mécaniques"],
+            "rarity": "commun",
+            "defense": 15,
+            "speed": 14,
+            "intelligence": 9
+        },
