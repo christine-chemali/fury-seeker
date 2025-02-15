@@ -1261,3 +1261,144 @@ monsters = [
         "defense": 13, "speed": 19, "intelligence": 21
     }),
  
+# Undeads
+    Monster({
+        "name": {"en": "Skeleton", "fr": "Squelette"},
+        "species": {"en": "Undead", "fr": "Mort-vivant"},
+        "health": 180, "level": 3,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Bone Slash", "fr": "Coup de Os"},
+                {"en": "Cursed Strike", "fr": "Frappe Maudite"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Rattle", "fr": "Secouer"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Humanoids", "Ghouls"], "fr": ["Humanoïdes", "Ghoules"]},
+        "resistances": {"en": ["Angels", "Elemental Spirits"], "fr": ["Anges", "Esprits Élémentaires"]},
+        "description": {"en": "An animated skeleton, wandering in the night, using its bones to attack and frighten its enemies with unsettling sounds.", 
+                        "fr": "Un squelette animé, errant dans la nuit, utilisant ses os pour attaquer et effrayer ses ennemis avec des sons troublants."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 12, "speed": 18, "intelligence": 10
+    }),
+    Monster({
+        "name": {"en": "Zombie", "fr": "Zombie"},
+        "species": {"en": "Undead", "fr": "Mort-vivant"},
+        "health": 200, "level": 4,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Bite", "fr": "Morsure"},
+                {"en": "Claw", "fr": "Griffe"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Undead Fury", "fr": "Fureur des Morts-vivants"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Humanoids", "Ghouls"], "fr": ["Humanoïdes", "Ghoules"]},
+        "resistances": {"en": ["Angels", "Elemental Spirits"], "fr": ["Anges", "Esprits Élémentaires"]},
+        "description": {"en": "A slow yet relentless zombie, drawn to fresh flesh, capable of striking with brutal force.", 
+                        "fr": "Un zombie lent mais implacable, attiré par la chair fraîche, capable de frapper avec une force brutale."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 14, "speed": 15, "intelligence": 8
+    }),
+    Monster({
+        "name": {"en": "Lich", "fr": "Liche"},
+        "species": {"en": "Undead", "fr": "Mort-vivant"},
+        "health": 250, "level": 6,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Necromancy", "fr": "Nécromancie"},
+                {"en": "Life Drain", "fr": "Drain de Vie"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Dark Magic", "fr": "Magie Noire"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Humanoids", "Ghouls"], "fr": ["Humanoïdes", "Ghoules"]},
+        "resistances": {"en": ["Angels", "Elemental Spirits"], "fr": ["Anges", "Esprits Élémentaires"]},
+        "description": {"en": "A terrifying lich, master of necromancy, capable of draining the life from its enemies and controlling the undead.", 
+                        "fr": "Une liche terrifiante, maître de la nécromancie, capable de drainer la vie de ses ennemis et de contrôler les morts-vivants."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 20, "speed": 16, "intelligence": 30
+    }),
+    Monster({
+        "name": {"en": "Mummy", "fr": "Momie"},
+        "species": {"en": "Undead", "fr": "Mort-vivant"},
+        "health": 220, "level": 5,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Wrap", "fr": "Envelopper"},
+                {"en": "Despair", "fr": "Désespoir"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Curse", "fr": "Malédiction"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Humanoids", "Ghouls"], "fr": ["Humanoïdes", "Ghoules"]},
+        "resistances": {"en": ["Angels", "Elemental Spirits"], "fr": ["Anges", "Esprits Élémentaires"]},
+        "description": {"en": "A cursed mummy, wrapped in bandages, capable of inflicting curses and plunging its enemies into despair.", 
+                        "fr": "Une momie maudite, enveloppée dans des bandages, capable d'infliger des malédictions et de plonger ses ennemis dans le désespoir."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 18, "speed": 14, "intelligence": 15
+    }),
+    Monster({
+        "name": {"en": "Ghast", "fr": "Ghast"},
+        "species": {"en": "Undead", "fr": "Mort-vivant"},
+        "health": 210, "level": 4,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Rotting Touch", "fr": "Toucher Pourrissant"},
+                {"en": "Chilling Grip", "fr": "Prise Glaciale"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Fear", "fr": "Peur"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Humanoids", "Ghouls"], "fr": ["Humanoïdes", "Ghoules"]},
+        "resistances": {"en": ["Angels", "Elemental Spirits"], "fr": ["Anges", "Esprits Élémentaires"]},
+        "description": {"en": "A putrid ghast, capable of spreading fear and weakening its enemies with its decayed touch.", 
+                        "fr": "Un ghast putride, capable de répandre la peur et d'affaiblir ses ennemis avec son toucher en décomposition."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 16, "speed": 17, "intelligence": 12
+    }),
+    Monster({
+        "name": {"en": "Vampiric Skeleton", "fr": "Squelette Vampirique"},
+        "species": {"en": "Undead", "fr": "Mort-vivant"},
+        "health": 230, "level": 5,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Draining Strike", "fr": "Frappe Drainante"},
+                {"en": "Bone Throw", "fr": "Lancer d'Os"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Life Siphon", "fr": "Siphon de Vie"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Humanoids", "Ghouls"], "fr": ["Humanoïdes", "Ghoules"]},
+        "resistances": {"en": ["Angels", "Elemental Spirits"], "fr": ["Anges", "Esprits Élémentaires"]},
+        "description": {"en": "A vampiric skeleton, capable of siphoning life from its foes while attacking with its sharp bones.", 
+                        "fr": "Un squelette vampirique, capable de siphonner la vie de ses ennemis tout en attaquant avec ses os aiguisés."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 19, "speed": 18, "intelligence": 17
+    }),
+    Monster({
+        "name": {"en": "Death Knight", "fr": "Chevalier de la Mort"},
+        "species": {"en": "Undead", "fr": "Mort-vivant"},
+        "health": 240, "level": 6,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Dark Blade", "fr": "Lame Sombre"},
+                {"en": "Necrotic Blast", "fr": "Explosion Nécrotique"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Soul Harvest", "fr": "Récolte d'Âmes"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Humanoids", "Ghouls"], "fr": ["Humanoïdes", "Ghoules"]},
+        "resistances": {"en": ["Angels", "Elemental Spirits"], "fr": ["Anges", "Esprits Élémentaires"]},
+        "description": {"en": "A feared death knight, wielding a dark sword and capable of harvesting the souls of its enemies with necrotic attacks.", 
+                        "fr": "Un chevalier de la mort redouté, maniant une épée sombre et capable de récolter les âmes de ses ennemis avec des attaques nécrotiques."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 22, "speed": 15, "intelligence": 24
+    }),
