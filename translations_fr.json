@@ -825,3 +825,108 @@
             "speed": 20,
             "intelligence": 28
         },
+        {
+            "name": "Pixie",
+            "species": "Fée",
+            "description": "Un pixie espiègle, volant légèrement, utilisant sa poussière magique pour charmer et divertir ceux qui l'entourent.",
+            "attack_types": {
+                "magic": ["Poussière de Pixie", "Vol de Fée"],
+                "spiritual": ["Danse Enchantée"]
+            },
+            "weaknesses": ["Entités Spirituelles", "Bêtes de la Forêt"],
+            "resistances": ["Monstres Mécaniques", "Vampires"],
+            "rarity": "commun",
+            "defense": 10,
+            "speed": 25,
+            "intelligence": 18
+        },
+        {
+            "name": "Nymphe",
+            "species": "Fée",
+            "description": "Une nymphe gracieuse, protectrice de la nature, capable de guérir et de chanter des mélodies envoûtantes.",
+            "attack_types": {
+                "magic": ["Saisie de la Nature", "Chanson Enchantée"],
+                "spiritual": ["Toucher de Guérison"]
+            },
+            "weaknesses": ["Entités Spirituelles", "Bêtes de la Forêt"],
+            "resistances": ["Monstres Mécaniques", "Vampires"],
+            "rarity": "rare",
+            "defense": 12,
+            "speed": 22,
+            "intelligence": 20
+        },
+        {
+            "name": "Reine des Fées",
+            "species": "Fée",
+            "description": "La reine des fées, majestueuse et puissante, capable de bénir ses alliés et de lancer de puissants enchantements.",
+            "attack_types": {
+                "magic": ["Commande Royale", "Bénédiction de Fée"],
+                "spiritual": ["Enchantement"]
+            },
+            "weaknesses": ["Entités Spirituelles", "Bêtes de la Forêt"],
+            "resistances": ["Monstres Mécaniques", "Vampires"],
+            "rarity": "légendaire",
+            "defense": 14,
+            "speed": 20,
+            "intelligence": 25
+        },
+        {
+            "name": "Lueur Fantomatique",
+            "species": "Fée",
+            "description": "Une lueur fantomatique mystérieuse, errant dans la nuit, capable de guider les voyageurs perdus ou de les égarer.",
+            "attack_types": {
+                "magic": ["Clignotement de Lumière", "Lueur Mystique"],
+                "spiritual": ["Guide"]
+            },
+            "weaknesses": ["Entités Spirituelles", "Bêtes de la Forêt"],
+            "resistances": ["Monstres Mécaniques", "Vampires"],
+            "rarity": "commun",
+            "defense": 8,
+            "speed": 24,
+            "intelligence": 15
+        },
+        {
+            "name": "Gardien du Bosquet",
+            "species": "Fée",
+            "description": "Un gardien du bosquet, protecteur des forêts, utilisant la magie de la nature pour défendre son territoire.",
+            "attack_types": {
+                "magic": ["Bouclier de la Nature", "Étreinte de la Forêt"],
+                "spiritual": ["Fouet de Vigne"]
+            },
+            "weaknesses": ["Entités Spirituelles", "Bêtes de la Forêt"],
+            "resistances": ["Monstres Mécaniques", "Vampires"],
+            "rarity": "rare",
+            "defense": 15,
+            "speed": 18,
+            "intelligence": 22
+        },
+        {
+            "name": "Esprit Fey",
+            "species": "Fée",
+            "description": "Un esprit fey, capable de tromper et de ravir, utilisant l'illusion pour jouer des tours à ses ennemis.",
+            "attack_types": {
+                "magic": ["Charme", "Fourberie Fey"],
+                "spiritual": ["Illusion"]
+            },
+            "weaknesses": ["Entités Spirituelles", "Bêtes de la Forêt"],
+            "resistances": ["Monstres Mécaniques", "Vampires"],
+            "rarity": "commun",
+            "defense": 11,
+            "speed": 21,
+            "intelligence": 19
+        },
+        {
+            "name": "Fée Épineuse",
+            "species": "Fée",
+            "description": "Une fée épineuse, utilisant des épines pour attaquer et défendre, en harmonie avec la nature sauvage.",
+            "attack_types": {
+                "magic": ["Barrage d'Épines", "Colère de la Nature"],
+                "spiritual": ["Bouclier d'Épine"]
+            },
+            "weaknesses": ["Entités Spirituelles", "Bêtes de la Forêt"],
+            "resistances": ["Monstres Mécaniques", "Vampires"],
+            "rarity": "rare",
+            "defense": 13,
+            "speed": 19,
+            "intelligence": 21
+        },
