@@ -721,3 +721,108 @@
             "speed": 22,
             "intelligence": 17
         },
+        {
+            "name": "Fire Dragon",
+            "species": "Dragon",
+            "description": "A majestic fire dragon, capable of breathing devastating flames and plunging its enemies into chaos.",
+            "attack_types": {
+                "magic": ["Fire Breath", "Inferno Roar"],
+                "spiritual": ["Tail Swipe"]
+            },
+            "weaknesses": ["Elementals", "Demons"],
+            "resistances": ["Angels", "Ghouls"],
+            "rarity": "legendary",
+            "defense": 35,
+            "speed": 20,
+            "intelligence": 25
+        },
+        {
+            "name": "Ice Dragon",
+            "species": "Dragon",
+            "description": "A formidable ice dragon, capable of freezing its enemies with a chilling breath and crushing them with its wings.",
+            "attack_types": {
+                "magic": ["Frost Breath", "Icicle Spear"],
+                "spiritual": ["Wing Attack"]
+            },
+            "weaknesses": ["Elementals", "Demons"],
+            "resistances": ["Angels", "Ghouls"],
+            "rarity": "legendary",
+            "defense": 34,
+            "speed": 22,
+            "intelligence": 24
+        },
+        {
+            "name": "Lightning Dragon",
+            "species": "Dragon",
+            "description": "A fast and powerful lightning dragon, capable of unleashing electric storms upon its foes.",
+            "attack_types": {
+                "magic": ["Thunderstorm", "Static Charge"],
+                "spiritual": ["Electric Breath"]
+            },
+            "weaknesses": ["Elementals", "Demons"],
+            "resistances": ["Angels", "Ghouls"],
+            "rarity": "legendary",
+            "defense": 36,
+            "speed": 25,
+            "intelligence": 26
+        },
+        {
+            "name": "Earth Dragon",
+            "species": "Dragon",
+            "description": "A sturdy earth dragon, capable of causing earthquakes and fighting with the strength of nature.",
+            "attack_types": {
+                "magic": ["Stone Breath", "Rock Slide"],
+                "spiritual": ["Quake"]
+            },
+            "weaknesses": ["Elementals", "Demons"],
+            "resistances": ["Angels", "Ghouls"],
+            "rarity": "rare",
+            "defense": 38,
+            "speed": 18,
+            "intelligence": 22
+        },
+        {
+            "name": "Shadow Dragon",
+            "species": "Dragon",
+            "description": "A shadow dragon, mysterious and terrifying, capable of absorbing light and plunging its enemies into darkness.",
+            "attack_types": {
+                "magic": ["Dark Flame", "Nightmare Breath"],
+                "spiritual": ["Shadow Strike"]
+            },
+            "weaknesses": ["Elementals", "Demons"],
+            "resistances": ["Angels", "Ghouls"],
+            "rarity": "legendary",
+            "defense": 40,
+            "speed": 19,
+            "intelligence": 27
+        },
+        {
+            "name": "Gold Dragon",
+            "species": "Dragon",
+            "description": "A golden dragon, symbol of wealth and wisdom, capable of protecting its allies with a golden shield and breathing radiant flames.",
+            "attack_types": {
+                "magic": ["Radiant Breath", "Treasure Hoard"],
+                "spiritual": ["Golden Shield"]
+            },
+            "weaknesses": ["Elementals", "Demons"],
+            "resistances": ["Angels", "Ghouls"],
+            "rarity": "legendary",
+            "defense": 42,
+            "speed": 21,
+            "intelligence": 30
+        },
+        {
+            "name": "Silver Dragon",
+            "species": "Dragon",
+            "description": "A silver dragon, known for its kindness and bravery, capable of launching dazzling attacks and protecting the innocent.",
+            "attack_types": {
+                "magic": ["Silver Breath", "Shimmering Strike"],
+                "spiritual": ["Glittering Shield"]
+            },
+            "weaknesses": ["Elementals", "Demons"],
+            "resistances": ["Angels", "Ghouls"],
+            "rarity": "rare",
+            "defense": 41,
+            "speed": 20,
+            "intelligence": 28
+        },
