@@ -1351,3 +1351,108 @@
             "speed": 20,
             "intelligence": 31
         },
+        {
+            "name": "Unicorn",
+            "species": "Mythical Creature",
+            "description": "A legendary unicorn, symbol of purity, capable of healing wounds and bringing celestial blessings to the worthy.",
+            "attack_types": {
+                "magic": ["Healing Touch", "Celestial Blessing"],
+                "spiritual": ["Horn Charge"]
+            },
+            "weaknesses": ["Dragons", "Elementals"],
+            "resistances": ["Aliens", "Ghosts"],
+            "rarity": "legendary",
+            "defense": 25,
+            "speed": 22,
+            "intelligence": 25
+        },
+        {
+            "name": "Griffin",
+            "species": "Mythical Creature",
+            "description": "A majestic griffin, a blend of lion and eagle, capable of flying with agility and attacking with powerful claws.",
+            "attack_types": {
+                "physical": ["Claw Attack", "Talon Strike"],
+                "spiritual": ["Flight"]
+            },
+            "weaknesses": ["Dragons", "Elementals"],
+            "resistances": ["Aliens", "Ghosts"],
+            "rarity": "rare",
+            "defense": 30,
+            "speed": 25,
+            "intelligence": 22
+        },
+        {
+            "name": "Phoenix",
+            "species": "Mythical Creature",
+            "description": "A flamboyant phoenix, capable of rebirthing from its ashes, using fire to inflict damage and elevate its spirit into the skies.",
+            "attack_types": {
+                "magic": ["Fire Rebirth", "Ember Burst"],
+                "spiritual": ["Flame Wings"]
+            },
+            "weaknesses": ["Dragons", "Elementals"],
+            "resistances": ["Aliens", "Ghosts"],
+            "rarity": "legendary",
+            "defense": 28,
+            "speed": 24,
+            "intelligence": 27
+        },
+        {
+            "name": "Chimera",
+            "species": "Mythical Creature",
+            "description": "A terrifying chimera, a blend of multiple beasts, capable of breathing fire and attacking with beastly strength.",
+            "attack_types": {
+                "physical": ["Fire Breath", "Beastly Roar"],
+                "spiritual": ["Tail Swipe"]
+            },
+            "weaknesses": ["Dragons", "Elementals"],
+            "resistances": ["Aliens", "Ghosts"],
+            "rarity": "legendary",
+            "defense": 32,
+            "speed": 20,
+            "intelligence": 24
+        },
+        {
+            "name": "Hydra",
+            "species": "Mythical Creature",
+            "description": "A multi-headed hydra, capable of regenerating its wounds and inflicting devastating fury upon anyone who approaches.",
+            "attack_types": {
+                "physical": ["Regenerate", "Hydra's Fury"],
+                "spiritual": ["Multiple Heads"]
+            },
+            "weaknesses": ["Dragons", "Elementals"],
+            "resistances": ["Aliens", "Ghosts"],
+            "rarity": "legendary",
+            "defense": 34,
+            "speed": 19,
+            "intelligence": 23
+        },
+        {
+            "name": "Minotaur",
+            "species": "Mythical Creature",
+            "description": "A powerful minotaur, guardian of the labyrinths, capable of charging with force and mastering its environment with cunning.",
+            "attack_types": {
+                "physical": ["Charge", "Bull Rush"],
+                "spiritual": ["Maze Mastery"]
+            },
+            "weaknesses": ["Dragons", "Elementals"],
+            "resistances": ["Aliens", "Ghosts"],
+            "rarity": "rare",
+            "defense": 29,
+            "speed": 18,
+            "intelligence": 20
+        },
+        {
+            "name": "Sphinx",
+            "species": "Mythical Creature",
+            "description": "An enigmatic sphinx, keeper of secrets, capable of posing riddles and attacking with its sharp claws.",
+            "attack_types": {
+                "magic": ["Riddle", "Guardian's Challenge"],
+                "spiritual": ["Claw Attack"]
+            },
+            "weaknesses": ["Dragons", "Elementals"],
+            "resistances": ["Aliens", "Ghosts"],
+            "rarity": "rare",
+            "defense": 27,
+            "speed": 21,
+            "intelligence": 29
+        },
