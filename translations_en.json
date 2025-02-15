@@ -315,3 +315,109 @@
             "speed": 16,
             "intelligence": 12
         },
+
+        {
+            "name": "Wild Beast",
+            "species": "Beast",
+            "description": "A wild beast, fast and fierce, attacking with uncontrollable rage. It is the terror of the weak.",
+            "attack_types": {
+                "physical": ["Pounce", "Furious Charge"],
+                "spiritual": ["Bite"]
+            },
+            "weaknesses": ["Ghosts", "Fairies"],
+            "resistances": ["Vampires", "Elementals"],
+            "rarity": "common",
+            "defense": 22,
+            "speed": 30,
+            "intelligence": 10
+        },
+        {
+            "name": "Spirit Wolf",
+            "species": "Beast",
+            "description": "A spirit wolf, loyal and protective, able to gather a pack to hunt its enemies.",
+            "attack_types": {
+                "physical": ["Fang Strike", "Pack Mentality"],
+                "spiritual": ["Howl"]
+            },
+            "weaknesses": ["Ghosts", "Fairies"],
+            "resistances": ["Vampires", "Elementals"],
+            "rarity": "rare",
+            "defense": 18,
+            "speed": 25,
+            "intelligence": 12
+        },
+        {
+            "name": "Feral Cat",
+            "species": "Beast",
+            "description": "A wild feline, agile and unpredictable, using its agility to escape predators.",
+            "attack_types": {
+                "physical": ["Scratch", "Pounce"],
+                "spiritual": ["Quick Escape"]
+            },
+            "weaknesses": ["Ghosts", "Fairies"],
+            "resistances": ["Vampires", "Elementals"],
+            "rarity": "common",
+            "defense": 13,
+            "speed": 28,
+            "intelligence": 9
+        },
+        {
+            "name": "Mountain Lion",
+            "species": "Beast",
+            "description": "A powerful mountain feline, a fearsome predator and agile hunter, capable of surprise attacks.",
+            "attack_types": {
+                "physical": ["Claw Slash", "Ambush"],
+                "spiritual": ["Roar"]
+            },
+            "weaknesses": ["Ghosts", "Fairies"],
+            "resistances": ["Vampires", "Elementals"],
+            "rarity": "rare",
+            "defense": 20,
+            "speed": 27,
+            "intelligence": 11
+        },
+        {
+            "name": "Dire Wolf",
+            "species": "Beast",
+            "description": "A wolf of darkness, leader of a ruthless pack, capable of coordinating group attacks.",
+            "attack_types": {
+                "physical": ["Pack Attack", "Bite"],
+                "spiritual": ["Howl of Fury"]
+            },
+            "weaknesses": ["Ghosts", "Fairies"],
+            "resistances": ["Vampires", "Elementals"],
+            "rarity": "common",
+            "defense": 17,
+            "speed": 23,
+            "intelligence": 13
+        },
+        {
+            "name": "Giant Bear",
+            "species": "Beast",
+            "description": "A giant bear, a symbol of strength and power, capable of crushing its enemies with a single blow.",
+            "attack_types": {
+                "physical": ["Mighty Swipe", "Charge"],
+                "spiritual": ["Roar of the Wild"]
+            },
+            "weaknesses": ["Ghosts", "Fairies"],
+            "resistances": ["Vampires", "Elementals"],
+            "rarity": "legendary",
+            "defense": 35,
+            "speed": 8,
+            "intelligence": 12
+        },
+        {
+            "name": "Saber-Toothed Tiger",
+            "species": "Beast",
+            "description": "A prehistoric feline with sharp fangs and lightning speed, hunting with deadly swiftness.",
+            "attack_types": {
+                "physical": ["Fang Bite", "Quick Strike"],
+                "spiritual": ["Predator's Instinct"]
+            },
+            "weaknesses": ["Ghosts", "Fairies"],
+            "resistances": ["Vampires", "Elementals"],
+            "rarity": "rare",
+            "defense": 19,
+            "speed": 29,
+            "intelligence": 10
+        },
