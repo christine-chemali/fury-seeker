@@ -1,0 +1,107 @@
+{
+    "monsters": [
+        {
+            "name": "Count Dracula",
+            "species": "Vampire",
+            "description": "A legendary vampire, master of the night, feared for his intelligence and cruelty. He charms his victims before devouring them.",
+            "attack_types": {
+                "physical": ["Bite", "Blood Drain"],
+                "spiritual": ["Charm"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Angels", "Spiritual Entities"],
+            "rarity": "legendary",
+            "defense": 20,
+            "speed": 15,
+            "intelligence": 25
+        },
+        {
+            "name": "Nosferatu",
+            "species": "Vampire",
+            "description": "A nocturnal creature, stealthy and terrifying, capable of blending into the shadows to surprise its enemies.",
+            "attack_types": {
+                "physical": ["Suck Blood", "Shadow Step"],
+                "spiritual": ["Hypnotic Gaze"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Angels", "Spiritual Entities"],
+            "rarity": "rare",
+            "defense": 18,
+            "speed": 20,
+            "intelligence": 22
+        },
+        {
+            "name": "Vlad the Impaler",
+            "species": "Vampire",
+            "description": "A cruel prince known for his bloody methods. He inspires fear and devotion, manipulating those around him.",
+            "attack_types": {
+                "physical": ["Blood Feast", "Mist Form"],
+                "spiritual": ["Darkness"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Angels", "Spiritual Entities"],
+            "rarity": "legendary",
+            "defense": 25,
+            "speed": 18,
+            "intelligence": 28
+        },
+        {
+            "name": "Bloodsucker",
+            "species": "Vampire",
+            "description": "A bloodthirsty vampire, wandering in the darkness searching for innocent victims to devour.",
+            "attack_types": {
+                "physical": ["Vampiric Touch", "Chilling Embrace"],
+                "spiritual": ["Scream"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Angels", "Spiritual Entities"],
+            "rarity": "common",
+            "defense": 16,
+            "speed": 17,
+            "intelligence": 14
+        },
+        {
+            "name": "Bat Lord",
+            "species": "Vampire",
+            "description": "A vampire capable of transforming into a swarm of bats to escape his enemies or attack them.",
+            "attack_types": {
+                "physical": ["Screech", "Wing Slash"],
+                "spiritual": ["Bat Swarm"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Angels", "Spiritual Entities"],
+            "rarity": "rare",
+            "defense": 14,
+            "speed": 22,
+            "intelligence": 12
+        },
+        {
+            "name": "Shadow Stalker",
+            "species": "Vampire",
+            "description": "A shadow vampire, moving stealthily to attack its prey without warning.",
+            "attack_types": {
+                "physical": ["Shadow Strike", "Cloak of Shadows"],
+                "spiritual": ["Hypnotic Gaze"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Angels", "Spiritual Entities"],
+            "rarity": "common",
+            "defense": 15,
+            "speed": 18,
+            "intelligence": 16
+        },
+        {
+            "name": "Night Hunter",
+            "species": "Vampire",
+            "description": "A vampire who stalks his victims in the darkness of night, using terror to paralyze them.",
+            "attack_types": {
+                "physical": ["Nightmare", "Blood Dart"],
+                "spiritual": ["Veil of Darkness"]
+            },
+            "weaknesses": ["Humanoids", "Ghouls"],
+            "resistances": ["Angels", "Spiritual Entities"],
+            "rarity": "rare",
+            "defense": 17,
+            "speed": 20,
+            "intelligence": 18
+        },
