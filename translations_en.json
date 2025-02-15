@@ -1141,3 +1141,108 @@
             "speed": 15,
             "intelligence": 17
         },
+        {
+            "name": "Infernal Demon",
+            "species": "Demon",
+            "description": "An infernal demon, master of hellfire, capable of unleashing devastating wrath upon its enemies.",
+            "attack_types": {
+                "magic": ["Hellfire", "Infernal Wrath"],
+                "spiritual": ["Demonic Strike"]
+            },
+            "weaknesses": ["Angels", "Cyborgs"],
+            "resistances": ["Fairies", "Mechanical Monsters"],
+            "rarity": "legendary",
+            "defense": 35,
+            "speed": 20,
+            "intelligence": 28
+        },
+        {
+            "name": "Shadow Demon",
+            "species": "Demon",
+            "description": "A shadow demon, capable of plunging its enemies into nightmares and striking with stealthy attacks.",
+            "attack_types": {
+                "magic": ["Nightmare", "Cursed Shadow"],
+                "spiritual": ["Shadow Strike"]
+            },
+            "weaknesses": ["Angels", "Cyborgs"],
+            "resistances": ["Fairies", "Mechanical Monsters"],
+            "rarity": "rare",
+            "defense": 30,
+            "speed": 22,
+            "intelligence": 25
+        },
+        {
+            "name": "Succubus",
+            "species": "Demon",
+            "description": "A seductive succubus, using her charm to manipulate and drain the life force from her victims.",
+            "attack_types": {
+                "magic": ["Seduction", "Soul Drain"],
+                "spiritual": ["Charm"]
+            },
+            "weaknesses": ["Angels", "Cyborgs"],
+            "resistances": ["Fairies", "Mechanical Monsters"],
+            "rarity": "rare",
+            "defense": 25,
+            "speed": 24,
+            "intelligence": 30
+        },
+        {
+            "name": "Baal",
+            "species": "Demon",
+            "description": "Baal, the supreme demon, capable of causing cataclysms and performing dark rituals to amplify his power.",
+            "attack_types": {
+                "magic": ["Doomsday", "Destruction"],
+                "spiritual": ["Dark Ritual"]
+            },
+            "weaknesses": ["Angels", "Cyborgs"],
+            "resistances": ["Fairies", "Mechanical Monsters"],
+            "rarity": "legendary",
+            "defense": 40,
+            "speed": 18,
+            "intelligence": 35
+        },
+        {
+            "name": "Fell Beast",
+            "species": "Demon",
+            "description": "A cursed beast, capable of striking with brute force and charging at its enemies in a frenzy of rage.",
+            "attack_types": {
+                "physical": ["Claw", "Dark Charge"],
+                "spiritual": ["Fury"]
+            },
+            "weaknesses": ["Angels", "Cyborgs"],
+            "resistances": ["Fairies", "Mechanical Monsters"],
+            "rarity": "rare",
+            "defense": 28,
+            "speed": 19,
+            "intelligence": 18
+        },
+        {
+            "name": "Hellspawn",
+            "species": "Demon",
+            "description": "A child of darkness, capable of launching fireballs and howling to terrify its enemies.",
+            "attack_types": {
+                "magic": ["Fireball", "Demonic Howl"],
+                "spiritual": ["Inferno"]
+            },
+            "weaknesses": ["Angels", "Cyborgs"],
+            "resistances": ["Fairies", "Mechanical Monsters"],
+            "rarity": "common",
+            "defense": 22,
+            "speed": 21,
+            "intelligence": 16
+        },
+        {
+            "name": "Cursed Spirit",
+            "species": "Demon",
+            "description": "A cursed spirit, capable of cursing its enemies with piercing wails and invoking dark blessings.",
+            "attack_types": {
+                "magic": ["Wail", "Dark Blessing"],
+                "spiritual": ["Curse"]
+            },
+            "weaknesses": ["Angels", "Cyborgs"],
+            "resistances": ["Fairies", "Mechanical Monsters"],
+            "rarity": "common",
+            "defense": 20,
+            "speed": 17,
+            "intelligence": 22
+        },
