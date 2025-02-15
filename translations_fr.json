@@ -1770,4 +1770,114 @@
             "speed": 16,
             "intelligence": 23
         },
+        {
+            "name": "Assassin Cyborg",
+            "species": "Cyborg",
+            "description": "Un assassin cyborg, maître de l'infiltration et des frappes furtives, capable d'éliminer des cibles avec une précision chirurgicale.",
+            "attack_types": {
+                "physical": ["Frappe Furtive", "Ciblage Critique"],
+                "spiritual": ["Tir Laser"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Bêtes"],
+            "resistances": ["Dragons", "Anges"],
+            "rarity": "rare",
+            "defense": 22,
+            "speed": 25,
+            "intelligence": 28
+        },
+        {
+            "name": "Cyborg de Bataille",
+            "species": "Cyborg",
+            "description": "Un cyborg de bataille, armé de missiles et de force brute, capable de lancer des attaques tactiques dévastatrices sur le champ de bataille.",
+            "attack_types": {
+                "physical": ["Barrage de Missiles", "Coup de Bouclier"],
+                "spiritual": ["Manœuvre Tactique"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Bêtes"],
+            "resistances": ["Dragons", "Anges"],
+            "rarity": "légendaire",
+            "defense": 30,
+            "speed": 24,
+            "intelligence": 26
+        },
+        {
+            "name": "Seigneur Cybernétique",
+            "species": "Cyborg",
+            "description": "Un seigneur cybernétique, capable de pirater les esprits de ses ennemis et de se réparer avec une technologie avancée.",
+            "attack_types": {
+                "physical": ["Pirater le Cerveau", "Surrégime Mécanique"],
+                "spiritual": ["Guérison Nano"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Bêtes"],
+            "resistances": ["Dragons", "Anges"],
+            "rarity": "légendaire",
+            "defense": 35,
+            "speed": 20,
+            "intelligence": 34
+        },
+        {
+            "name": "Gardien Robo",
+            "species": "Cyborg",
+            "description": "Un gardien robotique, capable de créer des défenses laser et de protéger ses alliés avec des protocoles avancés.",
+            "attack_types": {
+                "physical": ["Défense Laser", "Protocole de Gardien"],
+                "spiritual": ["Bouclier Plasma"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Bêtes"],
+            "resistances": ["Dragons", "Anges"],
+            "rarity": "rare",
+            "defense": 32,
+            "speed": 21,
+            "intelligence": 27
+        },
+        {
+            "name": "Espion Android",
+            "species": "Cyborg",
+            "description": "Un espion android agile, capable d'infiltrer les lignes ennemies et d'extraire des données sensibles avec sa lame énergétique.",
+            "attack_types": {
+                "physical": ["Infiltration", "Lame Énergétique"],
+                "spiritual": ["Extraction de Données"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Bêtes"],
+            "resistances": ["Dragons", "Anges"],
+            "rarity": "commun",
+            "defense": 20,
+            "speed": 26,
+            "intelligence": 29
+        },
+        {
+            "name": "Soldat Cyborg",
+            "species": "Cyborg",
+            "description": "Un soldat cyborg entraîné pour le combat tactique, capable de s'adapter à différentes situations et de se défendre avec un bouclier de manifestation.",
+            "attack_types": {
+                "physical": ["Bouclier de Manifestation", "Tir Tactique"],
+                "spiritual": ["Adaptation au Combat"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Bêtes"],
+            "resistances": ["Dragons", "Anges"],
+            "rarity": "rare",
+            "defense": 28,
+            "speed": 23,
+            "intelligence": 25
+        },
+        {
+            "name": "Exécuteur Mécanique",
+            "species": "Cyborg",
+            "description": "Un exécuteur mécanique, capable de donner des coups écrasants et de lancer des assauts lourds contre ses ennemis.",
+            "attack_types": {
+                "physical": ["Coup Écrasant", "Assaut Lourd"],
+                "spiritual": ["Poing de Fer"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Bêtes"],
+            "resistances": ["Dragons", "Anges"],
+            "rarity": "légendaire",
+            "defense": 34,
+            "speed": 19,
+            "intelligence": 28
+        }
+    ]
+
+
+
     
+}    
