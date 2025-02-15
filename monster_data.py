@@ -1402,3 +1402,146 @@ monsters = [
         "rarity": {"en": "legendary", "fr": "légendaire"},
         "defense": 22, "speed": 15, "intelligence": 24
     }),
+
+# Beast of the forest
+    Monster({
+        "name": {"en": "Forest Guardian", "fr": "Gardien de la Forêt"},
+        "species": {"en": "Beast of the Forest", "fr": "Bête de la Forêt"},
+        "health": 220, "level": 5,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Camouflage", "fr": "Camouflage"},
+                {"en": "Forest's Fury", "fr": "Fureur de la Forêt"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Nature's Wrath", "fr": "Colère de la Nature"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Elemental Spirits", "Ghosts"], "fr": ["Esprits Élémentaires", "Fantômes"]},
+        "resistances": {"en": ["Demons", "Dragons"], "fr": ["Démons", "Dragons"]},
+        "description": {"en": "A forest guardian, protector of the woods, capable of camouflaging itself in its environment and unleashing nature's fury upon its enemies.", 
+                        "fr": "Un gardien de la forêt, protecteur des bois, capable de se camoufler dans son environnement et de déchaîner la fureur de la nature sur ses ennemis."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 24, "speed": 16, "intelligence": 20
+    }),
+    Monster({
+        "name": {"en": "Howling Lynx", "fr": "Lynx Hurleur"},
+        "species": {"en": "Beast of the Forest", "fr": "Bête de la Forêt"},
+        "health": 200, "level": 4,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Howl", "fr": "Hurlement"},
+                {"en": "Pounce", "fr": "Saut"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Silent Stalk", "fr": "Traque Silencieuse"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Elemental Spirits", "Ghosts"], "fr": ["Esprits Élémentaires", "Fantômes"]},
+        "resistances": {"en": ["Demons", "Dragons"], "fr": ["Démons", "Dragons"]},
+        "description": {"en": "A howling lynx, agile and stealthy, capable of moving silently through the woods and pouncing on its prey.", 
+                        "fr": "Un lynx hurleur, agile et furtif, capable de se déplacer silencieusement à travers les bois et de sauter sur sa proie."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 18, "speed": 22, "intelligence": 15
+    }),
+    Monster({
+        "name": {"en": "Giant Elk", "fr": "Élan Géant"},
+        "species": {"en": "Beast of the Forest", "fr": "Bête de la Forêt"},
+        "health": 250, "level": 6,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Charge", "fr": "Charge"},
+                {"en": "Stampede", "fr": "Stampede"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Nature's Call", "fr": "Appel de la Nature"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Elemental Spirits", "Ghosts"], "fr": ["Esprits Élémentaires", "Fantômes"]},
+        "resistances": {"en": ["Demons", "Dragons"], "fr": ["Démons", "Dragons"]},
+        "description": {"en": "A massive elk, powerful and majestic, capable of charging at its enemies with crushing force.", 
+                        "fr": "Un énorme élan, puissant et majestueux, capable de charger ses ennemis avec une force écrasante."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 26, "speed": 14, "intelligence": 12
+    }),
+    Monster({
+        "name": {"en": "Shadow Panther", "fr": "Panthère des Ombres"},
+        "species": {"en": "Beast of the Forest", "fr": "Bête de la Forêt"},
+        "health": 210, "level": 5,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Stealth Attack", "fr": "Attaque Furtive"},
+                {"en": "Claw", "fr": "Griffe"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Shadow Leap", "fr": "Saut des Ombres"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Elemental Spirits", "Ghosts"], "fr": ["Esprits Élémentaires", "Fantômes"]},
+        "resistances": {"en": ["Demons", "Dragons"], "fr": ["Démons", "Dragons"]},
+        "description": {"en": "A shadow panther, quick and silent, capable of striking its enemies by surprise and disappearing into the night.", 
+                        "fr": "Une panthère des ombres, rapide et silencieuse, capable de frapper ses ennemis par surprise et de disparaître dans la nuit."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 20, "speed": 23, "intelligence": 18
+    }),
+    Monster({
+        "name": {"en": "Elder Tree", "fr": "Arbre Ancien"},
+        "species": {"en": "Beast of the Forest", "fr": "Bête de la Forêt"},
+        "health": 300, "level": 7,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Root Bind", "fr": "Liaison de Racine"},
+                {"en": "Wooden Grasp", "fr": "Prise en Bois"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Nature's Shield", "fr": "Bouclier de la Nature"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Elemental Spirits", "Ghosts"], "fr": ["Esprits Élémentaires", "Fantômes"]},
+        "resistances": {"en": ["Demons", "Dragons"], "fr": ["Démons", "Dragons"]},
+        "description": {"en": "An ancient tree, alive and powerful, capable of immobilizing its enemies with its roots and protecting the forest.", 
+                        "fr": "Un arbre ancien, vivant et puissant, capable d'immobiliser ses ennemis avec ses racines et de protéger la forêt."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 35, "speed": 8, "intelligence": 16
+    }),
+    Monster({
+        "name": {"en": "Fae Fox", "fr": "Renard Fey"},
+        "species": {"en": "Beast of the Forest", "fr": "Bête de la Forêt"},
+        "health": 180, "level": 3,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Illusion", "fr": "Illusion"},
+                {"en": "Fey Trick", "fr": "Truc de Fey"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Quick Strike", "fr": "Frappe Rapide"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Elemental Spirits", "Ghosts"], "fr": ["Esprits Élémentaires", "Fantômes"]},
+        "resistances": {"en": ["Demons", "Dragons"], "fr": ["Démons", "Dragons"]},
+        "description": {"en": "A fey fox, cunning and agile, using illusions to deceive its enemies and strike quickly.", 
+                        "fr": "Un renard fey, rusé et agile, utilisant des illusions pour tromper ses ennemis et frapper rapidement."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 10, "speed": 25, "intelligence": 21
+    }),
+    Monster({
+        "name": {"en": "Vine Beast", "fr": "Bête de Vigne"},
+        "species": {"en": "Beast of the Forest", "fr": "Bête de la Forêt"},
+        "health": 230, "level": 5,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Vine Whip", "fr": "Fouet de Vigne"},
+                {"en": "Thorny Barrage", "fr": "Barrage Épineux"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Entangle", "fr": "Enchevêtrer"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Elemental Spirits", "Ghosts"], "fr": ["Esprits Élémentaires", "Fantômes"]},
+        "resistances": {"en": ["Demons", "Dragons"], "fr": ["Démons", "Dragons"]},
+        "description": {"en": "A vine beast, capable of attacking with vines and ensnaring its enemies with thorny strikes.", 
+                        "fr": "Une bête de vigne, capable d'attaquer avec des vignes et d'engluer ses ennemis avec des frappes épineuses."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 22, "speed": 15, "intelligence": 17
+    }),
+
