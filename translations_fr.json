@@ -1,0 +1,107 @@
+{
+    "monsters": [
+        {
+            "name": "Comte Dracula",
+            "species": "Vampire",
+            "description": "Un vampire légendaire, maître de la nuit, craint pour son intelligence et sa cruauté. Il charme ses victimes avant de les dévorer.",
+            "attack_types": {
+                "physical": ["Morsure", "Drain de Sang"],
+                "spiritual": ["Charme"]
+            },
+            "weaknesses": ["Humanoïdes", "Ghoules"],
+            "resistances": ["Anges", "Entités Spirituelles"],
+            "rarity": "légendaire",
+            "defense": 20,
+            "speed": 15,
+            "intelligence": 25
+        },
+        {
+            "name": "Nosferatu",
+            "species": "Vampire",
+            "description": "Une créature nocturne, furtive et terrifiante, capable de se fondre dans les ombres pour surprendre ses ennemis.",
+            "attack_types": {
+                "physical": ["Suce le Sang", "Pas de l'Ombre"],
+                "spiritual": ["Regard Hypnotique"]
+            },
+            "weaknesses": ["Humanoïdes", "Ghoules"],
+            "resistances": ["Anges", "Entités Spirituelles"],
+            "rarity": "rare",
+            "defense": 18,
+            "speed": 20,
+            "intelligence": 22
+        },
+        {
+            "name": "Vlad l'Empaleur",
+            "species": "Vampire",
+            "description": "Un prince cruel connu pour ses méthodes sanglantes. Il inspire la peur et la dévotion, manipulant ceux qui l'entourent.",
+            "attack_types": {
+                "physical": ["Festin de Sang", "Forme de Brume"],
+                "spiritual": ["Obscurité"]
+            },
+            "weaknesses": ["Humanoïdes", "Ghoules"],
+            "resistances": ["Anges", "Entités Spirituelles"],
+            "rarity": "légendaire",
+            "defense": 25,
+            "speed": 18,
+            "intelligence": 28
+        },
+        {
+            "name": "Sangsue",
+            "species": "Vampire",
+            "description": "Un vampire assoiffé de sang, errant dans l'obscurité à la recherche de victimes innocentes à dévorer.",
+            "attack_types": {
+                "physical": ["Toucher Vampirique", "Étreinte Glaciale"],
+                "spiritual": ["Cri"]
+            },
+            "weaknesses": ["Humanoïdes", "Ghoules"],
+            "resistances": ["Anges", "Entités Spirituelles"],
+            "rarity": "commun",
+            "defense": 16,
+            "speed": 17,
+            "intelligence": 14
+        },
+        {
+            "name": "Seigneur des Chauves-souris",
+            "species": "Vampire",
+            "description": "Un vampire capable de se transformer en essaim de chauves-souris pour échapper à ses ennemis ou les attaquer.",
+            "attack_types": {
+                "physical": ["Cri", "Coup d'Aile"],
+                "spiritual": ["Essaim de Chauves-souris"]
+            },
+            "weaknesses": ["Humanoïdes", "Ghoules"],
+            "resistances": ["Anges", "Entités Spirituelles"],
+            "rarity": "rare",
+            "defense": 14,
+            "speed": 22,
+            "intelligence": 12
+        },
+        {
+            "name": "Traqueur des Ombres",
+            "species": "Vampire",
+            "description": "Un vampire des ombres, se déplaçant furtivement pour attaquer sa proie sans avertir.",
+            "attack_types": {
+                "physical": ["Frappe de l'Ombre", "Cape des Ombres"],
+                "spiritual": ["Regard Hypnotique"]
+            },
+            "weaknesses": ["Humanoïdes", "Ghoules"],
+            "resistances": ["Anges", "Entités Spirituelles"],
+            "rarity": "commun",
+            "defense": 15,
+            "speed": 18,
+            "intelligence": 16
+        },
+        {
+            "name": "Chasseur de Nuit",
+            "species": "Vampire",
+            "description": "Un vampire qui traque ses victimes dans l'obscurité de nuit, utilisant la terreur pour les paralyser.",
+            "attack_types": {
+                "physical": ["Cauchemar", "Flèche de Sang"],
+                "spiritual": ["Voile des Ténèbres"]
+            },
+            "weaknesses": ["Humanoïdes", "Ghoules"],
+            "resistances": ["Anges", "Entités Spirituelles"],
+            "rarity": "rare",
+            "defense": 17,
+            "speed": 20,
+            "intelligence": 18
+        },
