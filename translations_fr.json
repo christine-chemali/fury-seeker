@@ -1245,3 +1245,108 @@
             "speed": 17,
             "intelligence": 22
         },
+        {
+            "name": "Séraphin",
+            "species": "Ange",
+            "description": "Un séraphin majestueux, porteur de lumière divine, capable d'infliger des coups sacrés et de protéger les innocents avec son bouclier céleste.",
+            "attack_types": {
+                "magic": ["Lumière Divine", "Bouclier Céleste"],
+                "spiritual": ["Frappe Sacrée"]
+            },
+            "weaknesses": ["Démons", "Morts-vivants"],
+            "resistances": ["Éléments", "Bêtes"],
+            "rarity": "légendaire",
+            "defense": 38,
+            "speed": 22,
+            "intelligence": 30
+        },
+        {
+            "name": "Chérubin",
+            "species": "Ange",
+            "description": "Un chérubin espiègle, capable de créer des boucliers éthérés et de répandre une lumière de guérison à ceux qui en ont besoin.",
+            "attack_types": {
+                "magic": ["Bouclier Éthéré", "Protection Divine"],
+                "spiritual": ["Lumière de Guérison"]
+            },
+            "weaknesses": ["Démons", "Morts-vivants"],
+            "resistances": ["Éléments", "Bêtes"],
+            "rarity": "rare",
+            "defense": 30,
+            "speed": 24,
+            "intelligence": 26
+        },
+        {
+            "name": "Archange",
+            "species": "Ange",
+            "description": "Un archange puissant, capable de déchaîner la colère divine et d'intervenir dans les batailles pour apporter la justice.",
+            "attack_types": {
+                "magic": ["Colère Sacrée", "Lumière de la Justice"],
+                "spiritual": ["Intervention Divine"]
+            },
+            "weaknesses": ["Démons", "Morts-vivants"],
+            "resistances": ["Éléments", "Bêtes"],
+            "rarity": "légendaire",
+            "defense": 36,
+            "speed": 20,
+            "intelligence": 32
+        },
+        {
+            "name": "Ange Gardien",
+            "species": "Ange",
+            "description": "Un ange gardien, protecteur des âmes, capable de créer une aura de protection et de sauver ceux en danger.",
+            "attack_types": {
+                "magic": ["Aura de Protection", "Faisceau de Lumière"],
+                "spiritual": ["Sauvetage"]
+            },
+            "weaknesses": ["Démons", "Morts-vivants"],
+            "resistances": ["Éléments", "Bêtes"],
+            "rarity": "rare",
+            "defense": 34,
+            "speed": 18,
+            "intelligence": 28
+        },
+        {
+            "name": "Être Céleste",
+            "species": "Ange",
+            "description": "Un être céleste, rayonnant de lumière, capable de frapper avec la puissance des cieux et de protéger avec un bouclier radieux.",
+            "attack_types": {
+                "magic": ["Éclat de Lumière", "Bouclier Radieux"],
+                "spiritual": ["Frappe Céleste"]
+            },
+            "weaknesses": ["Démons", "Morts-vivants"],
+            "resistances": ["Éléments", "Bêtes"],
+            "rarity": "commun",
+            "defense": 28,
+            "speed": 19,
+            "intelligence": 25
+        },
+        {
+            "name": "Ange de la Justice",
+            "species": "Ange",
+            "description": "Un ange de la justice, maniant le pouvoir du jugement, capable de frapper ses ennemis avec des attaques divines.",
+            "attack_types": {
+                "magic": ["Jugement", "Bouclier Divin"],
+                "spiritual": ["Frappe"]
+            },
+            "weaknesses": ["Démons", "Morts-vivants"],
+            "resistances": ["Éléments", "Bêtes"],
+            "rarity": "légendaire",
+            "defense": 37,
+            "speed": 21,
+            "intelligence": 29
+        },
+        {
+            "name": "Porteur de Lumière",
+            "species": "Ange",
+            "description": "Un porteur de lumière, capable de purifier l'obscurité avec des flammes sacrées et d'inspirer l'espoir chez les opprimés.",
+            "attack_types": {
+                "magic": ["Bouclier Radieux", "Lumière d'Espoir"],
+                "spiritual": ["Flamme Purificatrice"]
+            },
+            "weaknesses": ["Démons", "Morts-vivants"],
+            "resistances": ["Éléments", "Bêtes"],
+            "rarity": "légendaire",
+            "defense": 39,
+            "speed": 20,
+            "intelligence": 31
+        },
