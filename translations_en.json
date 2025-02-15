@@ -526,3 +526,108 @@
             "speed": 18,
             "intelligence": 13
         },
+        {
+            "name": "Wraith",
+            "species": "Ghost",
+            "description": "A spectral wraith, wandering between worlds, capable of stealing the souls of its victims and moving through walls.",
+            "attack_types": {
+                "magic": ["Haunt", "Ethereal Walk"],
+                "spiritual": ["Soul Steal"]
+            },
+            "weaknesses": ["Undead", "Angels"],
+            "resistances": ["Demons", "Elemental Spirits"],
+            "rarity": "rare",
+            "defense": 18,
+            "speed": 20,
+            "intelligence": 22
+        },
+        {
+            "name": "Phantom",
+            "species": "Ghost",
+            "description": "A vengeful ghost, capable of entering the minds of the living to control them and torment them with its enchanting melody.",
+            "attack_types": {
+                "magic": ["Spectral Slash", "Haunting Melody"],
+                "spiritual": ["Possession"]
+            },
+            "weaknesses": ["Undead", "Angels"],
+            "resistances": ["Demons", "Elemental Spirits"],
+            "rarity": "legendary",
+            "defense": 20,
+            "speed": 19,
+            "intelligence": 24
+        },
+        {
+            "name": "Banshee",
+            "species": "Ghost",
+            "description": "A banshee, harbinger of death, whose piercing scream can paralyze with fear those who hear it.",
+            "attack_types": {
+                "magic": ["Scream", "Wail of the Damned"],
+                "spiritual": ["Lament"]
+            },
+            "weaknesses": ["Undead", "Angels"],
+            "resistances": ["Demons", "Elemental Spirits"],
+            "rarity": "legendary",
+            "defense": 19,
+            "speed": 18,
+            "intelligence": 21
+        },
+        {
+            "name": "Spirit",
+            "species": "Ghost",
+            "description": "A wandering spirit, capable of instilling fear with its chilling touch and grasping its enemies in a spectral embrace.",
+            "attack_types": {
+                "magic": ["Ethereal Touch", "Ghostly Grasp"],
+                "spiritual": ["Frighten"]
+            },
+            "weaknesses": ["Undead", "Angels"],
+            "resistances": ["Demons", "Elemental Spirits"],
+            "rarity": "common",
+            "defense": 15,
+            "speed": 16,
+            "intelligence": 15
+        },
+        {
+            "name": "Revenant",
+            "species": "Ghost",
+            "description": "A revenant, haunted by its desire for vengeance, capable of cursing its enemies and resisting physical attacks.",
+            "attack_types": {
+                "magic": ["Vengeful Strike", "Spectral Shield"],
+                "spiritual": ["Curse"]
+            },
+            "weaknesses": ["Undead", "Angels"],
+            "resistances": ["Demons", "Elemental Spirits"],
+            "rarity": "rare",
+            "defense": 22,
+            "speed": 17,
+            "intelligence": 20
+        },
+        {
+            "name": "Haunting Specter",
+            "species": "Ghost",
+            "description": "A haunted specter, capable of inducing nightmares and frightening those who dare approach it.",
+            "attack_types": {
+                "magic": ["Chilling Grasp", "Ghostly Howl"],
+                "spiritual": ["Nightmare"]
+            },
+            "weaknesses": ["Undead", "Angels"],
+            "resistances": ["Demons", "Elemental Spirits"],
+            "rarity": "common",
+            "defense": 16,
+            "speed": 18,
+            "intelligence": 18
+        },
+        {
+            "name": "Ghostly Knight",
+            "species": "Ghost",
+            "description": "A ghostly knight, guardian of lost souls, wielding a spectral sword and eternally watching over its domain.",
+            "attack_types": {
+                "magic": ["Haunting Blade", "Eternal Vigilance"],
+                "spiritual": ["Phantom Charge"]
+            },
+            "weaknesses": ["Undead", "Angels"],
+            "resistances": ["Demons", "Elemental Spirits"],
+            "rarity": "legendary",
+            "defense": 21,
+            "speed": 15,
+            "intelligence": 23
+        },
