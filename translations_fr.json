@@ -630,3 +630,93 @@
             "speed": 15,
             "intelligence": 23
         },
+        {
+            "name": "Golem de Fer",
+            "species": "Monstre Mécanique",
+            "description": "Un énorme golem de fer, implacable et résistant, capable d'écraser ses ennemis avec une force brute inégalée.",
+            "attack_types": {
+                "physical": ["Écraser", "Prise de Fer"],
+                "spiritual": ["Garde"]
+            },
+            "weaknesses": ["Cyborgs", "Bêtes"],
+            "resistances": ["Fées", "Vampires"],
+            "rarity": "légendaire",
+            "defense": 40,
+            "speed": 10,
+            "intelligence": 15
+        },
+        {
+            "name": "Chevalier à Remontage",
+            "species": "Monstre Mécanique",
+            "description": "Un chevalier à ressort, rapide et agile, maniant une épée tranchante avec précision tout en protégeant son maître.",
+            "attack_types": {
+                "physical": ["Tourbillon de Lame", "Frappe Précise"],
+                "spiritual": ["Coup de Bouclier"]
+            },
+            "weaknesses": ["Cyborgs", "Bêtes"],
+            "resistances": ["Fées", "Vampires"],
+            "rarity": "rare",
+            "defense": 30,
+            "speed": 20,
+            "intelligence": 18
+        },
+        {
+            "name": "Béhémoth d'Acier",
+            "species": "Monstre Mécanique",
+            "description": "Un colossal béhémoth d'acier, capable de faire trembler le sol sous son poids et de détruire tout sur son passage.",
+            "attack_types": {
+                "physical": ["Écraser", "Colère du Titan"],
+                "spiritual": ["Poing de Fer"]
+            },
+            "weaknesses": ["Cyborgs", "Bêtes"],
+            "resistances": ["Fées", "Vampires"],
+            "rarity": "légendaire",
+            "defense": 45,
+            "speed": 8,
+            "intelligence": 12
+        },
+        {
+            "name": "Automate",
+            "species": "Monstre Mécanique",
+            "description": "Un automate sophistiqué, capable de tirer des lasers et de s'auto-réparer, rendant chaque bataille plus difficile.",
+            "attack_types": {
+                "physical": ["Faisceau Laser", "Auto-Réparation"],
+                "spiritual": ["Frappe Mécanisée"]
+            },
+            "weaknesses": ["Cyborgs", "Bêtes"],
+            "resistances": ["Fées", "Vampires"],
+            "rarity": "rare",
+            "defense": 25,
+            "speed": 15,
+            "intelligence": 20
+        },
+        {
+            "name": "Guerrier Robot",
+            "species": "Monstre Mécanique",
+            "description": "Un guerrier robot, maniant des armes avancées et utilisant des techniques de combat pour anéantir ses ennemis.",
+            "attack_types": {
+                "physical": ["Coup de Poing Fusée", "Coupe Plasma"],
+                "spiritual": ["Manœuvre de Combat"]
+            },
+            "weaknesses": ["Cyborgs", "Bêtes"],
+            "resistances": ["Fées", "Vampires"],
+            "rarity": "rare",
+            "defense": 28,
+            "speed": 18,
+            "intelligence": 19
+        },
+        {
+            "name": "Drone de Combat",
+            "species": "Monstre Mécanique",
+            "description": "Un drone de combat, capable de lancer des missiles avec une grande précision, causant une destruction massive.",
+            "attack_types": {
+                "physical": ["Barrages de Missiles", "Surcharge"],
+                "spiritual": ["Verrouillage de Cible"]
+            },
+            "weaknesses": ["Cyborgs", "Bêtes"],
+            "resistances": ["Fées", "Vampires"],
+            "rarity": "commun",
+            "defense": 22,
+            "speed": 22,
+            "intelligence": 17
+        },
