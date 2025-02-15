@@ -525,3 +525,108 @@
             "speed": 18,
             "intelligence": 13
         },
+        {
+            "name": "Spectre",
+            "species": "Fantôme",
+            "description": "Un spectre spectral, errant entre les mondes, capable de voler les âmes de ses victimes et de traverser les murs.",
+            "attack_types": {
+                "magic": ["Hanter", "Marche Éthérée"],
+                "spiritual": ["Vol d'Âme"]
+            },
+            "weaknesses": ["Morts-vivants", "Anges"],
+            "resistances": ["Démons", "Esprits Élémentaires"],
+            "rarity": "rare",
+            "defense": 18,
+            "speed": 20,
+            "intelligence": 22
+        },
+        {
+            "name": "Fantôme",
+            "species": "Fantôme",
+            "description": "Un fantôme vengeur, capable d'entrer dans l'esprit des vivants pour les contrôler et les tourmenter avec sa mélodie envoûtante.",
+            "attack_types": {
+                "magic": ["Coup Spectral", "Mélodie Hantée"],
+                "spiritual": ["Possession"]
+            },
+            "weaknesses": ["Morts-vivants", "Anges"],
+            "resistances": ["Démons", "Esprits Élémentaires"],
+            "rarity": "légendaire",
+            "defense": 20,
+            "speed": 19,
+            "intelligence": 24
+        },
+        {
+            "name": "Banshee",
+            "species": "Fantôme",
+            "description": "Une banshee, annonciatrice de mort, dont le cri perçant peut paralyser de peur ceux qui l'entendent.",
+            "attack_types": {
+                "magic": ["Cri", "Gémissement des Damnés"],
+                "spiritual": ["Lamentation"]
+            },
+            "weaknesses": ["Morts-vivants", "Anges"],
+            "resistances": ["Démons", "Esprits Élémentaires"],
+            "rarity": "légendaire",
+            "defense": 19,
+            "speed": 18,
+            "intelligence": 21
+        },
+        {
+            "name": "Esprit",
+            "species": "Fantôme",
+            "description": "Un esprit errant, capable d'instiller la peur avec son toucher glacial et de saisir ses ennemis dans une étreinte spectrale.",
+            "attack_types": {
+                "magic": ["Toucher Éthéré", "Saisie Fantomatique"],
+                "spiritual": ["Effrayer"]
+            },
+            "weaknesses": ["Morts-vivants", "Anges"],
+            "resistances": ["Démons", "Esprits Élémentaires"],
+            "rarity": "commun",
+            "defense": 15,
+            "speed": 16,
+            "intelligence": 15
+        },
+        {
+            "name": "Revenant",
+            "species": "Fantôme",
+            "description": "Un revenant, hanté par son désir de vengeance, capable de maudire ses ennemis et de résister aux attaques physiques.",
+            "attack_types": {
+                "magic": ["Frappe Vengeresse", "Bouclier Spectral"],
+                "spiritual": ["Malédiction"]
+            },
+            "weaknesses": ["Morts-vivants", "Anges"],
+            "resistances": ["Démons", "Esprits Élémentaires"],
+            "rarity": "rare",
+            "defense": 22,
+            "speed": 17,
+            "intelligence": 20
+        },
+        {
+            "name": "Spectre Hanté",
+            "species": "Fantôme",
+            "description": "Un spectre hanté, capable d'induire des cauchemars et d'effrayer ceux qui osent s'en approcher.",
+            "attack_types": {
+                "magic": ["Saisie Glaciale", "Hurlement Fantomatique"],
+                "spiritual": ["Cauchemar"]
+            },
+            "weaknesses": ["Morts-vivants", "Anges"],
+            "resistances": ["Démons", "Esprits Élémentaires"],
+            "rarity": "commun",
+            "defense": 16,
+            "speed": 18,
+            "intelligence": 18
+        },
+        {
+            "name": "Chevalier Fantomatique",
+            "species": "Fantôme",
+            "description": "Un chevalier fantomatique, gardien des âmes perdues, maniant une épée spectrale et veillant éternellement sur son domaine.",
+            "attack_types": {
+                "magic": ["Lame Hantée", "Vigilance Éternelle"],
+                "spiritual": ["Charge Fantomatique"]
+            },
+            "weaknesses": ["Morts-vivants", "Anges"],
+            "resistances": ["Démons", "Esprits Élémentaires"],
+            "rarity": "légendaire",
+            "defense": 21,
+            "speed": 15,
+            "intelligence": 23
+        },
