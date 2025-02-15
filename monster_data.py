@@ -1686,3 +1686,145 @@ monsters = [
         "rarity": {"en": "common", "fr": "commun"},
         "defense": 20, "speed": 17, "intelligence": 22
     }),
+
+    # Angels
+    Monster({
+        "name": {"en": "Seraphim", "fr": "Séraphin"},
+        "species": {"en": "Angel", "fr": "Ange"},
+        "health": 400, "level": 9,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Divine Light", "fr": "Lumière Divine"},
+                {"en": "Celestial Shield", "fr": "Bouclier Céleste"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Holy Smite", "fr": "Frappe Sacrée"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Demons", "Undead"], "fr": ["Démons", "Morts-vivants"]},
+        "resistances": {"en": ["Elementals", "Beasts"], "fr": ["Éléments", "Bêtes"]},
+        "description": {"en": "A majestic seraphim, bearer of divine light, capable of inflicting sacred blows and protecting the innocent with its celestial shield.", 
+                        "fr": "Un séraphin majestueux, porteur de lumière divine, capable d'infliger des coups sacrés et de protéger les innocents avec son bouclier céleste."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 38, "speed": 22, "intelligence": 30
+    }),
+    Monster({
+        "name": {"en": "Cherub", "fr": "Chérubin"},
+        "species": {"en": "Angel", "fr": "Ange"},
+        "health": 300, "level": 7,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Ethereal Shield", "fr": "Bouclier Éthéré"},
+                {"en": "Divine Protection", "fr": "Protection Divine"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Healing Light", "fr": "Lumière de Guérison"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Demons", "Undead"], "fr": ["Démons", "Morts-vivants"]},
+        "resistances": {"en": ["Elementals", "Beasts"], "fr": ["Éléments", "Bêtes"]},
+        "description": {"en": "A playful cherub, capable of creating ethereal shields and spreading healing light to those in need.", 
+                        "fr": "Un chérubin espiègle, capable de créer des boucliers éthérés et de répandre une lumière de guérison à ceux qui en ont besoin."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 30, "speed": 24, "intelligence": 26
+    }),
+    Monster({
+        "name": {"en": "Archangel", "fr": "Archange"},
+        "species": {"en": "Angel", "fr": "Ange"},
+        "health": 350, "level": 8,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Holy Wrath", "fr": "Colère Sacrée"},
+                {"en": "Light of Justice", "fr": "Lumière de la Justice"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Divine Intervention", "fr": "Intervention Divine"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Demons", "Undead"], "fr": ["Démons", "Morts-vivants"]},
+        "resistances": {"en": ["Elementals", "Beasts"], "fr": ["Éléments", "Bêtes"]},
+        "description": {"en": "A powerful archangel, capable of unleashing divine wrath and intervening in battles to bring justice.", 
+                        "fr": "Un archange puissant, capable de déchaîner la colère divine et d'intervenir dans les batailles pour apporter la justice."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 36, "speed": 20, "intelligence": 32
+    }),
+    Monster({
+        "name": {"en": "Guardian Angel", "fr": "Ange Gardien"},
+        "species": {"en": "Angel", "fr": "Ange"},
+        "health": 320, "level": 7,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Protective Aura", "fr": "Aura de Protection"},
+                {"en": "Light Beam", "fr": "Faisceau de Lumière"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Rescue", "fr": "Sauvetage"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Demons", "Undead"], "fr": ["Démons", "Morts-vivants"]},
+        "resistances": {"en": ["Elementals", "Beasts"], "fr": ["Éléments", "Bêtes"]},
+        "description": {"en": "A guardian angel, protector of souls, capable of creating a protective aura and rescuing those in danger.", 
+                        "fr": "Un ange gardien, protecteur des âmes, capable de créer une aura de protection et de sauver ceux en danger."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 34, "speed": 18, "intelligence": 28
+    }),
+    Monster({
+        "name": {"en": "Celestial Being", "fr": "Être Céleste"},
+        "species": {"en": "Angel", "fr": "Ange"},
+        "health": 280, "level": 6,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Light Burst", "fr": "Éclat de Lumière"},
+                {"en": "Radiant Shield", "fr": "Bouclier Radieux"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Heavenly Strike", "fr": "Frappe Céleste"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Demons", "Undead"], "fr": ["Démons", "Morts-vivants"]},
+        "resistances": {"en": ["Elementals", "Beasts"], "fr": ["Éléments", "Bêtes"]},
+        "description": {"en": "A celestial being, radiating light, capable of striking with the power of the heavens and protecting with a radiant shield.", 
+                        "fr": "Un être céleste, rayonnant de lumière, capable de frapper avec la puissance des cieux et de protéger avec un bouclier radieux."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 28, "speed": 19, "intelligence": 25
+    }),
+    Monster({
+        "name": {"en": "Angel of Justice", "fr": "Ange de la Justice"},
+        "species": {"en": "Angel", "fr": "Ange"},
+        "health": 360, "level": 8,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Judgment", "fr": "Jugement"},
+                {"en": "Divine Shield", "fr": "Bouclier Divin"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Smite", "fr": "Frappe"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Demons", "Undead"], "fr": ["Démons", "Morts-vivants"]},
+        "resistances": {"en": ["Elementals", "Beasts"], "fr": ["Éléments", "Bêtes"]},
+        "description": {"en": "An angel of justice, wielding the power of judgment, capable of striking its foes with divine attacks.", 
+                        "fr": "Un ange de la justice, maniant le pouvoir du jugement, capable de frapper ses ennemis avec des attaques divines."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 37, "speed": 21, "intelligence": 29
+    }),
+    Monster({
+        "name": {"en": "Lightbringer", "fr": "Porteur de Lumière"},
+        "species": {"en": "Angel", "fr": "Ange"},
+        "health": 370, "level": 8,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Radiant Shield", "fr": "Bouclier Radieux"},
+                {"en": "Light of Hope", "fr": "Lumière d'Espoir"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Purifying Flame", "fr": "Flamme Purificatrice"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Demons", "Undead"], "fr": ["Démons", "Morts-vivants"]},
+        "resistances": {"en": ["Elementals", "Beasts"], "fr": ["Éléments", "Bêtes"]},
+        "description": {"en": "A bringer of light, capable of purifying darkness with sacred flames and inspiring hope in the oppressed.", 
+                        "fr": "Un porteur de lumière, capable de purifier l'obscurité avec des flammes sacrées et d'inspirer l'espoir chez les opprimés."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 39, "speed": 20, "intelligence": 31
+    }),
