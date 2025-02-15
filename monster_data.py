@@ -712,4 +712,146 @@ monsters = [
         "rarity": {"en": "rare", "fr": "rare"},
         "defense": 25, "speed": 18, "intelligence": 13
     }),
+
+    # Ghosts
+    Monster({
+        "name": {"en": "Wraith", "fr": "Spectre"},
+        "species": {"en": "Ghost", "fr": "Fantôme"},
+        "health": 210, "level": 4,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Haunt", "fr": "Hanter"},
+                {"en": "Ethereal Walk", "fr": "Marche Éthérée"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Soul Steal", "fr": "Vol d'Âme"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Undead", "Angels"], "fr": ["Morts-vivants", "Anges"]},
+        "resistances": {"en": ["Demons", "Elemental Spirits"], "fr": ["Démons", "Esprits Élémentaires"]},
+        "description": {"en": "A spectral wraith, wandering between worlds, capable of stealing the souls of its victims and moving through walls.", 
+                        "fr": "Un spectre spectral, errant entre les mondes, capable de voler les âmes de ses victimes et de traverser les murs."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 18, "speed": 20, "intelligence": 22
+    }),
+    Monster({
+        "name": {"en": "Phantom", "fr": "Fantôme"},
+        "species": {"en": "Ghost", "fr": "Fantôme"},
+        "health": 200, "level": 5,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Spectral Slash", "fr": "Coup Spectral"},
+                {"en": "Haunting Melody", "fr": "Mélodie Hantée"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Possession", "fr": "Possession"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Undead", "Angels"], "fr": ["Morts-vivants", "Anges"]},
+        "resistances": {"en": ["Demons", "Elemental Spirits"], "fr": ["Démons", "Esprits Élémentaires"]},
+        "description": {"en": "A vengeful ghost, capable of entering the minds of the living to control them and torment them with its enchanting melody.", 
+                        "fr": "Un fantôme vengeur, capable d'entrer dans l'esprit des vivants pour les contrôler et les tourmenter avec sa mélodie envoûtante."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 20, "speed": 19, "intelligence": 24
+    }),
+    Monster({
+        "name": {"en": "Banshee", "fr": "Banshee"},
+        "species": {"en": "Ghost", "fr": "Fantôme"},
+        "health": 220, "level": 5,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Scream", "fr": "Cri"},
+                {"en": "Wail of the Damned", "fr": "Gémissement des Damnés"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Lament", "fr": "Lamentation"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Undead", "Angels"], "fr": ["Morts-vivants", "Anges"]},
+        "resistances": {"en": ["Demons", "Elemental Spirits"], "fr": ["Démons", "Esprits Élémentaires"]},
+        "description": {"en": "A banshee, harbinger of death, whose piercing scream can paralyze with fear those who hear it.", 
+                        "fr": "Une banshee, annonciatrice de mort, dont le cri perçant peut paralyser de peur ceux qui l'entendent."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 19, "speed": 18, "intelligence": 21
+    }),
+    Monster({
+        "name": {"en": "Spirit", "fr": "Esprit"},
+        "species": {"en": "Ghost", "fr": "Fantôme"},
+        "health": 190, "level": 3,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Ethereal Touch", "fr": "Toucher Éthéré"},
+                {"en": "Ghostly Grasp", "fr": "Saisie Fantomatique"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Frighten", "fr": "Effrayer"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Undead", "Angels"], "fr": ["Morts-vivants", "Anges"]},
+        "resistances": {"en": ["Demons", "Elemental Spirits"], "fr": ["Démons", "Esprits Élémentaires"]},
+        "description": {"en": "A wandering spirit, capable of instilling fear with its chilling touch and grasping its enemies in a spectral embrace.", 
+                        "fr": "Un esprit errant, capable d'instiller la peur avec son toucher glacial et de saisir ses ennemis dans une étreinte spectrale."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 15, "speed": 16, "intelligence": 15
+    }),
+    Monster({
+        "name": {"en": "Revenant", "fr": "Revenant"},
+        "species": {"en": "Ghost", "fr": "Fantôme"},
+        "health": 230, "level": 5,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Vengeful Strike", "fr": "Frappe Vengeresse"},
+                {"en": "Spectral Shield", "fr": "Bouclier Spectral"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Curse", "fr": "Malédiction"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Undead", "Angels"], "fr": ["Morts-vivants", "Anges"]},
+        "resistances": {"en": ["Demons", "Elemental Spirits"], "fr": ["Démons", "Esprits Élémentaires"]},
+        "description": {"en": "A revenant, haunted by its desire for vengeance, capable of cursing its enemies and resisting physical attacks.", 
+                        "fr": "Un revenant, hanté par son désir de vengeance, capable de maudire ses ennemis et de résister aux attaques physiques."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 22, "speed": 17, "intelligence": 20
+    }),
+    Monster({
+        "name": {"en": "Haunting Specter", "fr": "Spectre Hanté"},
+        "species": {"en": "Ghost", "fr": "Fantôme"},
+        "health": 205, "level": 4,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Chilling Grasp", "fr": "Saisie Glaciale"},
+                {"en": "Ghostly Howl", "fr": "Hurlement Fantomatique"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Nightmare", "fr": "Cauchemar"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Undead", "Angels"], "fr": ["Morts-vivants", "Anges"]},
+        "resistances": {"en": ["Demons", "Elemental Spirits"], "fr": ["Démons", "Esprits Élémentaires"]},
+        "description": {"en": "A haunted specter, capable of inducing nightmares and frightening those who dare approach it.", 
+                        "fr": "Un spectre hanté, capable d'induire des cauchemars et d'effrayer ceux qui osent s'en approcher."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 16, "speed": 18, "intelligence": 18
+    }),
+    Monster({
+        "name": {"en": "Ghostly Knight", "fr": "Chevalier Fantomatique"},
+        "species": {"en": "Ghost", "fr": "Fantôme"},
+        "health": 215, "level": 5,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Haunting Blade", "fr": "Lame Hantée"},
+                {"en": "Eternal Vigilance", "fr": "Vigilance Éternelle"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Phantom Charge", "fr": "Charge Fantomatique"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Undead", "Angels"], "fr": ["Morts-vivants", "Anges"]},
+        "resistances": {"en": ["Demons", "Elemental Spirits"], "fr": ["Démons", "Esprits Élémentaires"]},
+        "description": {"en": "A ghostly knight, guardian of lost souls, wielding a spectral sword and eternally watching over its domain.", 
+                        "fr": "Un chevalier fantomatique, gardien des âmes perdues, maniant une épée spectrale et veillant éternellement sur son domaine."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 21, "speed": 15, "intelligence": 23
+    }),
   
