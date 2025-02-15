@@ -1455,3 +1455,108 @@
             "speed": 21,
             "intelligence": 29
         },
+        {
+            "name": "Esprit de Feu",
+            "species": "Esprit Élémentaire",
+            "description": "Un esprit de feu, capable de lancer des boulets de feu dévastateurs et de créer des barrières de flammes pour se protéger.",
+            "attack_types": {
+                "magic": ["Boulet de Feu", "Vague de Chaleur"],
+                "spiritual": ["Bouclier de Flammes"]
+            },
+            "weaknesses": ["Humanoïdes", "Ghoules"],
+            "resistances": ["Cyborgs", "Dragons"],
+            "rarity": "commun",
+            "defense": 15,
+            "speed": 18,
+            "intelligence": 20
+        },
+        {
+            "name": "Esprit d'Eau",
+            "species": "Esprit Élémentaire",
+            "description": "Un esprit d'eau fluide, capable de projeter des jets d'eau puissants et de provoquer des inondations pour submerger ses ennemis.",
+            "attack_types": {
+                "magic": ["Explosion d'Eau", "Inondation"],
+                "spiritual": ["Tremper"]
+            },
+            "weaknesses": ["Humanoïdes", "Ghoules"],
+            "resistances": ["Cyborgs", "Dragons"],
+            "rarity": "commun",
+            "defense": 16,
+            "speed": 19,
+            "intelligence": 22
+        },
+        {
+            "name": "Esprit de Terre",
+            "species": "Esprit Élémentaire",
+            "description": "Un esprit de terre solide, capable de lancer des roches et de provoquer des tremblements de terre dévastateurs.",
+            "attack_types": {
+                "magic": ["Lancer de Roche", "Tremblement de Terre"],
+                "spiritual": ["Glissement de Boue"]
+            },
+            "weaknesses": ["Humanoïdes", "Ghoules"],
+            "resistances": ["Cyborgs", "Dragons"],
+            "rarity": "rare",
+            "defense": 20,
+            "speed": 15,
+            "intelligence": 18
+        },
+        {
+            "name": "Esprit de l'Air",
+            "species": "Esprit Élémentaire",
+            "description": "Un esprit de l'air rapide et agile, capable de créer des rafales de vent et des tornades pour désorienter ses adversaires.",
+            "attack_types": {
+                "magic": ["Rafale de Vent", "Cyclone"],
+                "spiritual": ["Tornade"]
+            },
+            "weaknesses": ["Humanoïdes", "Ghoules"],
+            "resistances": ["Cyborgs", "Dragons"],
+            "rarity": "commun",
+            "defense": 14,
+            "speed": 22,
+            "intelligence": 21
+        },
+        {
+            "name": "Esprit de Foudre",
+            "species": "Esprit Élémentaire",
+            "description": "Un esprit de foudre brillant, capable de lancer des éclairs et de provoquer des tempêtes pour électrifier ses ennemis.",
+            "attack_types": {
+                "magic": ["Foudre", "Vague de Tempête"],
+                "spiritual": ["Choc Statique"]
+            },
+            "weaknesses": ["Humanoïdes", "Ghoules"],
+            "resistances": ["Cyborgs", "Dragons"],
+            "rarity": "rare",
+            "defense": 17,
+            "speed": 25,
+            "intelligence": 23
+        },
+        {
+            "name": "Esprit de Glace",
+            "species": "Esprit Élémentaire",
+            "description": "Un esprit de glace glaciale, capable de souffler de l'air glacial et de créer des tempêtes de neige pour ralentir ses ennemis.",
+            "attack_types": {
+                "magic": ["Souffle de Gel", "Blizzard"],
+                "spiritual": ["Bouclier de Glace"]
+            },
+            "weaknesses": ["Humanoïdes", "Ghoules"],
+            "resistances": ["Cyborgs", "Dragons"],
+            "rarity": "commun",
+            "defense": 15,
+            "speed": 18,
+            "intelligence": 22
+        },
+        {
+            "name": "Esprit de la Nature",
+            "species": "Esprit Élémentaire",
+            "description": "Un puissant esprit de la nature, capable de contrôler les plantes pour attaquer et défendre, infligeant la colère de la terre à ses ennemis.",
+            "attack_types": {
+                "magic": ["Fouet de Vigne", "Colère de la Nature"],
+                "spiritual": ["Barrage d'Épines"]
+            },
+            "weaknesses": ["Humanoïdes", "Ghoules"],
+            "resistances": ["Cyborgs", "Dragons"],
+            "rarity": "légendaire",
+            "defense": 21,
+            "speed": 16,
+            "intelligence": 24
+        },
