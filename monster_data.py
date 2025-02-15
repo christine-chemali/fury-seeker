@@ -1118,4 +1118,146 @@ monsters = [
         "rarity": {"en": "rare", "fr": "rare"},
         "defense": 41, "speed": 20, "intelligence": 28
     }),
+
+    # Fairies
+    Monster({
+        "name": {"en": "Pixie", "fr": "Pixie"},
+        "species": {"en": "Fairy", "fr": "Fée"},
+        "health": 150, "level": 3,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Pixie Dust", "fr": "Poussière de Pixie"},
+                {"en": "Fairy Flight", "fr": "Vol de Fée"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Charmed Dance", "fr": "Danse Enchantée"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Spiritual Entities", "Beasts of the Forest"], "fr": ["Entités Spirituelles", "Bêtes de la Forêt"]},
+        "resistances": {"en": ["Mechanical Monsters", "Vampires"], "fr": ["Monstres Mécaniques", "Vampires"]},
+        "description": {"en": "A mischievous pixie, flying lightly, using her magical dust to charm and entertain those around her.", 
+                        "fr": "Un pixie espiègle, volant légèrement, utilisant sa poussière magique pour charmer et divertir ceux qui l'entourent."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 10, "speed": 25, "intelligence": 18
+    }),
+    Monster({
+        "name": {"en": "Nymph", "fr": "Nymphe"},
+        "species": {"en": "Fairy", "fr": "Fée"},
+        "health": 160, "level": 4,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Nature's Grasp", "fr": "Saisie de la Nature"},
+                {"en": "Enchanted Song", "fr": "Chanson Enchantée"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Healing Touch", "fr": "Toucher de Guérison"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Spiritual Entities", "Beasts of the Forest"], "fr": ["Entités Spirituelles", "Bêtes de la Forêt"]},
+        "resistances": {"en": ["Mechanical Monsters", "Vampires"], "fr": ["Monstres Mécaniques", "Vampires"]},
+        "description": {"en": "A graceful nymph, protector of nature, capable of healing and singing enchanting melodies.", 
+                        "fr": "Une nymphe gracieuse, protectrice de la nature, capable de guérir et de chanter des mélodies envoûtantes."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 12, "speed": 22, "intelligence": 20
+    }),
+    Monster({
+        "name": {"en": "Fairy Queen", "fr": "Reine des Fées"},
+        "species": {"en": "Fairy", "fr": "Fée"},
+        "health": 170, "level": 5,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Royal Command", "fr": "Commande Royale"},
+                {"en": "Fairy Blessing", "fr": "Bénédiction de Fée"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Enchantment", "fr": "Enchantement"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Spiritual Entities", "Beasts of the Forest"], "fr": ["Entités Spirituelles", "Bêtes de la Forêt"]},
+        "resistances": {"en": ["Mechanical Monsters", "Vampires"], "fr": ["Monstres Mécaniques", "Vampires"]},
+        "description": {"en": "The fairy queen, majestic and powerful, capable of blessing her allies and casting powerful enchantments.", 
+                        "fr": "La reine des fées, majestueuse et puissante, capable de bénir ses alliés et de lancer de puissants enchantements."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 14, "speed": 20, "intelligence": 25
+    }),
+    Monster({
+        "name": {"en": "Will-o'-the-Wisp", "fr": "Lueur Fantomatique"},
+        "species": {"en": "Fairy", "fr": "Fée"},
+        "health": 140, "level": 2,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Light Flicker", "fr": "Clignotement de Lumière"},
+                {"en": "Mystic Glow", "fr": "Lueur Mystique"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Guide", "fr": "Guide"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Spiritual Entities", "Beasts of the Forest"], "fr": ["Entités Spirituelles", "Bêtes de la Forêt"]},
+        "resistances": {"en": ["Mechanical Monsters", "Vampires"], "fr": ["Monstres Mécaniques", "Vampires"]},
+        "description": {"en": "A mysterious will-o'-the-wisp, wandering in the night, capable of guiding lost travelers or leading them astray.", 
+                        "fr": "Une lueur fantomatique mystérieuse, errant dans la nuit, capable de guider les voyageurs perdus ou de les égarer."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 8, "speed": 24, "intelligence": 15
+    }),
+    Monster({
+        "name": {"en": "Grove Guardian", "fr": "Gardien du Bosquet"},
+        "species": {"en": "Fairy", "fr": "Fée"},
+        "health": 180, "level": 4,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Nature's Shield", "fr": "Bouclier de la Nature"},
+                {"en": "Forest's Embrace", "fr": "Étreinte de la Forêt"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Vine Whip", "fr": "Fouet de Vigne"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Spiritual Entities", "Beasts of the Forest"], "fr": ["Entités Spirituelles", "Bêtes de la Forêt"]},
+        "resistances": {"en": ["Mechanical Monsters", "Vampires"], "fr": ["Monstres Mécaniques", "Vampires"]},
+        "description": {"en": "A grove guardian, protector of the forests, using nature's magic to defend its territory.", 
+                        "fr": "Un gardien du bosquet, protecteur des forêts, utilisant la magie de la nature pour défendre son territoire."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 15, "speed": 18, "intelligence": 22
+    }),
+    Monster({
+        "name": {"en": "Fey Spirit", "fr": "Esprit Fey"},
+        "species": {"en": "Fairy", "fr": "Fée"},
+        "health": 155, "level": 3,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Charm", "fr": "Charme"},
+                {"en": "Fey Trickery", "fr": "Fourberie Fey"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Illusion", "fr": "Illusion"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Spiritual Entities", "Beasts of the Forest"], "fr": ["Entités Spirituelles", "Bêtes de la Forêt"]},
+        "resistances": {"en": ["Mechanical Monsters", "Vampires"], "fr": ["Monstres Mécaniques", "Vampires"]},
+        "description": {"en": "A fey spirit, capable of deceiving and delighting, using illusion to play tricks on its enemies.", 
+                        "fr": "Un esprit fey, capable de tromper et de ravir, utilisant l'illusion pour jouer des tours à ses ennemis."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 11, "speed": 21, "intelligence": 19
+    }),
+    Monster({
+        "name": {"en": "Briar Fairy", "fr": "Fée Épineuse"},
+        "species": {"en": "Fairy", "fr": "Fée"},
+        "health": 165, "level": 4,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Thorn Barrage", "fr": "Barrage d'Épines"},
+                {"en": "Nature's Wrath", "fr": "Colère de la Nature"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Briar Shield", "fr": "Bouclier d'Épine"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Spiritual Entities", "Beasts of the Forest"], "fr": ["Entités Spirituelles", "Bêtes de la Forêt"]},
+        "resistances": {"en": ["Mechanical Monsters", "Vampires"], "fr": ["Monstres Mécaniques", "Vampires"]},
+        "description": {"en": "A briar fairy, using thorns to attack and defend, in harmony with the wild nature.", 
+                        "fr": "Une fée épineuse, utilisant des épines pour attaquer et défendre, en harmonie avec la nature sauvage."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 13, "speed": 19, "intelligence": 21
+    }),
  
