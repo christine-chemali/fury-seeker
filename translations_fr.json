@@ -420,3 +420,108 @@
             "speed": 29,
             "intelligence": 10
         },
+        {
+            "name": "Chevalier",
+            "species": "Humanoïde",
+            "description": "Un chevalier brave, protecteur de son royaume, maniant son épée avec honneur et détermination. Toujours prêt à défendre les innocents.",
+            "attack_types": {
+                "physical": ["Coup d'Épée", "Charge en Avant"],
+                "spiritual": ["Blocage de Bouclier"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Entités Spirituelles"],
+            "resistances": ["Dragons", "Ghoules"],
+            "rarity": "commun",
+            "defense": 22,
+            "speed": 16,
+            "intelligence": 14
+        },
+        {
+            "name": "Voleur",
+            "species": "Humanoïde",
+            "description": "Un voleur agile et furtif, se déplaçant dans l'ombre pour frapper ses ennemis par surprise et s'échapper sans être vu.",
+            "attack_types": {
+                "physical": ["Poussée de Dague", "Attaque Sournoise"],
+                "spiritual": ["Bombe Fumigène"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Entités Spirituelles"],
+            "resistances": ["Dragons", "Ghoules"],
+            "rarity": "commun",
+            "defense": 15,
+            "speed": 20,
+            "intelligence": 15
+        },
+        {
+            "name": "Paladin",
+            "species": "Humanoïde",
+            "description": "Un paladin sacré, défenseur de la foi et de la justice, capable de canaliser une puissance divine pour protéger ses alliés.",
+            "attack_types": {
+                "magic": ["Frappe Sacrée", "Frappe Divine"],
+                "spiritual": ["Bouclier Divin"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Entités Spirituelles"],
+            "resistances": ["Dragons", "Ghoules"],
+            "rarity": "rare",
+            "defense": 24,
+            "speed": 17,
+            "intelligence": 18
+        },
+        {
+            "name": "Archer",
+            "species": "Humanoïde",
+            "description": "Un archer expert, capable de tirer des flèches avec une grande précision, frappant ses cibles à distance.",
+            "attack_types": {
+                "physical": ["Tir de Flèche", "Tir Multiple"],
+                "spiritual": ["Oeil d'Aigle"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Entités Spirituelles"],
+            "resistances": ["Dragons", "Ghoules"],
+            "rarity": "commun",
+            "defense": 16,
+            "speed": 22,
+            "intelligence": 14
+        },
+        {
+            "name": "Barde",
+            "species": "Humanoïde",
+            "description": "Un barde talentueux, utilisant la musique pour inspirer ses alliés et apaiser leurs peurs pendant le combat.",
+            "attack_types": {
+                "support": ["Inspirer", "Chanson de Courage"],
+                "spiritual": ["Mélodie Apaisante"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Entités Spirituelles"],
+            "resistances": ["Dragons", "Ghoules"],
+            "rarity": "commun",
+            "defense": 12,
+            "speed": 18,
+            "intelligence": 18
+        },
+        {
+            "name": "Mage",
+            "species": "Humanoïde",
+            "description": "Un mage puissant, maniant les arts arcanes avec habileté, capable de lancer des sorts dévastateurs sur ses ennemis.",
+            "attack_types": {
+                "magic": ["Boulet de Feu", "Explosion Arcanique"],
+                "spiritual": ["Nova de Gel"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Entités Spirituelles"],
+            "resistances": ["Dragons", "Ghoules"],
+            "rarity": "rare",
+            "defense": 14,
+            "speed": 19,
+            "intelligence": 22
+        },
+        {
+            "name": "Guerrier",
+            "species": "Humanoïde",
+            "description": "Un guerrier aguerri, redoutable au combat rapproché, utilisant sa force brute pour écraser ses adversaires.",
+            "attack_types": {
+                "physical": ["Écrasement Puissant", "Cri de Guerre"],
+                "spiritual": ["Force du Guerrier"]
+            },
+            "weaknesses": ["Monstres Mécaniques", "Entités Spirituelles"],
+            "resistances": ["Dragons", "Ghoules"],
+            "rarity": "rare",
+            "defense": 25,
+            "speed": 18,
+            "intelligence": 13
+        },
