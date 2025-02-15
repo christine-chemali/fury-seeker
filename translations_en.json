@@ -826,3 +826,108 @@
             "speed": 20,
             "intelligence": 28
         },
+        {
+            "name": "Pixie",
+            "species": "Fairy",
+            "description": "A mischievous pixie, flying lightly, using her magical dust to charm and entertain those around her.",
+            "attack_types": {
+                "magic": ["Pixie Dust", "Fairy Flight"],
+                "spiritual": ["Charmed Dance"]
+            },
+            "weaknesses": ["Spiritual Entities", "Beasts of the Forest"],
+            "resistances": ["Mechanical Monsters", "Vampires"],
+            "rarity": "common",
+            "defense": 10,
+            "speed": 25,
+            "intelligence": 18
+        },
+        {
+            "name": "Nymph",
+            "species": "Fairy",
+            "description": "A graceful nymph, protector of nature, capable of healing and singing enchanting melodies.",
+            "attack_types": {
+                "magic": ["Nature's Grasp", "Enchanted Song"],
+                "spiritual": ["Healing Touch"]
+            },
+            "weaknesses": ["Spiritual Entities", "Beasts of the Forest"],
+            "resistances": ["Mechanical Monsters", "Vampires"],
+            "rarity": "rare",
+            "defense": 12,
+            "speed": 22,
+            "intelligence": 20
+        },
+        {
+            "name": "Fairy Queen",
+            "species": "Fairy",
+            "description": "The fairy queen, majestic and powerful, capable of blessing her allies and casting powerful enchantments.",
+            "attack_types": {
+                "magic": ["Royal Command", "Fairy Blessing"],
+                "spiritual": ["Enchantment"]
+            },
+            "weaknesses": ["Spiritual Entities", "Beasts of the Forest"],
+            "resistances": ["Mechanical Monsters", "Vampires"],
+            "rarity": "legendary",
+            "defense": 14,
+            "speed": 20,
+            "intelligence": 25
+        },
+        {
+            "name": "Will-o'-the-Wisp",
+            "species": "Fairy",
+            "description": "A mysterious will-o'-the-wisp, wandering in the night, capable of guiding lost travelers or leading them astray.",
+            "attack_types": {
+                "magic": ["Light Flicker", "Mystic Glow"],
+                "spiritual": ["Guide"]
+            },
+            "weaknesses": ["Spiritual Entities", "Beasts of the Forest"],
+            "resistances": ["Mechanical Monsters", "Vampires"],
+            "rarity": "common",
+            "defense": 8,
+            "speed": 24,
+            "intelligence": 15
+        },
+        {
+            "name": "Grove Guardian",
+            "species": "Fairy",
+            "description": "A grove guardian, protector of the forests, using nature's magic to defend its territory.",
+            "attack_types": {
+                "magic": ["Nature's Shield", "Forest's Embrace"],
+                "spiritual": ["Vine Whip"]
+            },
+            "weaknesses": ["Spiritual Entities", "Beasts of the Forest"],
+            "resistances": ["Mechanical Monsters", "Vampires"],
+            "rarity": "rare",
+            "defense": 15,
+            "speed": 18,
+            "intelligence": 22
+        },
+        {
+            "name": "Fey Spirit",
+            "species": "Fairy",
+            "description": "A fey spirit, capable of deceiving and delighting, using illusion to play tricks on its enemies.",
+            "attack_types": {
+                "magic": ["Charm", "Fey Trickery"],
+                "spiritual": ["Illusion"]
+            },
+            "weaknesses": ["Spiritual Entities", "Beasts of the Forest"],
+            "resistances": ["Mechanical Monsters", "Vampires"],
+            "rarity": "common",
+            "defense": 11,
+            "speed": 21,
+            "intelligence": 19
+        },
+        {
+            "name": "Briar Fairy",
+            "species": "Fairy",
+            "description": "A briar fairy, using thorns to attack and defend, in harmony with the wild nature.",
+            "attack_types": {
+                "magic": ["Thorn Barrage", "Nature's Wrath"],
+                "spiritual": ["Briar Shield"]
+            },
+            "weaknesses": ["Spiritual Entities", "Beasts of the Forest"],
+            "resistances": ["Mechanical Monsters", "Vampires"],
+            "rarity": "rare",
+            "defense": 13,
+            "speed": 19,
+            "intelligence": 21
+        },
