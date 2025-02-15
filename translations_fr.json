@@ -1140,3 +1140,108 @@
             "speed": 15,
             "intelligence": 17
         },
+        {
+            "name": "Démon Infernal",
+            "species": "Démon",
+            "description": "Un démon infernal, maître du feu de l'enfer, capable de déchaîner une colère dévastatrice sur ses ennemis.",
+            "attack_types": {
+                "magic": ["Feu de l'Enfer", "Colère Infernale"],
+                "spiritual": ["Frappe Démoniaque"]
+            },
+            "weaknesses": ["Anges", "Cyborgs"],
+            "resistances": ["Fées", "Monstres Mécaniques"],
+            "rarity": "légendaire",
+            "defense": 35,
+            "speed": 20,
+            "intelligence": 28
+        },
+        {
+            "name": "Démon des Ombres",
+            "species": "Démon",
+            "description": "Un démon des ombres, capable de plonger ses ennemis dans des cauchemars et de frapper avec des attaques furtives.",
+            "attack_types": {
+                "magic": ["Cauchemar", "Ombre Maudite"],
+                "spiritual": ["Frappe des Ombres"]
+            },
+            "weaknesses": ["Anges", "Cyborgs"],
+            "resistances": ["Fées", "Monstres Mécaniques"],
+            "rarity": "rare",
+            "defense": 30,
+            "speed": 22,
+            "intelligence": 25
+        },
+        {
+            "name": "Succube",
+            "species": "Démon",
+            "description": "Une succube séduisante, utilisant son charme pour manipuler et drainer la force vitale de ses victimes.",
+            "attack_types": {
+                "magic": ["Séduction", "Drain d'Âme"],
+                "spiritual": ["Charme"]
+            },
+            "weaknesses": ["Anges", "Cyborgs"],
+            "resistances": ["Fées", "Monstres Mécaniques"],
+            "rarity": "rare",
+            "defense": 25,
+            "speed": 24,
+            "intelligence": 30
+        },
+        {
+            "name": "Baal",
+            "species": "Démon",
+            "description": "Baal, le démon suprême, capable de provoquer des cataclysmes et de réaliser des rituels sombres pour amplifier son pouvoir.",
+            "attack_types": {
+                "magic": ["Jour du Jugement", "Destruction"],
+                "spiritual": ["Rituel Sombre"]
+            },
+            "weaknesses": ["Anges", "Cyborgs"],
+            "resistances": ["Fées", "Monstres Mécaniques"],
+            "rarity": "légendaire",
+            "defense": 40,
+            "speed": 18,
+            "intelligence": 35
+        },
+        {
+            "name": "Bête Maudite",
+            "species": "Démon",
+            "description": "Une bête maudite, capable de frapper avec force brute et de charger ses ennemis dans une frénésie de rage.",
+            "attack_types": {
+                "physical": ["Griffe", "Charge Sombre"],
+                "spiritual": ["Fureur"]
+            },
+            "weaknesses": ["Anges", "Cyborgs"],
+            "resistances": ["Fées", "Monstres Mécaniques"],
+            "rarity": "rare",
+            "defense": 28,
+            "speed": 19,
+            "intelligence": 18
+        },
+        {
+            "name": "Enfant de l'Enfer",
+            "species": "Démon",
+            "description": "Un enfant des ténèbres, capable de lancer des boulets de feu et de hurler pour terrifier ses ennemis.",
+            "attack_types": {
+                "magic": ["Boulet de Feu", "Hurlement Démoniaque"],
+                "spiritual": ["Inferno"]
+            },
+            "weaknesses": ["Anges", "Cyborgs"],
+            "resistances": ["Fées", "Monstres Mécaniques"],
+            "rarity": "commun",
+            "defense": 22,
+            "speed": 21,
+            "intelligence": 16
+        },
+        {
+            "name": "Esprit Maudit",
+            "species": "Démon",
+            "description": "Un esprit maudit, capable de maudire ses ennemis avec des gémissements perçants et d'invoquer des bénédictions sombres.",
+            "attack_types": {
+                "magic": ["Gémissement", "Bénédiction Sombre"],
+                "spiritual": ["Malédiction"]
+            },
+            "weaknesses": ["Anges", "Cyborgs"],
+            "resistances": ["Fées", "Monstres Mécaniques"],
+            "rarity": "commun",
+            "defense": 20,
+            "speed": 17,
+            "intelligence": 22
+        },
