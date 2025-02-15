@@ -2396,3 +2396,146 @@ monsters = [
         "rarity": {"en": "common", "fr": "commun"},
         "defense": 21, "speed": 16, "intelligence": 23
     }),
+
+# Cyborgs
+    Monster({
+        "name": {"en": "Cyborg Assassin", "fr": "Assassin Cyborg"},
+        "species": {"en": "Cyborg", "fr": "Cyborg"},
+        "health": 300, "level": 7,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Stealth Strike", "fr": "Frappe Furtive"},
+                {"en": "Critical Targeting", "fr": "Ciblage Critique"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Laser Shot", "fr": "Tir Laser"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Beasts"], "fr": ["Monstres Mécaniques", "Bêtes"]},
+        "resistances": {"en": ["Dragons", "Angels"], "fr": ["Dragons", "Anges"]},
+        "description": {"en": "A cyborg assassin, master of infiltration and stealth strikes, capable of eliminating targets with surgical precision.", 
+                        "fr": "Un assassin cyborg, maître de l'infiltration et des frappes furtives, capable d'éliminer des cibles avec une précision chirurgicale."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 22, "speed": 25, "intelligence": 28
+    }),
+    Monster({
+        "name": {"en": "Battle Cyborg", "fr": "Cyborg de Bataille"},
+        "species": {"en": "Cyborg", "fr": "Cyborg"},
+        "health": 320, "level": 8,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Missile Barrage", "fr": "Barrage de Missiles"},
+                {"en": "Shield Bash", "fr": "Coup de Bouclier"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Tactical Maneuver", "fr": "Manœuvre Tactique"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Beasts"], "fr": ["Monstres Mécaniques", "Bêtes"]},
+        "resistances": {"en": ["Dragons", "Angels"], "fr": ["Dragons", "Anges"]},
+        "description": {"en": "A battle cyborg, armed with missiles and brute strength, capable of launching devastating tactical attacks on the battlefield.", 
+                        "fr": "Un cyborg de bataille, armé de missiles et de force brute, capable de lancer des attaques tactiques dévastatrices sur le champ de bataille."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 30, "speed": 24, "intelligence": 26
+    }),
+    Monster({
+        "name": {"en": "Cybernetic Overlord", "fr": "Seigneur Cybernétique"},
+        "species": {"en": "Cyborg", "fr": "Cyborg"},
+        "health": 350, "level": 9,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Brain Hack", "fr": "Pirater le Cerveau"},
+                {"en": "Mechanical Overdrive", "fr": "Surrégime Mécanique"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Nano Heal", "fr": "Guérison Nano"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Beasts"], "fr": ["Monstres Mécaniques", "Bêtes"]},
+        "resistances": {"en": ["Dragons", "Angels"], "fr": ["Dragons", "Anges"]},
+        "description": {"en": "A cybernetic overlord, capable of hacking the minds of its enemies and repairing itself with advanced technology.", 
+                        "fr": "Un seigneur cybernétique, capable de pirater les esprits de ses ennemis et de se réparer avec une technologie avancée."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 35, "speed": 20, "intelligence": 34
+    }),
+    Monster({
+        "name": {"en": "Robo-Guardian", "fr": "Gardien Robo"},
+        "species": {"en": "Cyborg", "fr": "Cyborg"},
+        "health": 330, "level": 8,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Laser Defense", "fr": "Défense Laser"},
+                {"en": "Guardian Protocol", "fr": "Protocole de Gardien"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Plasma Shield", "fr": "Bouclier Plasma"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Beasts"], "fr": ["Monstres Mécaniques", "Bêtes"]},
+        "resistances": {"en": ["Dragons", "Angels"], "fr": ["Dragons", "Anges"]},
+        "description": {"en": "A robotic guardian, capable of creating laser defenses and protecting allies with advanced protocols.", 
+                        "fr": "Un gardien robotique, capable de créer des défenses laser et de protéger ses alliés avec des protocoles avancés."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 32, "speed": 21, "intelligence": 27
+    }),
+    Monster({
+        "name": {"en": "Android Spy", "fr": "Espion Android"},
+        "species": {"en": "Cyborg", "fr": "Cyborg"},
+        "health": 290, "level": 6,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Infiltration", "fr": "Infiltration"},
+                {"en": "Energy Blade", "fr": "Lame Énergétique"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Data Extraction", "fr": "Extraction de Données"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Beasts"], "fr": ["Monstres Mécaniques", "Bêtes"]},
+        "resistances": {"en": ["Dragons", "Angels"], "fr": ["Dragons", "Anges"]},
+        "description": {"en": "An agile android spy, capable of infiltrating enemy lines and extracting sensitive data with its energy blade.", 
+                        "fr": "Un espion android agile, capable d'infiltrer les lignes ennemies et d'extraire des données sensibles avec sa lame énergétique."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 20, "speed": 26, "intelligence": 29
+    }),
+    Monster({
+        "name": {"en": "Cyborg Soldier", "fr": "Soldat Cyborg"},
+        "species": {"en": "Cyborg", "fr": "Cyborg"},
+        "health": 310, "level": 7,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Riot Shield", "fr": "Bouclier de Manifestation"},
+                {"en": "Tactical Shot", "fr": "Tir Tactique"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Combat Adaptation", "fr": "Adaptation au Combat"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Beasts"], "fr": ["Monstres Mécaniques", "Bêtes"]},
+        "resistances": {"en": ["Dragons", "Angels"], "fr": ["Dragons", "Anges"]},
+        "description": {"en": "A cyborg soldier trained for tactical combat, capable of adapting to different situations and defending itself with a riot shield.", 
+                        "fr": "Un soldat cyborg entraîné pour le combat tactique, capable de s'adapter à différentes situations et de se défendre avec un bouclier de manifestation."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 28, "speed": 23, "intelligence": 25
+    }),
+    Monster({
+        "name": {"en": "Mechanical Enforcer", "fr": "Exécuteur Mécanique"},
+        "species": {"en": "Cyborg", "fr": "Cyborg"},
+        "health": 340, "level": 9,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Crushing Blow", "fr": "Coup Écrasant"},
+                {"en": "Heavy Assault", "fr": "Assaut Lourd"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Iron Fist", "fr": "Poing de Fer"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Beasts"], "fr": ["Monstres Mécaniques", "Bêtes"]},
+        "resistances": {"en": ["Dragons", "Angels"], "fr": ["Dragons", "Anges"]},
+        "description": {"en": "A mechanical enforcer, capable of delivering crushing blows and launching heavy assaults against its enemies.", 
+                        "fr": "Un exécuteur mécanique, capable de donner des coups écrasants et de lancer des assauts lourds contre ses ennemis."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 34, "speed": 19, "intelligence": 28
+    }),
+]
