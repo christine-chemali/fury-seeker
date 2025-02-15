@@ -1828,3 +1828,145 @@ monsters = [
         "rarity": {"en": "legendary", "fr": "légendaire"},
         "defense": 39, "speed": 20, "intelligence": 31
     }),
+
+# Mythical creatures
+    Monster({
+        "name": {"en": "Unicorn", "fr": "Licorne"},
+        "species": {"en": "Mythical Creature", "fr": "Créature Mythique"},
+        "health": 300, "level": 7,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Healing Touch", "fr": "Toucher Guérisseur"},
+                {"en": "Celestial Blessing", "fr": "Bénédiction Céleste"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Horn Charge", "fr": "Charge de Corne"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Dragons", "Elementals"], "fr": ["Dragons", "Éléments"]},
+        "resistances": {"en": ["Aliens", "Ghosts"], "fr": ["Aliens", "Fantômes"]},
+        "description": {"en": "A legendary unicorn, symbol of purity, capable of healing wounds and bringing celestial blessings to the worthy.", 
+                        "fr": "Une licorne légendaire, symbole de pureté, capable de guérir les blessures et d'apporter des bénédictions célestes aux dignes."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 25, "speed": 22, "intelligence": 25
+    }),
+    Monster({
+        "name": {"en": "Griffin", "fr": "Griffon"},
+        "species": {"en": "Mythical Creature", "fr": "Créature Mythique"},
+        "health": 320, "level": 6,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Claw Attack", "fr": "Attaque de Griffe"},
+                {"en": "Talon Strike", "fr": "Coup de Serre"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Flight", "fr": "Vol"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Dragons", "Elementals"], "fr": ["Dragons", "Éléments"]},
+        "resistances": {"en": ["Aliens", "Ghosts"], "fr": ["Aliens", "Fantômes"]},
+        "description": {"en": "A majestic griffin, a blend of lion and eagle, capable of flying with agility and attacking with powerful claws.", 
+                        "fr": "Un griffon majestueux, mélange de lion et d'aigle, capable de voler avec agilité et d'attaquer avec des griffes puissantes."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 30, "speed": 25, "intelligence": 22
+    }),
+    Monster({
+        "name": {"en": "Phoenix", "fr": "Phoenix"},
+        "species": {"en": "Mythical Creature", "fr": "Créature Mythique"},
+        "health": 340, "level": 8,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Fire Rebirth", "fr": "Renaissance de Feu"},
+                {"en": "Ember Burst", "fr": "Explosion de Braises"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Flame Wings", "fr": "Ailes de Flammes"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Dragons", "Elementals"], "fr": ["Dragons", "Éléments"]},
+        "resistances": {"en": ["Aliens", "Ghosts"], "fr": ["Aliens", "Fantômes"]},
+        "description": {"en": "A flamboyant phoenix, capable of rebirthing from its ashes, using fire to inflict damage and elevate its spirit into the skies.", 
+                        "fr": "Un phoenix flamboyant, capable de renaître de ses cendres, utilisant le feu pour infliger des dégâts et élever son esprit dans les cieux."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 28, "speed": 24, "intelligence": 27
+    }),
+    Monster({
+        "name": {"en": "Chimera", "fr": "Chimère"},
+        "species": {"en": "Mythical Creature", "fr": "Créature Mythique"},
+        "health": 350, "level": 9,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Fire Breath", "fr": "Souffle de Feu"},
+                {"en": "Beastly Roar", "fr": "Rugissement Bestial"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Tail Swipe", "fr": "Coup de Queue"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Dragons", "Elementals"], "fr": ["Dragons", "Éléments"]},
+        "resistances": {"en": ["Aliens", "Ghosts"], "fr": ["Aliens", "Fantômes"]},
+        "description": {"en": "A terrifying chimera, a blend of multiple beasts, capable of breathing fire and attacking with beastly strength.", 
+                        "fr": "Une chimère terrifiante, mélange de plusieurs bêtes, capable de cracher du feu et d'attaquer avec une force bestiale."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 32, "speed": 20, "intelligence": 24
+    }),
+    Monster({
+        "name": {"en": "Hydra", "fr": "Hydre"},
+        "species": {"en": "Mythical Creature", "fr": "Créature Mythique"},
+        "health": 360, "level": 8,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Regenerate", "fr": "Régénérer"},
+                {"en": "Hydra's Fury", "fr": "Fureur de l'Hydre"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Multiple Heads", "fr": "Têtes Multiples"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Dragons", "Elementals"], "fr": ["Dragons", "Éléments"]},
+        "resistances": {"en": ["Aliens", "Ghosts"], "fr": ["Aliens", "Fantômes"]},
+        "description": {"en": "A multi-headed hydra, capable of regenerating its wounds and inflicting devastating fury upon anyone who approaches.", 
+                        "fr": "Une hydre à plusieurs têtes, capable de régénérer ses blessures et d'infliger une fureur dévastatrice à quiconque s'approche."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 34, "speed": 19, "intelligence": 23
+    }),
+    Monster({
+        "name": {"en": "Minotaur", "fr": "Minotaure"},
+        "species": {"en": "Mythical Creature", "fr": "Créature Mythique"},
+        "health": 330, "level": 7,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Charge", "fr": "Charge"},
+                {"en": "Bull Rush", "fr": "Charge de Taureau"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Maze Mastery", "fr": "Maîtrise du Labyrinthe"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Dragons", "Elementals"], "fr": ["Dragons", "Éléments"]},
+        "resistances": {"en": ["Aliens", "Ghosts"], "fr": ["Aliens", "Fantômes"]},
+        "description": {"en": "A powerful minotaur, guardian of the labyrinths, capable of charging with force and mastering its environment with cunning.", 
+                        "fr": "Un minotaure puissant, gardien des labyrinthes, capable de charger avec force et de maîtriser son environnement avec ruse."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 29, "speed": 18, "intelligence": 20
+    }),
+    Monster({
+        "name": {"en": "Sphinx", "fr": "Sphinx"},
+        "species": {"en": "Mythical Creature", "fr": "Créature Mythique"},
+        "health": 310, "level": 6,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Riddle", "fr": "Devinette"},
+                {"en": "Guardian's Challenge", "fr": "Défi du Gardien"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Claw Attack", "fr": "Attaque de Griffe"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Dragons", "Elementals"], "fr": ["Dragons", "Éléments"]},
+        "resistances": {"en": ["Aliens", "Ghosts"], "fr": ["Aliens", "Fantômes"]},
+        "description": {"en": "An enigmatic sphinx, keeper of secrets, capable of posing riddles and attacking with its sharp claws.", 
+                        "fr": "Un sphinx énigmatique, gardien des secrets, capable de poser des devinettes et d'attaquer avec ses griffes acérées."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 27, "speed": 21, "intelligence": 29
+    }),
