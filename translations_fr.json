@@ -1035,3 +1035,108 @@
             "speed": 15,
             "intelligence": 24
         },
+        {
+            "name": "Gardien de la Forêt",
+            "species": "Bête de la Forêt",
+            "description": "Un gardien de la forêt, protecteur des bois, capable de se camoufler dans son environnement et de déchaîner la fureur de la nature sur ses ennemis.",
+            "attack_types": {
+                "magic": ["Camouflage", "Fureur de la Forêt"],
+                "spiritual": ["Colère de la Nature"]
+            },
+            "weaknesses": ["Esprits Élémentaires", "Fantômes"],
+            "resistances": ["Démons", "Dragons"],
+            "rarity": "légendaire",
+            "defense": 24,
+            "speed": 16,
+            "intelligence": 20
+        },
+        {
+            "name": "Lynx Hurleur",
+            "species": "Bête de la Forêt",
+            "description": "Un lynx hurleur, agile et furtif, capable de se déplacer silencieusement à travers les bois et de sauter sur sa proie.",
+            "attack_types": {
+                "physical": ["Hurlement", "Saut"],
+                "spiritual": ["Traque Silencieuse"]
+            },
+            "weaknesses": ["Esprits Élémentaires", "Fantômes"],
+            "resistances": ["Démons", "Dragons"],
+            "rarity": "commun",
+            "defense": 18,
+            "speed": 22,
+            "intelligence": 15
+        },
+        {
+            "name": "Élan Géant",
+            "species": "Bête de la Forêt",
+            "description": "Un énorme élan, puissant et majestueux, capable de charger ses ennemis avec une force écrasante.",
+            "attack_types": {
+                "physical": ["Charge", "Stampede"],
+                "spiritual": ["Appel de la Nature"]
+            },
+            "weaknesses": ["Esprits Élémentaires", "Fantômes"],
+            "resistances": ["Démons", "Dragons"],
+            "rarity": "rare",
+            "defense": 26,
+            "speed": 14,
+            "intelligence": 12
+        },
+        {
+            "name": "Panthère des Ombres",
+            "species": "Bête de la Forêt",
+            "description": "Une panthère des ombres, rapide et silencieuse, capable de frapper ses ennemis par surprise et de disparaître dans la nuit.",
+            "attack_types": {
+                "physical": ["Attaque Furtive", "Griffe"],
+                "spiritual": ["Saut des Ombres"]
+            },
+            "weaknesses": ["Esprits Élémentaires", "Fantômes"],
+            "resistances": ["Démons", "Dragons"],
+            "rarity": "rare",
+            "defense": 20,
+            "speed": 23,
+            "intelligence": 18
+        },
+        {
+            "name": "Arbre Ancien",
+            "species": "Bête de la Forêt",
+            "description": "Un arbre ancien, vivant et puissant, capable d'immobiliser ses ennemis avec ses racines et de protéger la forêt.",
+            "attack_types": {
+                "magic": ["Liaison de Racine", "Prise en Bois"],
+                "spiritual": ["Bouclier de la Nature"]
+            },
+            "weaknesses": ["Esprits Élémentaires", "Fantômes"],
+            "resistances": ["Démons", "Dragons"],
+            "rarity": "légendaire",
+            "defense": 35,
+            "speed": 8,
+            "intelligence": 16
+        },
+        {
+            "name": "Renard Fey",
+            "species": "Bête de la Forêt",
+            "description": "Un renard fey, rusé et agile, utilisant des illusions pour tromper ses ennemis et frapper rapidement.",
+            "attack_types": {
+                "magic": ["Illusion", "Truc de Fey"],
+                "spiritual": ["Frappe Rapide"]
+            },
+            "weaknesses": ["Esprits Élémentaires", "Fantômes"],
+            "resistances": ["Démons", "Dragons"],
+            "rarity": "commun",
+            "defense": 10,
+            "speed": 25,
+            "intelligence": 21
+        },
+        {
+            "name": "Bête de Vigne",
+            "species": "Bête de la Forêt",
+            "description": "Une bête de vigne, capable d'attaquer avec des vignes et d'engluer ses ennemis avec des frappes épineuses.",
+            "attack_types": {
+                "physical": ["Fouet de Vigne", "Barrage Épineux"],
+                "spiritual": ["Enchevêtrer"]
+            },
+            "weaknesses": ["Esprits Élémentaires", "Fantômes"],
+            "resistances": ["Démons", "Dragons"],
+            "rarity": "rare",
+            "defense": 22,
+            "speed": 15,
+            "intelligence": 17
+        },
