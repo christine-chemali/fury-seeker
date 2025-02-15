@@ -2112,3 +2112,145 @@ monsters = [
         "rarity": {"en": "legendary", "fr": "légendaire"},
         "defense": 21, "speed": 16, "intelligence": 24
     }),
+
+    # Aliens
+    Monster({
+        "name": {"en": "Martian Warrior", "fr": "Guerrier Martien"},
+        "species": {"en": "Alien", "fr": "Alien"},
+        "health": 300, "level": 7,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Laser Blast", "fr": "Explosion Laser"},
+                {"en": "Mind Probe", "fr": "Profondeur Mentale"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Teleport", "fr": "Téléportation"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Ghosts"], "fr": ["Monstres Mécaniques", "Fantômes"]},
+        "resistances": {"en": ["Angels", "Undead"], "fr": ["Anges", "Morts-vivants"]},
+        "description": {"en": "A formidable Martian warrior, equipped with powerful laser weapons and capable of teleporting to surprise its foes.", 
+                        "fr": "Un formidable guerrier martien, équipé d'armes laser puissantes et capable de se téléporter pour surprendre ses ennemis."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 22, "speed": 20, "intelligence": 24
+    }),
+    Monster({
+        "name": {"en": "Galactic Overlord", "fr": "Seigneur Galactique"},
+        "species": {"en": "Alien", "fr": "Alien"},
+        "health": 350, "level": 8,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Mind Control", "fr": "Contrôle Mental"},
+                {"en": "Galactic Domination", "fr": "Domination Galactique"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Energy Shield", "fr": "Bouclier Énergétique"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Ghosts"], "fr": ["Monstres Mécaniques", "Fantômes"]},
+        "resistances": {"en": ["Angels", "Undead"], "fr": ["Anges", "Morts-vivants"]},
+        "description": {"en": "A ruthless galactic overlord, capable of controlling minds and creating energy shields for defense.", 
+                        "fr": "Un seigneur galactique impitoyable, capable de contrôler les esprits et de créer des boucliers énergétiques pour se défendre."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 28, "speed": 19, "intelligence": 32
+    }),
+    Monster({
+        "name": {"en": "Space Pirate", "fr": "Pirate de l'Espace"},
+        "species": {"en": "Alien", "fr": "Alien"},
+        "health": 280, "level": 6,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Plasma Cannon", "fr": "Canon Plasma"},
+                {"en": "Loot and Pillage", "fr": "Piller et Ravager"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Boarding Action", "fr": "Action d'Boarding"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Ghosts"], "fr": ["Monstres Mécaniques", "Fantômes"]},
+        "resistances": {"en": ["Angels", "Undead"], "fr": ["Anges", "Morts-vivants"]},
+        "description": {"en": "A bold space pirate armed with a plasma cannon, attacking enemy ships to plunder their treasures.", 
+                        "fr": "Un pirate de l'espace audacieux armé d'un canon plasma, attaquant les vaisseaux ennemis pour piller leurs trésors."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 20, "speed": 21, "intelligence": 18
+    }),
+    Monster({
+        "name": {"en": "UFO Invader", "fr": "Envahisseur OVNI"},
+        "species": {"en": "Alien", "fr": "Alien"},
+        "health": 290, "level": 7,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Abduction Beam", "fr": "Rayon d'Abduction"},
+                {"en": "Disruptor Ray", "fr": "Rayon Perturbateur"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Alien Technology", "fr": "Technologie Extra-Terrestre"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Ghosts"], "fr": ["Monstres Mécaniques", "Fantômes"]},
+        "resistances": {"en": ["Angels", "Undead"], "fr": ["Anges", "Morts-vivants"]},
+        "description": {"en": "A UFO invader, capable of projecting abduction beams and using alien technology to destroy its enemies.", 
+                        "fr": "Un envahisseur OVNI, capable de projeter des rayons d'abduction et d'utiliser la technologie extra-terrestre pour détruire ses ennemis."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 23, "speed": 22, "intelligence": 25
+    }),
+    Monster({
+        "name": {"en": "Cosmic Explorer", "fr": "Explorateur Cosmique"},
+        "species": {"en": "Alien", "fr": "Alien"},
+        "health": 270, "level": 5,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Gravity Well", "fr": "Puits de Gravité"},
+                {"en": "Black Hole", "fr": "Trou Noir"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Cosmic Shift", "fr": "Changement Cosmique"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Ghosts"], "fr": ["Monstres Mécaniques", "Fantômes"]},
+        "resistances": {"en": ["Angels", "Undead"], "fr": ["Anges", "Morts-vivants"]},
+        "description": {"en": "A cosmic explorer, capable of manipulating gravity and creating black holes to trap its opponents.", 
+                        "fr": "Un explorateur cosmique, capable de manipuler la gravité et de créer des trous noirs pour piéger ses adversaires."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 19, "speed": 18, "intelligence": 27
+    }),
+    Monster({
+        "name": {"en": "Bio-Engineered Soldier", "fr": "Soldat Bio-Engineering"},
+        "species": {"en": "Alien", "fr": "Alien"},
+        "health": 320, "level": 8,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Genetic Mutation", "fr": "Mutation Génétique"},
+                {"en": "Enhanced Reflexes", "fr": "Réflexes Améliorés"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Adaptive Combat", "fr": "Combat Adaptatif"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Ghosts"], "fr": ["Monstres Mécaniques", "Fantômes"]},
+        "resistances": {"en": ["Angels", "Undead"], "fr": ["Anges", "Morts-vivants"]},
+        "description": {"en": "A bio-engineered soldier, enhanced with genetic mutations that boost its combat abilities and reflexes.", 
+                        "fr": "Un soldat bio-ingenierie, amélioré par des mutations génétiques qui augmentent ses capacités de combat et ses réflexes."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 26, "speed": 23, "intelligence": 29
+    }),
+    Monster({
+        "name": {"en": "Intergalactic Scout", "fr": "Scout Intergalactique"},
+        "species": {"en": "Alien", "fr": "Alien"},
+        "health": 260, "level": 4,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Stealth Mode", "fr": "Mode Furtif"},
+                {"en": "Laser Dagger", "fr": "Dague Laser"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Quick Strike", "fr": "Frappe Rapide"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Mechanical Monsters", "Ghosts"], "fr": ["Monstres Mécaniques", "Fantômes"]},
+        "resistances": {"en": ["Angels", "Undead"], "fr": ["Anges", "Morts-vivants"]},
+        "description": {"en": "An agile intergalactic scout, capable of camouflaging and striking quickly with its laser dagger.", 
+                        "fr": "Un scout intergalactique agile, capable de se camoufler et de frapper rapidement avec sa dague laser."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 18, "speed": 24, "intelligence": 22
+    }),
