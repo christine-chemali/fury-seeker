@@ -429,4 +429,145 @@ monsters = [
         "defense": 14, "speed": 16, "intelligence": 12
     }),
 
+    # Beasts
+    Monster({
+        "name": {"en": "Wild Beast", "fr": "Bête Sauvage"},
+        "species": {"en": "Beast", "fr": "Bête"},
+        "health": 250, "level": 5,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Pounce", "fr": "Saut"},
+                {"en": "Furious Charge", "fr": "Charge Furieuse"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Bite", "fr": "Morsure"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Ghosts", "Fairies"], "fr": ["Fantômes", "Fées"]},
+        "resistances": {"en": ["Vampires", "Elementals"], "fr": ["Vampires", "Éléments"]},
+        "description": {"en": "A wild beast, fast and fierce, attacking with uncontrollable rage. It is the terror of the weak.", 
+                        "fr": "Une bête sauvage, rapide et féroce, attaquant avec une rage incontrôlable. C'est la terreur des faibles."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 22, "speed": 30, "intelligence": 10
+    }),
+    Monster({
+        "name": {"en": "Spirit Wolf", "fr": "Loup Spirituel"},
+        "species": {"en": "Beast", "fr": "Bête"},
+        "health": 230, "level": 4,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Fang Strike", "fr": "Frappe de Crocs"},
+                {"en": "Pack Mentality", "fr": "Mentalité de Meute"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Howl", "fr": "Hurlement"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Ghosts", "Fairies"], "fr": ["Fantômes", "Fées"]},
+        "resistances": {"en": ["Vampires", "Elementals"], "fr": ["Vampires", "Éléments"]},
+        "description": {"en": "A spirit wolf, loyal and protective, able to gather a pack to hunt its enemies.", 
+                        "fr": "Un loup spirituel, loyal et protecteur, capable de rassembler une meute pour chasser ses ennemis."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 18, "speed": 25, "intelligence": 12
+    }),
+    Monster({
+        "name": {"en": "Feral Cat", "fr": "Chat Sauvage"},
+        "species": {"en": "Beast", "fr": "Bête"},
+        "health": 180, "level": 3,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Scratch", "fr": "Griffer"},
+                {"en": "Pounce", "fr": "Saut"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Quick Escape", "fr": "Évasion Rapide"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Ghosts", "Fairies"], "fr": ["Fantômes", "Fées"]},
+        "resistances": {"en": ["Vampires", "Elementals"], "fr": ["Vampires", "Éléments"]},
+        "description": {"en": "A wild feline, agile and unpredictable, using its agility to escape predators.", 
+                        "fr": "Un félin sauvage, agile et imprévisible, utilisant son agilité pour échapper aux prédateurs."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 13, "speed": 28, "intelligence": 9
+    }),
+    Monster({
+        "name": {"en": "Mountain Lion", "fr": "Puma"},
+        "species": {"en": "Beast", "fr": "Bête"},
+        "health": 240, "level": 5,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Claw Slash", "fr": "Coup de Griffe"},
+                {"en": "Ambush", "fr": "Embuscade"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Roar", "fr": "Rugissement"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Ghosts", "Fairies"], "fr": ["Fantômes", "Fées"]},
+        "resistances": {"en": ["Vampires", "Elementals"], "fr": ["Vampires", "Éléments"]},
+        "description": {"en": "A powerful mountain feline, a fearsome predator and agile hunter, capable of surprise attacks.", 
+                        "fr": "Un puissant félin de montagne, un prédateur redoutable et un chasseur agile, capable d'attaques surprises."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 20, "speed": 27, "intelligence": 11
+    }),
+    Monster({
+        "name": {"en": "Dire Wolf", "fr": "Loup Dire"},
+        "species": {"en": "Beast", "fr": "Bête"},
+        "health": 220, "level": 4,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Pack Attack", "fr": "Attaque de Meute"},
+                {"en": "Bite", "fr": "Morsure"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Howl of Fury", "fr": "Hurlement de Furie"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Ghosts", "Fairies"], "fr": ["Fantômes", "Fées"]},
+        "resistances": {"en": ["Vampires", "Elementals"], "fr": ["Vampires", "Éléments"]},
+        "description": {"en": "A wolf of darkness, leader of a ruthless pack, capable of coordinating group attacks.", 
+                        "fr": "Un loup des ténèbres, leader d'une meute impitoyable, capable de coordonner des attaques de groupe."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 17, "speed": 23, "intelligence": 13
+    }),
+    Monster({
+        "name": {"en": "Giant Bear", "fr": "Ours Géant"},
+        "species": {"en": "Beast", "fr": "Bête"},
+        "health": 260, "level": 6,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Mighty Swipe", "fr": "Coup Puissant"},
+                {"en": "Charge", "fr": "Charge"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Roar of the Wild", "fr": "Rugissement de la Nature"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Ghosts", "Fairies"], "fr": ["Fantômes", "Fées"]},
+        "resistances": {"en": ["Vampires", "Elementals"], "fr": ["Vampires", "Éléments"]},
+        "description": {"en": "A giant bear, a symbol of strength and power, capable of crushing its enemies with a single blow.", 
+                        "fr": "Un ours géant, un symbole de force et de pouvoir, capable d'écraser ses ennemis d'un seul coup."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 35, "speed": 8, "intelligence": 12
+    }),
+    Monster({
+        "name": {"en": "Saber-Toothed Tiger", "fr": "Tigre à Dents de Sabre"},
+        "species": {"en": "Beast", "fr": "Bête"},
+        "health": 240, "level": 5,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Fang Bite", "fr": "Morsure de Croc"},
+                {"en": "Quick Strike", "fr": "Frappe Rapide"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Predator's Instinct", "fr": "Instinct de Prédateur"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Ghosts", "Fairies"], "fr": ["Fantômes", "Fées"]},
+        "resistances": {"en": ["Vampires", "Elementals"], "fr": ["Vampires", "Éléments"]},
+        "description": {"en": "A prehistoric feline with sharp fangs and lightning speed, hunting with deadly swiftness.", 
+                        "fr": "Un félin préhistorique avec des crocs acérés et une vitesse fulgurante, chassant avec une rapidité mortelle."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 19, "speed": 29, "intelligence": 10
+    }),
   
