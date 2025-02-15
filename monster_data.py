@@ -1261,7 +1261,7 @@ monsters = [
         "defense": 13, "speed": 19, "intelligence": 21
     }),
  
-# Undeads
+    # Undeads
     Monster({
         "name": {"en": "Skeleton", "fr": "Squelette"},
         "species": {"en": "Undead", "fr": "Mort-vivant"},
@@ -1403,7 +1403,7 @@ monsters = [
         "defense": 22, "speed": 15, "intelligence": 24
     }),
 
-# Beast of the forest
+    # Beast of the forest
     Monster({
         "name": {"en": "Forest Guardian", "fr": "Gardien de la Forêt"},
         "species": {"en": "Beast of the Forest", "fr": "Bête de la Forêt"},
@@ -1545,3 +1545,144 @@ monsters = [
         "defense": 22, "speed": 15, "intelligence": 17
     }),
 
+    # Demons
+    Monster({
+        "name": {"en": "Infernal Demon", "fr": "Démon Infernal"},
+        "species": {"en": "Demon", "fr": "Démon"},
+        "health": 350, "level": 8,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Hellfire", "fr": "Feu de l'Enfer"},
+                {"en": "Infernal Wrath", "fr": "Colère Infernale"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Demonic Strike", "fr": "Frappe Démoniaque"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Angels", "Cyborgs"], "fr": ["Anges", "Cyborgs"]},
+        "resistances": {"en": ["Fairies", "Mechanical Monsters"], "fr": ["Fées", "Monstres Mécaniques"]},
+        "description": {"en": "An infernal demon, master of hellfire, capable of unleashing devastating wrath upon its enemies.", 
+                        "fr": "Un démon infernal, maître du feu de l'enfer, capable de déchaîner une colère dévastatrice sur ses ennemis."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 35, "speed": 20, "intelligence": 28
+    }),
+    Monster({
+        "name": {"en": "Shadow Demon", "fr": "Démon des Ombres"},
+        "species": {"en": "Demon", "fr": "Démon"},
+        "health": 300, "level": 7,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Nightmare", "fr": "Cauchemar"},
+                {"en": "Cursed Shadow", "fr": "Ombre Maudite"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Shadow Strike", "fr": "Frappe des Ombres"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Angels", "Cyborgs"], "fr": ["Anges", "Cyborgs"]},
+        "resistances": {"en": ["Fairies", "Mechanical Monsters"], "fr": ["Fées", "Monstres Mécaniques"]},
+        "description": {"en": "A shadow demon, capable of plunging its enemies into nightmares and striking with stealthy attacks.", 
+                        "fr": "Un démon des ombres, capable de plonger ses ennemis dans des cauchemars et de frapper avec des attaques furtives."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 30, "speed": 22, "intelligence": 25
+    }),
+    Monster({
+        "name": {"en": "Succubus", "fr": "Succube"},
+        "species": {"en": "Demon", "fr": "Démon"},
+        "health": 280, "level": 6,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Seduction", "fr": "Séduction"},
+                {"en": "Soul Drain", "fr": "Drain d'Âme"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Charm", "fr": "Charme"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Angels", "Cyborgs"], "fr": ["Anges", "Cyborgs"]},
+        "resistances": {"en": ["Fairies", "Mechanical Monsters"], "fr": ["Fées", "Monstres Mécaniques"]},
+        "description": {"en": "A seductive succubus, using her charm to manipulate and drain the life force from her victims.", 
+                        "fr": "Une succube séduisante, utilisant son charme pour manipuler et drainer la force vitale de ses victimes."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 25, "speed": 24, "intelligence": 30
+    }),
+    Monster({
+        "name": {"en": "Baal", "fr": "Baal"},
+        "species": {"en": "Demon", "fr": "Démon"},
+        "health": 400, "level": 9,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Doomsday", "fr": "Jour du Jugement"},
+                {"en": "Destruction", "fr": "Destruction"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Dark Ritual", "fr": "Rituel Sombre"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Angels", "Cyborgs"], "fr": ["Anges", "Cyborgs"]},
+        "resistances": {"en": ["Fairies", "Mechanical Monsters"], "fr": ["Fées", "Monstres Mécaniques"]},
+        "description": {"en": "Baal, the supreme demon, capable of causing cataclysms and performing dark rituals to amplify his power.", 
+                        "fr": "Baal, le démon suprême, capable de provoquer des cataclysmes et de réaliser des rituels sombres pour amplifier son pouvoir."},
+        "rarity": {"en": "legendary", "fr": "légendaire"},
+        "defense": 40, "speed": 18, "intelligence": 35
+    }),
+    Monster({
+        "name": {"en": "Fell Beast", "fr": "Bête Maudite"},
+        "species": {"en": "Demon", "fr": "Démon"},
+        "health": 320, "level": 7,
+        "attack_types": [
+            {"type": {"en": "physical", "fr": "physique"}, "moves": [
+                {"en": "Claw", "fr": "Griffe"},
+                {"en": "Dark Charge", "fr": "Charge Sombre"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Fury", "fr": "Fureur"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Angels", "Cyborgs"], "fr": ["Anges", "Cyborgs"]},
+        "resistances": {"en": ["Fairies", "Mechanical Monsters"], "fr": ["Fées", "Monstres Mécaniques"]},
+        "description": {"en": "A cursed beast, capable of striking with brute force and charging at its enemies in a frenzy of rage.", 
+                        "fr": "Une bête maudite, capable de frapper avec force brute et de charger ses ennemis dans une frénésie de rage."},
+        "rarity": {"en": "rare", "fr": "rare"},
+        "defense": 28, "speed": 19, "intelligence": 18
+    }),
+    Monster({
+        "name": {"en": "Hellspawn", "fr": "Enfant de l'Enfer"},
+        "species": {"en": "Demon", "fr": "Démon"},
+        "health": 290, "level": 6,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Fireball", "fr": "Boulet de Feu"},
+                {"en": "Demonic Howl", "fr": "Hurlement Démoniaque"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Inferno", "fr": "Inferno"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Angels", "Cyborgs"], "fr": ["Anges", "Cyborgs"]},
+        "resistances": {"en": ["Fairies", "Mechanical Monsters"], "fr": ["Fées", "Monstres Mécaniques"]},
+        "description": {"en": "A child of darkness, capable of launching fireballs and howling to terrify its enemies.", 
+                        "fr": "Un enfant des ténèbres, capable de lancer des boulets de feu et de hurler pour terrifier ses ennemis."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 22, "speed": 21, "intelligence": 16
+    }),
+    Monster({
+        "name": {"en": "Cursed Spirit", "fr": "Esprit Maudit"},
+        "species": {"en": "Demon", "fr": "Démon"},
+        "health": 270, "level": 5,
+        "attack_types": [
+            {"type": {"en": "magic", "fr": "magie"}, "moves": [
+                {"en": "Wail", "fr": "Gémissement"},
+                {"en": "Dark Blessing", "fr": "Bénédiction Sombre"}
+            ]},
+            {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+                {"en": "Curse", "fr": "Malédiction"}
+            ]}
+        ],
+        "weaknesses": {"en": ["Angels", "Cyborgs"], "fr": ["Anges", "Cyborgs"]},
+        "resistances": {"en": ["Fairies", "Mechanical Monsters"], "fr": ["Fées", "Monstres Mécaniques"]},
+        "description": {"en": "A cursed spirit, capable of cursing its enemies with piercing wails and invoking dark blessings.", 
+                        "fr": "Un esprit maudit, capable de maudire ses ennemis avec des gémissements perçants et d'invoquer des bénédictions sombres."},
+        "rarity": {"en": "common", "fr": "commun"},
+        "defense": 20, "speed": 17, "intelligence": 22
+    }),
