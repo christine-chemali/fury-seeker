@@ -2546,4 +2546,4 @@ monsters_data = [monster.get_stats() for monster in monsters]
 with open('monsters.json', 'w') as json_file:
     json.dump(monsters_data, json_file, indent=4)
 
-print("Monsters data has been written to monsters.json.")
+# print("Monsters data has been written to monsters.json.")
