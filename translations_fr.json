@@ -315,3 +315,108 @@
             "speed": 16,
             "intelligence": 12
         },
+        {
+            "name": "Bête Sauvage",
+            "species": "Bête",
+            "description": "Une bête sauvage, rapide et féroce, attaquant avec une rage incontrôlable. C'est la terreur des faibles.",
+            "attack_types": {
+                "physical": ["Saut", "Charge Furieuse"],
+                "spiritual": ["Morsure"]
+            },
+            "weaknesses": ["Fantômes", "Fées"],
+            "resistances": ["Vampires", "Éléments"],
+            "rarity": "commun",
+            "defense": 22,
+            "speed": 30,
+            "intelligence": 10
+        },
+        {
+            "name": "Loup Spirituel",
+            "species": "Bête",
+            "description": "Un loup spirituel, loyal et protecteur, capable de rassembler une meute pour chasser ses ennemis.",
+            "attack_types": {
+                "physical": ["Frappe de Crocs", "Mentalité de Meute"],
+                "spiritual": ["Hurlement"]
+            },
+            "weaknesses": ["Fantômes", "Fées"],
+            "resistances": ["Vampires", "Éléments"],
+            "rarity": "rare",
+            "defense": 18,
+            "speed": 25,
+            "intelligence": 12
+        },
+        {
+            "name": "Chat Sauvage",
+            "species": "Bête",
+            "description": "Un félin sauvage, agile et imprévisible, utilisant son agilité pour échapper aux prédateurs.",
+            "attack_types": {
+                "physical": ["Griffer", "Saut"],
+                "spiritual": ["Évasion Rapide"]
+            },
+            "weaknesses": ["Fantômes", "Fées"],
+            "resistances": ["Vampires", "Éléments"],
+            "rarity": "commun",
+            "defense": 13,
+            "speed": 28,
+            "intelligence": 9
+        },
+        {
+            "name": "Puma",
+            "species": "Bête",
+            "description": "Un puissant félin de montagne, un prédateur redoutable et un chasseur agile, capable d'attaques surprises.",
+            "attack_types": {
+                "physical": ["Coup de Griffe", "Embuscade"],
+                "spiritual": ["Rugissement"]
+            },
+            "weaknesses": ["Fantômes", "Fées"],
+            "resistances": ["Vampires", "Éléments"],
+            "rarity": "rare",
+            "defense": 20,
+            "speed": 27,
+            "intelligence": 11
+        },
+        {
+            "name": "Loup Dire",
+            "species": "Bête",
+            "description": "Un loup des ténèbres, leader d'une meute impitoyable, capable de coordonner des attaques de groupe.",
+            "attack_types": {
+                "physical": ["Attaque de Meute", "Morsure"],
+                "spiritual": ["Hurlement de Furie"]
+            },
+            "weaknesses": ["Fantômes", "Fées"],
+            "resistances": ["Vampires", "Éléments"],
+            "rarity": "commun",
+            "defense": 17,
+            "speed": 23,
+            "intelligence": 13
+        },
+        {
+            "name": "Ours Géant",
+            "species": "Bête",
+            "description": "Un ours géant, un symbole de force et de pouvoir, capable d'écraser ses ennemis d'un seul coup.",
+            "attack_types": {
+                "physical": ["Coup Puissant", "Charge"],
+                "spiritual": ["Rugissement de la Nature"]
+            },
+            "weaknesses": ["Fantômes", "Fées"],
+            "resistances": ["Vampires", "Éléments"],
+            "rarity": "légendaire",
+            "defense": 35,
+            "speed": 8,
+            "intelligence": 12
+        },
+        {
+            "name": "Tigre à Dents de Sabre",
+            "species": "Bête",
+            "description": "Un félin préhistorique avec des crocs acérés et une vitesse fulgurante, chassant avec une rapidité mortelle.",
+            "attack_types": {
+                "physical": ["Morsure de Croc", "Frappe Rapide"],
+                "spiritual": ["Instinct de Prédateur"]
+            },
+            "weaknesses": ["Fantômes", "Fées"],
+            "resistances": ["Vampires", "Éléments"],
+            "rarity": "rare",
+            "defense": 19,
+            "speed": 29,
+            "intelligence": 10
+        },
