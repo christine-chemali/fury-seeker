@@ -19,4 +19,13 @@ class Localization:
         except json.JSONDecodeError:
             # print(f"Error decoding from the translation file for '{language}'.") # debug
             pass
-            
+    
+    def switch_language(self, language):
+        """To switch to a different language and load the correct translations."""
+        if language in self.translations:
+            self.current_language = language
+            # print(f"Switched to language: {language}.") # debug
+        else:
+            #print (f"Language {language} not loaded.") # debug
+            pass
+        
