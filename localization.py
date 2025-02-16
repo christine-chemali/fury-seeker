@@ -58,4 +58,18 @@ class Localization:
             return key
         else:
             #print("Final translation is not a string : {translation}") # debug
-            return key               
+            return key
+
+    def save_translations(self, language):
+        """To save the current translations to a Json file for the specified language"""
+        with open(f"translations_{language}.json", 'w', encoding = 'utf-8') as json_file:
+           json.dump(self.translations, json_file, indent = 4)
+           #print(f"Saved translations for {language}.") # debug           
+
+"""
+# To use
+localization = Localization()
+localization.save_translations('en')
+localization.switch_language('fr')
+localization.save_translations('fr')
+"""
