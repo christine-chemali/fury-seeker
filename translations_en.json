@@ -722,6 +722,21 @@
             "intelligence": 17
         },
         {
+            "name": "Steam Sentinel",
+            "species": "Mechanical Monster",
+            "description": "A towering sentinel powered by steam, it unleashes powerful blasts of scalding vapor while providing a protective mist to shield its allies from harm.",
+            "attack_types": {
+                "physical": ["Steam Blast", "Cannon Punch"],
+                "spiritual": ["Protective Mist"]
+            },
+            "weaknesses": ["Cyborgs", "Beasts"],
+            "resistances": ["Fairies", "Vampires"],
+            "rarity": "rare",
+            "defense": 35,
+            "speed": 12,
+            "intelligence": 16
+        },
+        {
             "name": "Fire Dragon",
             "species": "Dragon",
             "description": "A majestic fire dragon, capable of breathing devastating flames and plunging its enemies into chaos.",

@@ -721,6 +721,21 @@
             "intelligence": 17
         },
         {
+            "name": "Sentinel à Vapeur",
+            "species": "Monstre Mécanique",
+            "description": "Une sentinelle imposante alimentée par la vapeur, elle libère des explosions puissantes de vapeur brûlante tout en fournissant une brume protectrice pour protéger ses alliés.",
+            "attack_types": {
+                "physical": ["Explosion de Vapeur", "Coup de Canon"],
+                "spiritual": ["Brume Protectrice"]
+            },
+            "weaknesses": ["Cyborgs", "Bêtes"],
+            "resistances": ["Fées", "Vampires"],
+            "rarity": "rare",
+            "defense": 35,
+            "speed": 12,
+            "intelligence": 16
+        },
+        {
             "name": "Dragon de Feu",
             "species": "Dragon",
             "description": "Un majestueux dragon de feu, capable de cracher des flammes dévastatrices et de plonger ses ennemis dans le chaos.",
