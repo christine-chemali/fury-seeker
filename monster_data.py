@@ -976,6 +976,26 @@ monsters = [
         "rarity": {"en": "common", "fr": "commun"},
         "defense": 22, "speed": 22, "intelligence": 17
     }),
+    Monster({
+    "name": {"en": "Steam Sentinel", "fr": "Sentinel à Vapeur"},
+    "species": {"en": "Mechanical Monster", "fr": "Monstre Mécanique"},
+    "health": 260, "level": 5,
+    "attack_types": [
+        {"type": {"en": "physical", "fr": "physique"}, "moves": [
+            {"en": "Steam Blast", "fr": "Explosion de Vapeur"},
+            {"en": "Cannon Punch", "fr": "Coup de Canon"}
+        ]},
+        {"type": {"en": "spiritual", "fr": "spirituel"}, "moves": [
+            {"en": "Protective Mist", "fr": "Brume Protectrice"}
+        ]}
+    ],
+    "weaknesses": {"en": ["Cyborgs", "Beasts"], "fr": ["Cyborgs", "Bêtes"]},
+    "resistances": {"en": ["Fairies", "Vampires"], "fr": ["Fées", "Vampires"]},
+    "description": {"en": "A towering sentinel powered by steam, it unleashes powerful blasts of scalding vapor while providing a protective mist to shield its allies from harm.", 
+                    "fr": "Un sentinelle imposante alimentée par la vapeur, elle libère des explosions puissantes de vapeur brûlante tout en fournissant une brume protectrice pour protéger ses alliés."},
+    "rarity": {"en": "rare", "fr": "rare"},
+    "defense": 35, "speed": 12, "intelligence": 16
+    }),
 
     # Dragons
     Monster({

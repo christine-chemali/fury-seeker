@@ -3505,6 +3505,79 @@
     },
     {
         "name": {
+            "en": "Steam Sentinel",
+            "fr": "Sentinel \u00e0 Vapeur"
+        },
+        "species": {
+            "en": "Mechanical Monster",
+            "fr": "Monstre M\u00e9canique"
+        },
+        "health": 260,
+        "level": 5,
+        "attack_types": [
+            {
+                "type": {
+                    "en": "physical",
+                    "fr": "physique"
+                },
+                "moves": [
+                    {
+                        "en": "Steam Blast",
+                        "fr": "Explosion de Vapeur"
+                    },
+                    {
+                        "en": "Cannon Punch",
+                        "fr": "Coup de Canon"
+                    }
+                ]
+            },
+            {
+                "type": {
+                    "en": "spiritual",
+                    "fr": "spirituel"
+                },
+                "moves": [
+                    {
+                        "en": "Protective Mist",
+                        "fr": "Brume Protectrice"
+                    }
+                ]
+            }
+        ],
+        "weaknesses": {
+            "en": [
+                "Cyborgs",
+                "Beasts"
+            ],
+            "fr": [
+                "Cyborgs",
+                "B\u00eates"
+            ]
+        },
+        "resistances": {
+            "en": [
+                "Fairies",
+                "Vampires"
+            ],
+            "fr": [
+                "F\u00e9es",
+                "Vampires"
+            ]
+        },
+        "description": {
+            "en": "A towering sentinel powered by steam, it unleashes powerful blasts of scalding vapor while providing a protective mist to shield its allies from harm.",
+            "fr": "Un sentinelle imposante aliment\u00e9e par la vapeur, elle lib\u00e8re des explosions puissantes de vapeur br\u00fblante tout en fournissant une brume protectrice pour prot\u00e9ger ses alli\u00e9s."
+        },
+        "rarity": {
+            "en": "rare",
+            "fr": "rare"
+        },
+        "defense": 35,
+        "speed": 12,
+        "intelligence": 16
+    },
+    {
+        "name": {
             "en": "Fire Dragon",
             "fr": "Dragon de Feu"
         },
