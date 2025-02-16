@@ -28,4 +28,34 @@ class Localization:
         else:
             #print (f"Language {language} not loaded.") # debug
             pass
-        
+    
+    def get_translation(self, key):
+        """To get the translation for a given key, supporting nested keys."""
+        keys = key.split('.')
+        translation = self.translations.get(self.current_language, {})
+
+        for subkey in keys:
+            if isinstance(translation, dict):
+                translation = translation.get(subkey)
+                if translation is None:
+                    # print(f"key {subkey} not found in translations.") # debug
+                    return key
+                elif isinstance(translation, list):
+                    try:
+                        index = int(subkey)
+                        translation = translation [index]
+                    except (ValueError, IndexError):
+                        # print(f"key {subkey} is not a valid index for the list.") # debug
+                        return key    
+                else:
+                    #print (f"Unexpected type for translation: {type(translation)}") # debug
+                    return key
+
+        if isinstance(translation, str):
+            return translation
+        elif translation is None:
+            #print(f"Translation for {key} is None.") # debug
+            return key
+        else:
+            #print("Final translation is not a string : {translation}") # debug
+            return key               
